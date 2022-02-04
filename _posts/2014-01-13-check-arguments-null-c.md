@@ -41,8 +41,8 @@ I had a comment recently from ‘[The Dag](https://samjenkins.com/avoid-magic-st
 
 The request is to allow for any number of parameters to be passed in and they all be checked, the suggested format by The Dag was;
 
-```
-<pre class="brush: csharp; gutter: true">Guard.NoArgumentsNull(() => arg1, arg2, arg3);
+```csharp
+Guard.NoArgumentsNull(() => arg1, arg2, arg3);
 ```
 
 I didn’t keep to the format suggested exactly but I feel that the result meets all of The Dags requirements fully.
@@ -53,8 +53,8 @@ The first part that I looked at was being able to pass in any number of argument
 
 So the method currently looks like this;
 
-```
-<pre class="brush: csharp; gutter: true">public static bool AnyArgsNull(params object[] args)
+```csharp
+public static bool AnyArgsNull(params object[] args)
 {
     // Do something here
 }
@@ -62,8 +62,8 @@ So the method currently looks like this;
 
 Now that we have a collection of objects we are able to use Linq to check if any of them are null. Which leaves our method looking like;
 
-```
-<pre class="brush: csharp; gutter: true">public static class Guard
+```csharp
+public static class Guard
 {
     public static bool AnyArgsNull(params object[] args)
     {

@@ -31,8 +31,8 @@ I haven’t added any code that figures out where the file is stored on the serv
 
 The documentLocation variable should hold the location that the file is stored. The documentName variable should hold the name that the browser should suggest saving the file as to the user.
 
-```
-<pre class="brush: vbnet; gutter: true">Dim file As IO.FileInfo
+```vbnet
+Dim file As IO.FileInfo
 Dim documentLocation As String = ""
 Dim documentName As String = ""
 

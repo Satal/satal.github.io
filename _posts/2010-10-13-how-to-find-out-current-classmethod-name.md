@@ -27,7 +27,7 @@ tags:
 
 In this short code example I’m going to show you a method to identify what class (including the namespace) you’re currently in and what the name of the current method is. You can also use this technique to find out more information about the method but I won’t go into that detail here.
 
-```
-<pre class="brush: vbnet; gutter: true">System.Reflection.MethodBase.GetCurrentMethod().ReflectedType.FullName 'Get Current Class Name and Namespace
+```vbnet
+System.Reflection.MethodBase.GetCurrentMethod().ReflectedType.FullName 'Get Current Class Name and Namespace
 System.Reflection.MethodBase.GetCurrentMethod().Name 'Get Current Method Name
 ```

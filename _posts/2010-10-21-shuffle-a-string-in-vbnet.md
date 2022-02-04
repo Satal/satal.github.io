@@ -30,8 +30,8 @@ tags:
 
 In this tutorial/code example I’m going to show you a method to shuffle the contents of a string. You might use this for something like an anagram game.
 
-```
-<pre class="brush: vbnet; gutter: true">Private ran As New Random
+```vbnet
+Private ran As New Random
 
 Private Function randomizeString(ByVal input As String) As String
 Dim rtn As String = ""

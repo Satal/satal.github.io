@@ -30,8 +30,8 @@ There is sometimes a need for you to be able to dynamically choose a form to loa
 
 It is also recommended that you check for the existence of the form in your project prior to trying to get an instance of it, you can do this through the code available in my article [Check whether a form exists](https://samjenkins.com/check-to-see-whether-a-form-exists-at-runtime/).
 
-```
-<pre class="brush: vbnet; gutter: true">#Region "Exceptions"
+```vbnet
+#Region "Exceptions"
     Public Class FormNotFoundException
         Inherits ApplicationException
         Public Sub New(ByVal message As String)

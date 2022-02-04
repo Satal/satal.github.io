@@ -26,8 +26,8 @@ One thing that I see commonly come up on forums is people saying things like “
 
 First I’ll show you an example of what I’ve seen people do. For this example you will need a form with a multi-lined textbox called txtRandomNumber and a button called btnGenerateRandomNumber. Then if we apply the following code the form;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
     Private Sub btnGenerateRandomNumber_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGenerateRandomNumber.Click
         Dim i As Integer = 0
         txtRandomNumber.Text = ""
@@ -55,8 +55,8 @@ Now that we understand what is causing the problem then we can identify what we 
 
 So now if we take the example above and make the changes we have discussed we should end up with a piece of code similar to this;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
     Private Shared rnd As New Random
     Private Sub btnGenerateRandomNumber_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGenerateRandomNumber.Click
         Dim i As Integer = 0

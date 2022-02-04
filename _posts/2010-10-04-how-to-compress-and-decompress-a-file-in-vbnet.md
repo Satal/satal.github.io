@@ -27,8 +27,8 @@ tags:
 
 In this tutorial/code example, I’m going to provide you with a piece of code to compress and decompress a file in VB.Net without using any additional libraries.
 
-```
-<pre class="brush: vbnet; gutter: true">Option Explicit On
+```vbnet
+Option Explicit On
 Option Strict On
 
 Imports System.IO

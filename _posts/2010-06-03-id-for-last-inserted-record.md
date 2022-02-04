@@ -26,8 +26,8 @@ When you’re dealing with SQL Server doing inserts, you commonly want the ident
 
 SQL Server provides the capability for you to get this information by using the following SQL.
 
-```
-<pre class="brush: sql; gutter: true">SELECT @@IDENTITY
+```sql
+SELECT @@IDENTITY
 ```
 
 The only problem with this SQL is that it will return the ID for the last entry that anyone inserted. So if you have a multi-user system and you insert something and someone else inserts something after you, but before you perform the SQL above then you will get the ID for the record that they just entered. This obviously is a very small possibility as you will generally want to find the ID out immediately after adding the record, so the probability of someone inserting a record in the millisecond between your insert and query is extremely unlikely.

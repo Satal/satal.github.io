@@ -26,8 +26,8 @@ tags:
 
 Something that I’ve seen a few people do when they want to create a library that has namespace’s is to actually nest the namespace’s in their code.
 
-```
-<pre class="brush: vbnet; gutter: true">Namespace System
+```vbnet
+Namespace System
     Namespace security
         Namespace Cryptography
             Public Class MyNewClass
@@ -41,8 +41,8 @@ IMHO this looks messy and seems a waste of space.
 
 What the people who’s code I was looking at seemed not to realise is that you can specify the namespace in a single line, but separating the namespaces with a period, just as you would when declaring a variable, so for example
 
-```
-<pre class="brush: vbnet; gutter: true">Namespace System.Security.Cryptography
+```vbnet
+Namespace System.Security.Cryptography
    Public Class MyNewClass
    End Class
 End Namespace

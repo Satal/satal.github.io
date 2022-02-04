@@ -24,8 +24,8 @@ categories:
 
 Heres a class I wrote a long time ago to come up with a simple way of ensuring that I used a common method for hashing passwords with salts in a particular way.
 
-```
-<pre class="brush: php; gutter: true"><?php
+```php
+<?php
     
     /**
      * clsHash

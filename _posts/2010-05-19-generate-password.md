@@ -37,8 +37,8 @@ tags:
 
 Something that I found that I frequently come across is the need to generate a random string, so I ended up creating a simple shared function that dealt with that for me.
 
-```
-<pre class="brush: vbnet; gutter: true">Imports Microsoft.VisualBasic
+```vbnet
+Imports Microsoft.VisualBasic
 
 Public Class PasswordFunctions
     ''' <summary>

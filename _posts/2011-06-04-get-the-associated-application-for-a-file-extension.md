@@ -40,8 +40,8 @@ tags:
 
 Sometimes its necessary for us to identify what application is associated with a particular file extension, the following snippet of code will read the Windows registry to identify what application a particular file extension is opened with by default.
 
-```
-<pre class="brush: vbnet; gutter: true">''' <summary>
+```vbnet
+''' <summary>
 ''' This method deals with getting the path of the application that is specified to open
 ''' a particular extension
 ''' </summary>

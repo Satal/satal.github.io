@@ -21,8 +21,8 @@ categories:
 
 This class was written to allow for me to send an email from PHP easily. The class allows for the message to be sent as either plain text or HTML.
 
-```
-<pre class="brush: php; gutter: true"><?php
+```php
+<?php
 
     /**
       * clsEmail

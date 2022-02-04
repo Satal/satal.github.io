@@ -29,8 +29,8 @@ In this VB.Net Tutorial/Code Example, I’m going to provide you with a simple c
 
 The version function uses late binding.
 
-```
-<pre class="brush: csharp; gutter: true">Imports Microsoft.Win32
+```csharp
+Imports Microsoft.Win32
 
 Namespace MS.Office
     Public Class Word

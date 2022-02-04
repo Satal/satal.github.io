@@ -51,8 +51,8 @@ I actually found this image when Googling for “magic string .net”, so perfec
 
 Magic strings are where you have taken something like a class/method/variable name and written it within a string, which is then used to identify the appropriate class/method/variable, for example;
 
-```
-<pre class="brush: csharp; gutter: true">public void myMethod(string myParameter)
+```csharp
+public void myMethod(string myParameter)
 {
     if (myParameter == null)
     {
@@ -67,8 +67,8 @@ As you can see the method has a parameter which we check to see whether or not i
 
 So I am currently looking at implementing a Ribbon for the XML File Explorer and found a good explanation on how to do it [here](http://blogs.microsoft.co.il/blogs/arik/archive/2009/12/23/windows-ribbon-for-winforms-part-0-table-of-contents.aspx "Windows Ribbon for WinForms"), but while I was looking through some of the other things Arik has done I found [this](http://blogs.microsoft.co.il/blogs/arik/archive/2010/11/17/no-more-magic-strings-presenting-string-of.aspx "No More Magic Strings! Presenting: @string.of") little beauty. The code uses [Expressions ](http://msdn.microsoft.com/en-us/library/system.linq.expressions.expression.aspx "MSDN documentation for the Expression Class ") allowing us to specify a variable, field, method, property and retrieve the name as a string, it also includes just for completeness a way of getting a class name as string although this is done in a different way. The website provides a sample project which contains the code, although strangely enough you download it as a zip.txt.
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Linq.Expressions;
 
 namespace Utils
@@ -125,8 +125,8 @@ namespace Utils
 
 This now allows for our earlier example to stop using magic strings and instead just pass in the variable name like so;
 
-```
-<pre class="brush: csharp; gutter: true">public void myMethod(string myParameter)
+```csharp
+public void myMethod(string myParameter)
 {
     if (myParameter == null)
     {
@@ -137,8 +137,8 @@ This now allows for our earlier example to stop using magic strings and instead 
 
 Which if we refactor the parameter to myNewParameter, gives us this;
 
-```
-<pre class="brush: csharp; gutter: true">public void myMethod(string myNewParameter)
+```csharp
+public void myMethod(string myNewParameter)
 {
     if (myNewParameter == null)
     {

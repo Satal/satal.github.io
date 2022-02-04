@@ -26,8 +26,8 @@ tags:
 
 In this VB.Net Tutorial/Code Example I’ll be showing you how to check to see whether there is an instance of a form open in your application.
 
-```
-<pre class="brush: vbnet; gutter: true">''' <summary>
+```vbnet
+''' <summary>
 ''' This method deals with checking to see whether a particular form is open
 ''' </summary>
 ''' <param name="formName">The name of the form that you are looking for</param>

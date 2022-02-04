@@ -25,8 +25,8 @@ This article goes hand in hand with my article called “[Restrict characters en
 
 If you wanted to stop a user from entering anything but numbers into a TextBox you could use the method described in the previous article, but the one problem with that is that the user is still able to paste letters into the TextBox. The following code will not only stop the user from entering anything except for the particular characters specified but also wont allow for the user paste.
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
     Private Sub TextBox1_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
         Dim allowedChars As String = "0123456789"
 

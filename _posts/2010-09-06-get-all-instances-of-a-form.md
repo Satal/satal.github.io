@@ -28,8 +28,8 @@ tags:
 
 Because in VB.Net you’re able to have multiple instances of a form, sometimes you want to be able to get a list of all of the instances of that form that are open, the following function will do this for you.
 
-```
-<pre class="brush: vbnet; gutter: true">''' <summary>
+```vbnet
+''' <summary>
 ''' This method deals with getting all the instances of a form
 ''' </summary>
 ''' <param name="formName">The name of the form to look for</param>

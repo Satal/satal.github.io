@@ -31,8 +31,8 @@ tags:
 
 In this VB.Net Tutorial/Code Example I’m going to show you how to check whether the Microsoft Office 2007 Save As PDF addin (available from [here](https://www.microsoft.com/en-gb/download/details.aspx?id=7)) is installed.
 
-```
-<pre class="brush: vbnet; gutter: true">Public Shared Function isPDFSaverInstalled() As Boolean
+```vbnet
+Public Shared Function isPDFSaverInstalled() As Boolean
     Dim rtn As Boolean
     Dim key As RegistryKey = Registry.LocalMachine.OpenSubKey("SoftwareMicrosoftWindowsCurrentVersionUninstall{90120000-00B0-0409-0000-0000000FF1CE}")
     rtn = key IsNot Nothing

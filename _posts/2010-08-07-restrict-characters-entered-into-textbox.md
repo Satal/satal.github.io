@@ -27,8 +27,8 @@ Lets assume you wanted to have a textbox that would only allow for numbers to be
 
 So you would need some code like this
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
+```vbnet
+Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
 
     Dim allowedChars As String = "0123456789"
 
@@ -42,16 +42,16 @@ End Sub
 
 As you can see the allowedChars string contains only the numbers 0-9, if the user was to enter a character other than that then
 
-```
-<pre class="brush: vbnet; gutter: true">allowedChars.IndexOf(e.KeyChar)
+```vbnet
+allowedChars.IndexOf(e.KeyChar)
 ```
 
 would return -1.
 
 If you wanted to only allow the user to enter alphanumeric characters then you could do the following
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As
+```vbnet
+Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As
  System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
     Dim allowedChars As String = "0123456789abcdefghijklmnopqrstuvwxyz"
     If allowedChars.IndexOf(e.KeyChar.ToLower) = -1 Then

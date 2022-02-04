@@ -29,8 +29,8 @@ In this VB.Net Tutorial/Code Example, I’m going to show you how to check wheth
 
 For this piece of code you will need to import “System.Text.RegularExpressions”
 
-```
-<pre class="brush: vbnet; gutter: true">Public Shared Function isValidVATNumber(ByVal theVATNumber As String) As Boolean
+```vbnet
+Public Shared Function isValidVATNumber(ByVal theVATNumber As String) As Boolean
     Dim startChar As String = "^"
     Dim endChar As String = "$"
     Dim rtn As Boolean = False

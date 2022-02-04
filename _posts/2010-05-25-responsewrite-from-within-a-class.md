@@ -28,6 +28,6 @@ tags:
 In developing websites in ASP.Net I frequently use Response.Write to debug the code behind, but when using classes you cannot directly access Response.Write.  
 The method of performing Respone.Write from within a class is to do the following;
 
-```
-<pre class="brush: vbnet; gutter: true">HttpContext.Current.Response.Write("Your text")
+```vbnet
+HttpContext.Current.Response.Write("Your text")
 ```

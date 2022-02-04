@@ -30,8 +30,8 @@ This is one of the reasons why I love LINQ, its so easy to do something like ran
 
 The only thing you need to remember with this code is that you need to have specified that you’re using System.Linq in order for it to work.
 
-```
-<pre class="brush: csharp; gutter: true">List myCollection = new List();
+```csharp
+List myCollection = new List();
 
 myCollection = myCollection.OrderBy(a => Guid.NewGuid()).ToList()
 ```

@@ -23,8 +23,8 @@ tags:
 
 Sometimes you would like to know whether a port is open on a remote machine. Now while this is no nmap, the following code should give you an idea on how to check whether a port is open.
 
-```
-<pre class="brush: vbnet; gutter: true">Private Function isRemotePortOpen(ByVal hostName As String, ByVal port As Integer) As Boolean
+```vbnet
+Private Function isRemotePortOpen(ByVal hostName As String, ByVal port As Integer) As Boolean
     Dim client As TcpClient = Nothing
     Dim rtn as Boolean
     Try

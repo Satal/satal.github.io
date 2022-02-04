@@ -40,8 +40,8 @@ This is the first in a series of posts that I am going to make to update some of
 
 ### ShuffleString
 
-```
-<pre class="brush: csharp; gutter: true">public static string ShuffleString(string stringToShuffle)
+```csharp
+public static string ShuffleString(string stringToShuffle)
 {
     if (String.IsNullOrEmpty(stringToShuffle))
     {
@@ -63,8 +63,8 @@ At the beginning of the code we ensure that the string that has been passed to u
 
 One thing to bare in mind when using this shuffle method is that I haven’t excluded the possibility of the returned string being the same as the original string, if you wanted to stop that then the code that you were going to have to check that when we have shuffled the original string that the resulting value is not the same. In the following code I have used a simple do while loop to deal with this.
 
-```
-<pre class="brush: csharp; gutter: true">public static string ShuffleStringExcludeOriginal(string stringToShuffle)
+```csharp
+public static string ShuffleStringExcludeOriginal(string stringToShuffle)
 {
     string shuffled;
 

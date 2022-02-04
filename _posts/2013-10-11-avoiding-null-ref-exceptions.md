@@ -47,8 +47,8 @@ We’ve all done it, you’ve written code where you either forgot or was too la
 
 The ValueRetriever class has a single static method which takes in an object and a function to specify the location of the value to be retrieved. Originally I had been thinking of allowing the user to pass in a string to specify the location within the object that they want to retrieve but then I slapped myself and did it properly!
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 
 namespace KetoLibrary.Utilities
 {
@@ -103,8 +103,8 @@ namespace KetoLibrary.Utilities
 
 Using this method is actually really simple, don’t be fooled by the generics for this method you don’t have to specify them, which makes the usage of this much cleaner.
 
-```
-<pre class="brush: csharp; gutter: true">public static void Test()
+```csharp
+public static void Test()
 {
     var file = new XfeFileInfo(@"C:\Users\satal");
 

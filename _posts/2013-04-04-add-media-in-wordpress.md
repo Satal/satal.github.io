@@ -52,14 +52,14 @@ When you have both of these two plugins active at the same time you aren’t abl
 
 After Googling around for quite some time I found many discussions about how they were having the same problem, many discussions pointing blame but I couldn’t find anywhere that just plain and simply told me how to fix it. That was until I found this little puppy [Dreamhost’s Wiki](http://wiki.dreamhost.com/WordPress_Troubleshooting#Problems_Adding_Media_in_WordPress_3.5 "Problems Adding Media in WordPress 3.5"), which explains that all you need to do is make a small modification to the wp-config.php file to add;
 
-```
-<pre class="brush: php; gutter: true">define('CONCATENATE_SCRIPTS', false );
+```php
+define('CONCATENATE_SCRIPTS', false );
 ```
 
 on the line before
 
-```
-<pre class="brush: php; gutter: true">require_once(ABSPATH . 'wp-settings.php');
+```php
+require_once(ABSPATH . 'wp-settings.php');
 ```
 
 After having made this change to my wp-config.php file I was able to yet again use the ‘Add Media’ button and to switch between ‘Visual’ and ‘Text’ design views when writing posts within WordPress.

@@ -27,8 +27,8 @@ tags:
 
 In this tutorial I’m going to show you how to compare two images to see whether they are the same or not using C#.
 
-```
-<pre class="brush: csharp; gutter: true">/// <summary>
+```csharp
+/// <summary>
 /// This method deals with checking whether the two bitmaps that are passed to it are the same or not
 /// </summary>
 /// <param name="img1">The first image</param>

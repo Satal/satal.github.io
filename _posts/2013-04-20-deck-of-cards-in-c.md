@@ -47,8 +47,8 @@ Source: <http://www.leadersinstitute.com/wp-content/uploads/2011/02/playing-card
 
 ### Suit Enum
 
-```
-<pre class="brush: csharp; gutter: true">namespace Cards.Domain.Standard
+```csharp
+namespace Cards.Domain.Standard
 {
     public enum Suit
     {
@@ -64,8 +64,8 @@ Source: <http://www.leadersinstitute.com/wp-content/uploads/2011/02/playing-card
 
 I decided to use an enum for the card number as well as for the suit as rather than having numbers directly for the card number I could have an appropriate value, which could be given an Attribute to allow for further information to be associated with it.
 
-```
-<pre class="brush: csharp; gutter: true">namespace Cards.Domain.Standard
+```csharp
+namespace Cards.Domain.Standard
 {
     public enum CardNumber
     {
@@ -90,8 +90,8 @@ I decided to use an enum for the card number as well as for the suit as rather t
 
 The card class is extremely simple, it is just two properties, one for the suit and one for the card number.
 
-```
-<pre class="brush: csharp; gutter: true">namespace Cards.Domain.Standard
+```csharp
+namespace Cards.Domain.Standard
 {
     public class Card
     {
@@ -105,8 +105,8 @@ The card class is extremely simple, it is just two properties, one for the suit 
 
 The Deck class is where most of the interesting stuff happens.
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Collections.Generic;
 using System.Linq;
 

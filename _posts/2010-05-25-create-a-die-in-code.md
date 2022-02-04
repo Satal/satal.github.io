@@ -26,8 +26,8 @@ tags:
 
 Something that people sometimes want to do is create a Die in code, I thought I would supply code on one method of doing this.
 
-```
-<pre class="brush: vbnet; gutter: true">  Public Class Die
+```vbnet
+Public Class Die
     Private Shared rndGen As New Random
     Private _numFaces As Integer
     Private _curValue As Integer

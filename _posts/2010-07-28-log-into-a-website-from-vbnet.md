@@ -38,16 +38,16 @@ I did some docking and other stuff to make my form look pretty but you don’t n
 
 Now for some of the good stuff, double click on the form header to get yourself to the code screen with the Form\_Load event created. In the Form1\_Load event we want to add the following code;
 
-```
-<pre class="brush: vbnet; gutter: true">WebBrowser1.Navigate("http://www.vbforums.com/")
+```vbnet
+WebBrowser1.Navigate("http://www.vbforums.com/")
 ```
 
 What this code does is tell the WebBrowser control to go to the address that we have specified. At the moment we are going to manually enter the username and password into the textboxes and click the Login button when the page has finished loading, although later we will briefly look at how to automatically log into the website when the page has finished loading.
 
 In order to do the next bit we need to know the id’s for the “User name” and “Password” fields on the website, so we need to look at the HTML for the website. In our case the following snippet contains all the information we need;
 
-```
-<pre class="brush: xhtml; gutter: true"><tr>
+```html
+<tr>
     <td class="smallfont" style="white-space: nowrap;">
         <label for="navbar_username">User Name</label>
     </td>
@@ -72,20 +72,20 @@ As you can see from the snippet of HTML above, the id for the user name field is
 
 Double click on the button on the form to give us the btnLogin\_Click event, what we need to do now is put our user name and password in the appropriate fields in the website we do this with the following code;
 
-```
-<pre class="brush: vbnet; gutter: true">WebBrowser1.Document.GetElementById("[the id of the element we want]").SetAttribute("value", "[the value we want the element to contain]")
+```vbnet
+WebBrowser1.Document.GetElementById("[the id of the element we want]").SetAttribute("value", "[the value we want the element to contain]")
 ```
 
 But there is no point filling in our details if we are not going to submit the form, which can be done with the following code;
 
-```
-<pre class="brush: vbnet; gutter: true">WebBrowser1.Document.Forms([the index of the form to be submitted]).InvokeMember("submit")
+```vbnet
+WebBrowser1.Document.Forms([the index of the form to be submitted]).InvokeMember("submit")
 ```
 
 Now we have all the code for the btnLogin\_Click event, the code that I had was as follows, I have set the id’s for the user name and password appropriately and have specified to get the value from txtUsername.Text and txtPassword.Text, I also set the form index to 0 as it was the first form on the web page.
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub btnLogin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogin.Click
+```vbnet
+Private Sub btnLogin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogin.Click
     WebBrowser1.Document.GetElementById("navbar_username").SetAttribute("value", txtUsername.Text)
     WebBrowser1.Document.GetElementById("navbar_password").SetAttribute("value", txtPassword.Text)
     WebBrowser1.Document.Forms(0).InvokeMember("submit")
@@ -94,8 +94,8 @@ End Sub
 
 Now try that out, that should now allow for you to login to the website by entering your user name and password in the textboxes provided on your form. The one problem with this is that it still requires you to wait until the web page is finished loading and then you click on the button to log yourself in. If you’re able to store the user name and password to be used when logging in somewhere you can automate this system as follows. The WebBrowser1\_DocumetCompleted event is the event that is raised when the WebBrowser control has finished downloading the web page.
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub WebBrowser1_DocumentCompleted(ByVal sender As Object, ByVal e As System.Windows.Forms.WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+```vbnet
+Private Sub WebBrowser1_DocumentCompleted(ByVal sender As Object, ByVal e As System.Windows.Forms.WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
     WebBrowser1.Document.GetElementById("navbar_username").SetAttribute("value", "Satal Keto")
     WebBrowser1.Document.GetElementById("navbar_password").SetAttribute("value", "My super duper secret password")
     WebBrowser1.Document.Forms(0).InvokeMember("submit")

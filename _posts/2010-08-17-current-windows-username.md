@@ -28,8 +28,8 @@ tags:
 
 If you want to get the username for the currently logged in user you can use the following code;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Shared ReadOnly Property Username() As String
+```vbnet
+Public Shared ReadOnly Property Username() As String
     Get
         Return System.Environment.UserName
     End Get

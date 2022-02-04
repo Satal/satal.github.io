@@ -31,8 +31,8 @@ What a lot of people seem to forget is that a form is just another object, the s
 
 So for this example I’m going to create a new project with a new dialog form with a textbox on it. Once we have set that up we have set up the dialog form we now need to add the property to the code. The code that I have used for this is;
 
-```
-<pre class="brush: vbnet; gutter: true">Public ReadOnly Property TextBoxText() As String
+```vbnet
+Public ReadOnly Property TextBoxText() As String
     Get
         Return TextBox1.Text
     End Get
@@ -41,8 +41,8 @@ End Property
 
 Now that we have the code that will allow for us to access the information from the dialog form, we need to put the code on the main form that will get this information. So on Form1 I have added a button which when clicked will show the dialog form and then if the user pressed OK on the dialog form will display the text that the user entered.
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+```vbnet
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
     Dim dlg As New Dialog1
     If dlg.ShowDialog = Windows.Forms.DialogResult.OK Then
         MsgBox("The text entered into the dialog box was: " & dlg.TextBoxText)
@@ -54,8 +54,8 @@ So the full code that we have is;
 
 **Form1**
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Dim dlg As New Dialog1
         If dlg.ShowDialog = Windows.Forms.DialogResult.OK Then
@@ -67,8 +67,8 @@ End Class
 
 **Dialog1**
 
-```
-<pre class="brush: vbnet; gutter: true">Imports System.Windows.Forms
+```vbnet
+Imports System.Windows.Forms
 Public Class Dialog1
     Public ReadOnly Property TextBoxText() As String
         Get

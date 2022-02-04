@@ -23,8 +23,8 @@ tags:
 
 An extremely simple way to check whether the currently logged in user has administrative rights on the local machine;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Shared ReadOnly Property IsUserAdmin() As Boolean
+```vbnet
+Public Shared ReadOnly Property IsUserAdmin() As Boolean
     Get
         Return My.User.IsInRole(ApplicationServices.BuiltInRole.Administrator)
     End Get

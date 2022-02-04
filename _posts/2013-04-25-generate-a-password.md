@@ -42,8 +42,8 @@ This is an update for a post that I wrote back in 2010 on how to [generate a pas
 
 I decided to first create a method that would given a character set and a specified number of characters would produce a password.
 
-```
-<pre class="brush: csharp; gutter: true">private static readonly Random Rand = new Random();
+```csharp
+private static readonly Random Rand = new Random();
 
 public static string CreatePasswordFromCharacterSet(string characterSet, int passwordLength = 16)
 {
@@ -77,8 +77,8 @@ At the beginning of the method I ensured that the character set has characters i
 
 Rather than requiring the user to identify the characters in a character set, I created a method that would by specifying a few options about what character types could be included in the password and a password length would generate a password.
 
-```
-<pre class="brush: csharp; gutter: true">public static string GeneratePassword(int passwordLength = 16,
+```csharp
+public static string GeneratePassword(int passwordLength = 16,
                                         bool includeUpperCase = true,
                                         bool includeNumbers = true,
                                         bool includeSymbols = true,

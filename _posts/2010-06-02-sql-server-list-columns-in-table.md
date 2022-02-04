@@ -24,6 +24,6 @@ categories:
 
 This is one method of getting a list of all the columns in a table on SQL Server
 
-```
-<pre class="brush: sql; gutter: true">SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME=@TABLE_NAME
+```sql
+SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME=@TABLE_NAME
 ```

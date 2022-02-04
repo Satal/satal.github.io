@@ -34,8 +34,8 @@ The method that I am now using is to have a TabControl docked in my form. Then f
 
 Once you have done this you may notice that we still have the tabs showing at the top of the form at runtime and this is definitely not something that we want our users being able to see, so in order to deal with this we need to add the following code to the Form\_Load method.
 
-```
-<pre class="brush: vbnet; gutter: true">TabControl1.Appearance = TabAppearance.Buttons
+```vbnet
+TabControl1.Appearance = TabAppearance.Buttons
 TabControl1.SizeMode = TabSizeMode.Fixed
 TabControl1.ItemSize = New Drawing.Size(0,1)
 ```
@@ -44,8 +44,8 @@ What this code does it make the tabs 1 pixel tall and 0 pixels wide, which means
 
 Once you have this code in place the user is no longer able to navigate through your application by clicking on the tabs, which is great but now we don’t have any way of navigating between the tabs. The code that we need in order to be able to switch between the tabs is;
 
-```
-<pre class="brush: vbnet; gutter: true">TabControl1.SelectedTab = TabPage1
+```vbnet
+TabControl1.SelectedTab = TabPage1
 ```
 
 I would suggest that you go through and set all the TabPages to have meaningful names as you would any other control in your application.

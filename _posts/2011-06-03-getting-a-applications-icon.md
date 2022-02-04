@@ -30,6 +30,6 @@ tags:
 
 This is one of those pieces of code that you spend ages trying to find/figure out but once you do get it, it is annoyingly simple. I recently needed to get the Icon that was being used as the application so that it could be used within the application consistently, this is the code that I used in order to achieve this.
 
-```
-<pre class="brush: vbnet; gutter: true">Icon.ExtractAssociatedIcon(Application.ExecutablePath)
+```vbnet
+Icon.ExtractAssociatedIcon(Application.ExecutablePath)
 ```

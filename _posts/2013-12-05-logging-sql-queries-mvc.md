@@ -74,8 +74,8 @@ These methods are provided for each of the command methods;
 
 ## The DbCommmandInterceptor
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Data.Entity.Infrastructure.Interception;
 using System.Diagnostics;
 
@@ -130,8 +130,8 @@ This is where you would swap in your logging framework of choice, calling the ap
 
 Now that we have the interceptor all set up we need to configure our system to use it. This can be achieved by added a single call to our Application\_Start() method in the Global.asax.
 
-```
-<pre class="brush: csharp; gutter: true">protected void Application_Start()
+```csharp
+protected void Application_Start()
 {
     AreaRegistration.RegisterAllAreas();
     GlobalConfiguration.Configure(WebApiConfig.Register);

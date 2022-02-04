@@ -32,8 +32,8 @@ tags:
 
 This class implements the IHasher interface that you can find [here](https://samjenkins.com/interface-for-hashing-classes/ "Interface for Hashing classes").
 
-```
-<pre class="brush: vbnet; gutter: true">'''
+```vbnet
+'''
 ''' SHA384 hash class from Satal Keto's library
 ''' https://samjenkins.com
 ''' Version 1.0.0.1

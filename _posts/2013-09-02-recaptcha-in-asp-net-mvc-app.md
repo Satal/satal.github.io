@@ -62,20 +62,20 @@ One of the things that will happen during the installation of ‘reCAPTCHA for .
 
 The first change that we make is to view for /AccountController/Register. We will need to add
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">@using Recaptcha.Web.Mvc
+```csharp
+@using Recaptcha.Web.Mvc
 ```
 
 to the top of the view, this will allow us to access the reCAPTCHA helper method. Once we have done that we need to make a single modification to the registration form, we just need to add
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">@Html.Recaptcha()
+```csharp
+@Html.Recaptcha()
 ```
 
 , personally I added it in a new list item after the confirmation password, which meant my registration form looked like this;
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">@using (Html.BeginForm()) {
+```csharp
+@using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
 
@@ -105,8 +105,8 @@ to the top of the view, this will allow us to access the reCAPTCHA helper method
 
 If you go to the registration page now you will be greeted with the standard registration form and the new reCAPTCHA section, although it isn’t working yet as we haven’t updated the Register action to validate the submitted value. So lets open the AccountController and go down to the HttpPost Register action (the one that actually performs the registration). We will need to add the following code to the action to validate that the user has entered the correct characters.
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">var recaptchaHelper = this.GetRecaptchaVerificationHelper();
+```csharp
+var recaptchaHelper = this.GetRecaptchaVerificationHelper();
 if (String.IsNullOrEmpty(recaptchaHelper.Response))
 {
 	ModelState.AddModelError("", "Captcha answer cannot be empty");
@@ -123,8 +123,8 @@ if (recaptchaResult != RecaptchaVerificationResult.Success)
 
 What this is doing is checking that the user specified a value, showing them an error if they didn’t and then verifying that the response to the CAPTCHA was correct. This needs to be placed after we have confirmed that the ModeState is valid but before we actually register the user, which will leave your registration action looking like this;
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">[HttpPost]
+```csharp
+[HttpPost]
 [AllowAnonymous]
 [ValidateAntiForgeryToken]
 public ActionResult Register(RegisterModel model)

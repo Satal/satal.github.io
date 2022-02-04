@@ -28,8 +28,8 @@ While working on my upcoming library, I was adding some old code that I had crea
 
 You can achieve this by using the following code before your function;
 
-```
-<pre class="brush: vbnet; gutter: true"><Obsolete("Message that the developer should see", True)> _
+```vbnet
+<Obsolete("Message that the developer should see", True)> _
 Public Sub randomMethod()
     'Do something
 End Sub

@@ -23,8 +23,8 @@ tags:
 
 If you want to know whether the application is currently being debugged you can use the following code;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Shared ReadOnly Property DebugMode() As Boolean
+```vbnet
+Public Shared ReadOnly Property DebugMode() As Boolean
     Get
         Dim rtn As Boolean = False
 

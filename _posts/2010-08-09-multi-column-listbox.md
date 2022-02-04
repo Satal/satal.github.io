@@ -52,8 +52,8 @@ Repeat this for each column that you wish to have in your ListView.
 
 Now that you have dealt with having the appropriate columns we can now start thinking about inserting data into the ListView through our code. You can insert data into the ListView by doing something similar to the following;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Dim arr(3) As String
         
@@ -96,8 +96,8 @@ You would probably be looping through some data set adding to the ListView but t
 
 Now as you can see we have 4 columns with data in them, but each of the columns are wider than they need to be so how can we get it so that so that the columns are resized to be the appropriate width? They we can do this is by using the following code.
 
-```
-<pre class="brush: vbnet; gutter: true">Private Sub autoSizeColumns(ByVal lstv As ListView)
+```vbnet
+Private Sub autoSizeColumns(ByVal lstv As ListView)
     For Each c As ColumnHeader In lstv.Columns
         c.Width = -2
     Next

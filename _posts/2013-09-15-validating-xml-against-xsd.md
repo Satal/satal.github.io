@@ -42,8 +42,8 @@ tags:
 
 I’m currently working on an XML File Explorer application, which I intend on highlighting XML files which do not conform to an XSD schema, as part of this I have created a class for containing the details of performing XSD validation against an XML document, which I thought I would share with you (although the XML File Explorer will be open source).
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -166,8 +166,8 @@ namespace KetoLibrary.Xml
 
 The code is pretty simple but I’m a fan of hiding away any complexities so that I don’t have to think about them when I’m working on a project. The usage for this class is pretty simple as well, requiring you pass in the XSD schemas and then call IsValid specifying the XML file to validate.
 
-```
-<pre class="brush: csharp; gutter: true">public void MultipleSchemas()
+```csharp
+public void MultipleSchemas()
 {
     var validator = new XsdValidator();
     validator.AddSchema(@"SchemaDoc1.xsd");

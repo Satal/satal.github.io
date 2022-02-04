@@ -24,8 +24,8 @@ categories:
 
 Just a simple JavaScript function to change the cursor
 
-```
-<pre class="brush: javascript; gutter: true">/**
+```javascript
+/**
  * Posible options
  * 
  * auto

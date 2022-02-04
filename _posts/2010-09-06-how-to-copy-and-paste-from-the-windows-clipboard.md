@@ -27,8 +27,8 @@ tags:
 
 In this VB.Net Tutorial/Code Example I’m going to show you how to copy text to the Windows clipboard and then get text from the Windows clipboard again.
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Clipboard
+```vbnet
+Public Class Clipboard
     ''' <summary>
     ''' This method deals with putting text into the clipboard
     ''' </summary>

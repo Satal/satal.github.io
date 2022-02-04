@@ -26,8 +26,8 @@ If you want to check whether a form exists in your project at runtime
 you can use the following method, you will need to ensure that you  
 import System.Reflection in order for this to work.
 
-```
-<pre class="brush: vbnet; gutter: true">''' <summary>
+```vbnet
+''' <summary>
 ''' This method deals with checking whether a form exists within the current project
 ''' </summary>
 ''' <param name="formName">The name of the form that you wish to check its existance</param>

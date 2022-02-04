@@ -41,8 +41,8 @@ I found myself recently needing to be able to present the user with the differen
 
 The following creates a function on the SQL Server database;
 
-```
-<pre class="brush: sql; gutter: true">CREATE FUNCTION dbo.DateDiffAsString (@STARTDATE AS DATETIME, @ENDDATE AS DATETIME)
+```sql
+CREATE FUNCTION dbo.DateDiffAsString (@STARTDATE AS DATETIME, @ENDDATE AS DATETIME)
 
 RETURNS VARCHAR(30)
 BEGIN
@@ -67,8 +67,8 @@ END
 
 And you would call it like this;
 
-```
-<pre class="brush: sql; gutter: true">SELECT dbo.DateDiffAsString('2010-06-03 00:00:00.000', GETDATE()) AS Diff
+```sql
+SELECT dbo.DateDiffAsString('2010-06-03 00:00:00.000', GETDATE()) AS Diff
 ```
 
 Which will return something like “1 year 5 months 4 days” (obviously depending on when you run it)

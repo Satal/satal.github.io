@@ -55,8 +55,8 @@ I’ve recently learnt about a library developed by [Jon Skeet](http://stackover
 
 To show the issues of testing our time sensitive functionality we are going to use a very simple licensing class, that compares the current time to a time that is passed in as a parameter, which looks like this;
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 
 namespace NodaTimeTrial
 {
@@ -81,8 +81,8 @@ As I mentioned this is a very simple class all we are doing is receiving an expi
 
 Now lets write some unit tests around this piece of functionality. What we want to check is if the expiry date time has passed HasExpired will return true and if the expiry date time is in the future HasExpired will return false.
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace NodaTimeTrial.Test
@@ -115,8 +115,8 @@ So what was the problem with the previous tests? We had no control over the curr
 
 The way that Jon has allowed for us to mock out the date time in the NodaTime library is to create an IClock interface, using this IClock interface we can either use a real implementation, which will return the actual UTC time or to create a mocked version that will return what ever date time we tell it to. So lets go back to the Licence class and see how it needs to be changed to allow for us to use NodaTime and make it more testable.
 
-```
-<pre class="brush: csharp; gutter: true">using NodaTime;
+```csharp
+using NodaTime;
 
 namespace NodaTimeTrial
 {
@@ -141,8 +141,8 @@ namespace NodaTimeTrial
 
 We now have two properties in out class, one containing an Instant, this is an instant in time that will represent the expiry date time. We also have our IClock interface, which we will use for getting the time, which in our unit tests will be a fake implementation that will return a date time specified by us and for live code we would use a real implementation of IClock which will return the current UTC time. The constructor of Licence has changed to require the two fields are provided to the class and our HasExpired property checks the expiry instance against the date time returned by the IClock. Let’s have a look at the unit tests and see how they have been changed.
 
-```
-<pre class="brush: csharp; gutter: true">using Microsoft.VisualStudio.TestTools.UnitTesting;
+```csharp
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NodaTime;
 using NodaTime.Testing;
 

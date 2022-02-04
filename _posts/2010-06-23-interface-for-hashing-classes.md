@@ -35,8 +35,8 @@ The following code is the interface that I have created for a series
 of classes that I am creating that will deal with getting the hash of a  
 particular string or file.
 
-```
-<pre class="brush: vbnet; gutter: true">''' Hashing interface from Satal Keto's library
+```vbnet
+''' Hashing interface from Satal Keto's library
 ''' https://samjenkins.com
 ''' Version 1.0.0.1
 '''

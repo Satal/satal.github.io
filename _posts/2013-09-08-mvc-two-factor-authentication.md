@@ -65,16 +65,16 @@ We will be using ASP.NET Membership for the username/password authentication par
 
 The first thing we need to do is install the SQL Server database that our two factor authentication application will be run against, there are two ways of doing this, the command line way or using the wizard. Personally I will be using the command line as that’s how I role \*cheesy grin\*. Open up command prompt and navigate to “C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319”, if you want to use the wizard then just type in aspnet\_regsql, which will open up the wizard. If you want to install the ASP.NET Membership database through command line then you want to type in something along the lines of the following;
 
-```
-<pre class="brush: sql; gutter: true">aspnet_regsql -S .\SQLEXPRESS -E -A all -d MvcTFA
+```sql
+aspnet_regsql -S .\SQLEXPRESS -E -A all -d MvcTFA
 
 aspnet_regsql -S .\SQLEXPRESS -U Satal -P Password1 -A all -d MvcTFA
 ```
 
 The first one is using Windows Authentication to log into your SQL Server instance and the second is using the username and password that you have specified. What we have just told aspnet\_regsql to do is to connect to the server (specified with -S, in my case against my local SQL Server Express instance) using the login credentials specified, creating a database called ‘MvcTFA’ (-d MvcTFA) and installing all objects for ASP.NET Membership (-A all). A list of all of the available options for aspnet\_regsql is available on the Microsoft website at [ASP.NET SQL Server Registration Tool (Aspnet\_regsql.exe)](http://msdn.microsoft.com/en-us/library/ms229862(v=vs.100).aspx "ASP.NET SQL Server Registration Tool (Aspnet_regsql.exe)"). Once this has been run, assuming you provided the right details you will now have a full installation for the ASP.NET Membership database, which we will be running our application against. To configure our website to run against this database we need to go to the web.config and modify the connection string to be like one of the following two;
 
-```
-<pre class="brush: xml; gutter: true"><connectionStrings>
+```xml
+<connectionStrings>
   <add name="DefaultConnection" connectionString="Server=.\SQLEXPRESS;Database=MvcTFA;Trusted_Connection=True;" providerName="System.Data.SqlClient" />
 </connectionStrings>
 
@@ -89,8 +89,8 @@ As above the first one is using Windows Authentication to log into your SQL Serv
 
 In order for two factor authentication to work, we need to store a secret key for each user on the server, the way we will do this is by storing the secret key and also whether or not the user wants to use two factor authentication or not against the users profile. To specify custom fields in the users profile the first thing we need to do is to create a class defining those fields, this will also contain code to retrieve instances of the profile for the current user or a user that we specify, I placed my class in the root directory of the application as I didn’t feel anywhere else was appropriate for it.
 
-```
-<pre class="brush: csharp; gutter: true">using System.Web.Profile;
+```csharp
+using System.Web.Profile;
 using WebMatrix.WebData;
 
 namespace MvcTFA
@@ -151,8 +151,8 @@ namespace MvcTFA
 
 In the class above we have defined two constants for the profile setting keys. A method which retrieves the current users profile and one where we pass in the username of the user that we want to get the profile for. The two properties are what we are really interested in, these store the secret key as a string and whether or not the user wants to use two factor authentication as a bool. When the user sets the values the configuration entry is changed and we also save the users profile at this point, some people may want to do this themselves in which case remove these lines. We now have the user profile class, which we will be using later on to store the users settings but first we need to configure our application to use this profile over the standard one. This is done through the web.config file, by changing the profile section to look like the following.
 
-```
-<pre class="brush: xml; gutter: true"><profile enabled="true" defaultProvider="MvcTfaProvider" inherits="MvcTFA.MvcTFAProfile">
+```xml
+<profile enabled="true" defaultProvider="MvcTfaProvider" inherits="MvcTFA.MvcTFAProfile">
   <providers>
     <add name="MvcTfaProvider" type="System.Web.Profile.SqlProfileProvider" connectionStringName="DefaultConnection"/>
   </providers>
@@ -165,8 +165,8 @@ What this does is to specify that the profile we are using inherits MvcTFA.MvcTF
 
 We will be focusing our implementation of two factor authentication against Google Authenticator, which creates a new two factor authentication one time password every 30 seconds, based on the number of 30 second intervals since unix time (1970/01/01 00:00:00 UTC). As this functionality is can be re-used across multiple applications and is not specific to just this app I decided to create a class library for storing this in called Domain (original I know). I created a class called GoogleAuthenticator and used code based upon the Stackoverflow answer available [here](http://stackoverflow.com/a/12398317/465404 "Is there a tutorial on how to implement Google Authenticator in .NET apps?"). While the class provided by this answer included a method for displaying the secret key as a QR Code by using an online service provided by Google I decided against using it later in development as most of the time I was working on this I was on the train without Internet access which would have made viewing the QR code rather difficult.
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Globalization;
 using System.Net;
 using System.Security.Cryptography;
@@ -276,8 +276,8 @@ The code above provides the several methods/properties, the GenerateSecretKey ge
 
 When we later generate the QR Code for the user to scan the secret key needs to be Base32 encoded, unfortunately the .NET Framework does not come with a built in Base32 encoder (it has Base64 but that doesn’t work, trust me), so we have to add our own. Again this is not specific to this website so I have placed it in the Domain class library.
 
-```
-<pre class="brush: csharp; gutter: true">using System;
+```csharp
+using System;
 using System.Text;
 
 namespace MvcTFA.Domain
@@ -407,8 +407,8 @@ In the Base32Encoder class I have included both to base32 and from base32 as I d
 
 A design decision that I made was that when the user registers their two factor authentication secret key will be generated and stored with their profile, I could have decided to generate this at some later point like when they went to opt in to using two factor authentication against their account but during the registration process felt appropriate to me. So in order to do that we need to modify the HttpPost Register action within the AccountController.
 
-```
-<pre class="brush: csharp; gutter: true">[HttpPost]
+```csharp
+[HttpPost]
 [AllowAnonymous]
 [ValidateAntiForgeryToken]
 public ActionResult Register(RegisterModel model)
@@ -446,8 +446,8 @@ At the moment we are storing the user’s two factor authentication secret key B
 
 To make generating the QR code easier within the view I decided to create a helper class to deal with all the bits to do with generating the QR code.
 
-```
-<pre class="brush: csharp; gutter: true">using Gma.QrCodeNet.Encoding;
+```csharp
+using Gma.QrCodeNet.Encoding;
 using Gma.QrCodeNet.Encoding.Windows.Controls;
 using System;
 using System.Drawing;
@@ -482,8 +482,8 @@ namespace MvcTFA.Helpers
 
 Now that we have the QR Code helper, within the AccountController I decided to add a UserProfile action that would allow for the user to view their secret key in QR Code form and to allow for them to opt into using two factor authentication on the profile. As you will notice I included the ValidateAntiForgeryToken attribute on the actions to disallow people making automated calls to the action.
 
-```
-<pre class="brush: csharp; gutter: true">[HttpGet]
+```csharp
+[HttpGet]
 public ActionResult UserProfile()
 {
     var model = new UserProfileModel();
@@ -516,8 +516,8 @@ public ActionResult UserProfile(UserProfileModel model)
 and the view for the actions.
 ```
 
-```
-<pre class="brush: csharp; gutter: true">@using MvcTFA.Helpers
+```csharp
+@using MvcTFA.Helpers
 @model MvcTFA.Models.UserProfileModel
 
 @{
@@ -552,8 +552,8 @@ During my research for this article one of the things that I found is that there
 
 In order to do this correctly we need to do in order to implement this correctly is to validate the users username and password is correct then pass them to the two factor authentication step without logging them in. Thankfully the ASP.NET Membership library provides us with a way of achieving this through Membership.ValidateUser, which provided with a username and password will validate the credentials returning a boolean. Once we have identifier the user has provided the correct username/password combination we need to check whether or not the user has opted in to using two factor authentication on their account, if they haven’t then we log them into the website and then redirect them to the appropriate location. If the user has opted into two factor authentication then we put the profile into the temporary data store along with whether or not the user has asked to be remembered, which we will use later on.
 
-```
-<pre class="brush: csharp; gutter: true">[HttpPost]
+```csharp
+[HttpPost]
 [AllowAnonymous]
 [ValidateAntiForgeryToken]
 public ActionResult Login(LoginModel model, string returnUrl)
@@ -584,8 +584,8 @@ public ActionResult Login(LoginModel model, string returnUrl)
 
 Now that we have changed the login action so that it will check to see if the user has opted into two factor authentication or not we need to provide the user the capability to provide the one time password generated by their Google Authenticator app.
 
-```
-<pre class="brush: csharp; gutter: true">[HttpGet]
+```csharp
+[HttpGet]
 [AllowAnonymous]
 public ActionResult SecondFactor(string returnUrl)
 {
@@ -644,8 +644,8 @@ public ActionResult SecondFactor(SecondFactorModel model, string returnUrl)
 
 When the user has provided the two factor authentication one time password generated by their device we need to check it against what we think it should be, if the numbers don’t match then we tell the user to try again, if they match then we log the user into the application retrieving the ‘remember me’ choice they made earlier and then redirecting them appropriately. Finally let’s provide a view for the action allowing them to provide their one time password.
 
-```
-<pre class="brush: csharp; gutter: true">@model MvcTFA.Models.SecondFactorModel
+```csharp
+@model MvcTFA.Models.SecondFactorModel
 
 @{
     ViewBag.Title = "Second factor";

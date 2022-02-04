@@ -25,8 +25,8 @@ It is common for you to want to check whether your application is the latest ver
 
 You can achieve this by doing something like;
 
-```
-<pre class="brush: vbnet; gutter: true">Dim curVer As Version = My.Application.Info.Version
+```vbnet
+Dim curVer As Version = My.Application.Info.Version
 Dim availVer As Version = New Version("1.0.0.2")
 If availVer > curVer Then
     'The available version is newer

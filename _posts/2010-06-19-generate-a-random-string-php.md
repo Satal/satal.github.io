@@ -26,8 +26,8 @@ tags:
 
 I created this class primarily to generate random salts for passwords, but it can be used quite easily to create random strings of any length that you specify.
 
-```
-<pre class="brush: php; gutter: true"><?php
+```php
+<?php
     /**
      * clsSalt
      *

@@ -56,8 +56,8 @@ But what works better is by having a system that automatically makes all actions
 
 Within the FilterConfig.cs class, we want to add a new filter for the AuthorizeAttribute as below.
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">    public class FilterConfig
+```csharp
+    public class FilterConfig
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
@@ -69,8 +69,8 @@ Within the FilterConfig.cs class, we want to add a new filter for the AuthorizeA
 
 Once this is done, you’re good to go! That’s it, seriously. The only thing you’ll want to do is go through and apply the AllowAnonymousAttribute to all the actions that you want anonymous users to be able to access, although if you’ve started your project from the ASP.NET 4 Internet template your Register and Login actions will already be set up and ready to go.
 
-```
-<pre class="brush: csharp; gutter: true; first-line: 1; highlight: []; html-script: false">    [HttpPost]
+```csharp
+    [HttpPost]
     [AllowAnonymous]
     [ValidateAntiForgeryToken]
     public ActionResult Login(LoginModel model, string returnUrl)

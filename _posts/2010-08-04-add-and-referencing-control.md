@@ -26,8 +26,8 @@ This is something that was asked how to do in one of the forums I post help in.
 
 Basically the user wanted to know how to dynamically add controls to your form and then refer to them later in the program. The following code gives you an example of how you are able to achieve this;
 
-```
-<pre class="brush: vbnet; gutter: true">Public Class Form1
+```vbnet
+Public Class Form1
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
 System.EventArgs) Handles MyBase.Load

@@ -29,8 +29,8 @@ If you’ve ever developed an application that minimises the application when th
 
 There is a bit of nice simple code that stops this from occurring.
 
-```
-<pre class="brush: vbnet; gutter: true">Private allowClose As Boolean = False
+```vbnet
+Private allowClose As Boolean = False
 
 Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     'This bit of code adds the event handler that deals with closing down the application when Windows shuts down or logs off

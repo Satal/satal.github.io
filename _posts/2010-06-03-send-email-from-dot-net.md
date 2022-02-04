@@ -36,8 +36,8 @@ As mentioned in the comment, feel free to use this code within your applications
 
 If you have any problems with this code then please let me know with as much information about what happened to cause the problem and if you’ve come up with a fix I would be greatful to know what it was.
 
-```
-<pre class="brush: vbnet; gutter: true">'''
+```vbnet
+'''
 ''' Email class from Satal Keto's library
 ''' Version 1.0.3.3
 '''
