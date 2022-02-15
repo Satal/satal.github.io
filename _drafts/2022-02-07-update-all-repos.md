@@ -21,3 +21,13 @@ done
 ```
 
 While all of my folders in my source code directory are Git repositories, I thought it would be worth checking to see if it is a Git repo before I try and perform the pull. The `if [ -d .git ]; then` checks to see whether there is a `.git` folder in the directory and only in that case will it perform a pull.
+
+## Running the script
+
+In order to run the script the first thing you will need to do is make the script executable
+
+```bash
+chmod +x update_all_repos.sh
+```
+
+Once this has been completed you're able to run the script by running `./update_all_repos.sh`. 
