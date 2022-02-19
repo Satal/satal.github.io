@@ -5,9 +5,6 @@ tags: Git
 permalink: /update-all-repos/
 author: Satal
 
-sidebar:
-  nav: docs-en
-
 tags:
   - git
   - code
