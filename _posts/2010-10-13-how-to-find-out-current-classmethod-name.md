@@ -5,7 +5,7 @@ date: '2010-10-13T08:41:08+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/10/how-to-find-out-current-classmethod-name/'
-permalink: /blog/2010/10/13/how-to-find-out-current-classmethod-name/
+permalink: /how-to-find-out-current-classmethod-name/
 rank_math_description:
     - 'A VB.NET method to identify the current class or method and to retrieve the name for this'
 rank_math_facebook_description:

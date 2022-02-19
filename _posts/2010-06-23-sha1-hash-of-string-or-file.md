@@ -5,7 +5,7 @@ date: '2010-06-23T21:56:44+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/calculate-sha1-hash-of-string-or-file/'
-permalink: /blog/2010/06/23/sha1-hash-of-string-or-file/
+permalink: /sha1-hash-of-string-or-file/
 snap_MYURL:
     - ''
 snapEdIT:

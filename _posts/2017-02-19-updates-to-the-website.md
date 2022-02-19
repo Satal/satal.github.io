@@ -5,7 +5,7 @@ date: '2017-02-19T21:13:41+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=765'
-permalink: /blog/2017/02/19/updates-to-the-website/
+permalink: /updates-to-the-website/
 snap_MYURL:
     - ''
 snapEdIT:

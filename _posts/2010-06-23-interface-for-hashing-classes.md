@@ -5,7 +5,7 @@ date: '2010-06-23T21:50:43+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/interface-for-hashing-classes/'
-permalink: /blog/2010/06/23/interface-for-hashing-classes/
+permalink: /interface-for-hashing-classes/
 snap_MYURL:
     - ''
 snapEdIT:

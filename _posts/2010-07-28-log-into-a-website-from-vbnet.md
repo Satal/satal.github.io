@@ -5,7 +5,7 @@ date: '2010-07-28T23:54:04+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/07/how-to-log-into-a-website-from-vbnet/'
-permalink: /blog/2010/07/28/log-into-a-website-from-vbnet/
+permalink: /log-into-a-website-from-vbnet/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

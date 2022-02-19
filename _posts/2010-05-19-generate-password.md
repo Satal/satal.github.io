@@ -4,7 +4,7 @@ title: 'Generate a password'
 date: '2010-05-19T15:28:34+00:00'
 author: Satal
 guid: 'http://satalketo.com/2010/05/generate-password/'
-permalink: /blog/2010/05/19/generate-password/
+permalink: /generate-password/
 snap_MYURL:
     - ''
 snapEdIT:

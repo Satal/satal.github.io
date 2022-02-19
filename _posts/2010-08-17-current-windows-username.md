@@ -5,7 +5,7 @@ date: '2010-08-17T14:22:16+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/08/get-the-username-of-the-currently-logged-in-user/'
-permalink: /blog/2010/08/17/current-windows-username/
+permalink: /current-windows-username/
 rank_math_description:
     - 'A VB.NET function to get the username for the currently logged in Windows user'
 rank_math_facebook_description:

@@ -5,7 +5,7 @@ date: '2017-07-02T19:22:54+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=918'
-permalink: /blog/2017/07/02/imposter-syndrome-consultancy/
+permalink: /imposter-syndrome-consultancy/
 snap_MYURL:
     - ''
 snapEdIT:
@@ -103,7 +103,7 @@ The key message is, you can almost guarantee that everyone around you has experi
 
 ![Being Okay with Imposter Syndrome](https://samjenkins.com/wp-content/uploads/2017/07/Being-okay-with-imposter.png)
 
-Source: http://errantscience.com/blog/2016/10/26/imposter-syndrome/
+Source: http://errantscience.com/imposter-syndrome/
 
 Do you occasionally feel that you’re an imposter? If so, feel free to share a time when you’ve felt like an imposter.
 

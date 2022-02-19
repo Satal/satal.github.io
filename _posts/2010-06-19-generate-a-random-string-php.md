@@ -5,7 +5,7 @@ date: '2010-06-19T11:57:53+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/generate-a-random-string/'
-permalink: /blog/2010/06/19/generate-a-random-string-php/
+permalink: /generate-a-random-string-php/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

@@ -5,7 +5,7 @@ date: '2010-05-25T21:51:59+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/responsewrite-from-within-a-class/'
-permalink: /blog/2010/05/25/responsewrite-from-within-a-class/
+permalink: /responsewrite-from-within-a-class/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

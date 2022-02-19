@@ -5,7 +5,7 @@ date: '2010-08-09T10:49:15+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/08/using-a-listview-as-a-multi-column-listbox/'
-permalink: /blog/2010/08/09/multi-column-listbox/
+permalink: /multi-column-listbox/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

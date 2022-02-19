@@ -5,7 +5,7 @@ date: '2010-09-10T08:48:45+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/figure-out-if-excel-is-installed-and-what-version-it-is/'
-permalink: /blog/2010/09/10/is-excel-installed-what-version/
+permalink: /is-excel-installed-what-version/
 rank_math_description:
     - 'VB.NET functions to identify if Microsoft Excel is installed and what version of Excel it is'
 rank_math_facebook_description:

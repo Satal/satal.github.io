@@ -5,7 +5,7 @@ date: '2010-08-17T10:45:17+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/08/check-whether-the-current-user-is-an-administrator/'
-permalink: /blog/2010/08/17/check-whether-the-current-user-is-an-administrator/
+permalink: /check-whether-the-current-user-is-an-administrator/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

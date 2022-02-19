@@ -5,7 +5,7 @@ date: '2010-06-04T09:47:57+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/get-a-value-back-from-a-dialog-form/'
-permalink: /blog/2010/06/04/get-value-dialog-form/
+permalink: /get-value-dialog-form/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

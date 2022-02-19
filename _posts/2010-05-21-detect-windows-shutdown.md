@@ -5,7 +5,7 @@ date: '2010-05-21T10:32:36+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/vbnet-windows-shutdown-or-logoff/'
-permalink: /blog/2010/05/21/detect-windows-shutdown/
+permalink: /detect-windows-shutdown/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

@@ -5,7 +5,7 @@ date: '2010-05-25T21:36:55+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/list-of-really-useful-windows-command-prompt-commands/'
-permalink: /blog/2010/05/25/useful-windows-command-prompt-commands/
+permalink: /useful-windows-command-prompt-commands/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

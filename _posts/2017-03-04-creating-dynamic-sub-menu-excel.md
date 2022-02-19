@@ -5,7 +5,7 @@ date: '2017-03-04T15:54:52+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=803'
-permalink: /blog/2017/03/04/creating-dynamic-sub-menu-excel/
+permalink: /creating-dynamic-sub-menu-excel/
 snap_isAutoPosted:
     - '1'
 snap_MYURL:

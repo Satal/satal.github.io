@@ -5,7 +5,7 @@ date: '2010-06-02T10:15:52+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/sql-server-list-columns-in-table/'
-permalink: /blog/2010/06/02/sql-server-list-columns-in-table/
+permalink: /sql-server-list-columns-in-table/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

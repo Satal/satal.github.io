@@ -5,7 +5,7 @@ date: '2011-06-19T19:51:50+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2011/06/randomise-a-list/'
-permalink: /blog/2011/06/19/randomise-a-list/
+permalink: /randomise-a-list/
 rank_math_description:
     - 'A quick explanation of how to randomise the contents of a List using LINQ'
 rank_math_focus_keyword:

@@ -5,7 +5,7 @@ date: '2010-06-23T21:59:43+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/calculate-sha384-hash-of-string-or-file/'
-permalink: /blog/2010/06/23/sha384-hash-of-string-or-file/
+permalink: /sha384-hash-of-string-or-file/
 snap_MYURL:
     - ''
 snapEdIT:

@@ -5,7 +5,7 @@ date: '2014-01-13T20:37:41+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=663'
-permalink: /blog/2014/01/13/check-arguments-null-c/
+permalink: /check-arguments-null-c/
 snap_isAutoPosted:
     - '1'
 snapFB:

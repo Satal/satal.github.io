@@ -5,7 +5,7 @@ date: '2010-06-23T21:52:53+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/calculate-ripemd160-hash-of-string-or-file/'
-permalink: /blog/2010/06/23/ripemd160-hash-of-string-or-file/
+permalink: /ripemd160-hash-of-string-or-file/
 snap_MYURL:
     - ''
 snapEdIT:

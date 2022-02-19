@@ -5,7 +5,7 @@ date: '2011-06-04T11:47:15+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2011/06/get-the-associated-application-for-a-file-extension/'
-permalink: /blog/2011/06/04/get-the-associated-application-for-a-file-extension/
+permalink: /get-the-associated-application-for-a-file-extension/
 snapEdIT:
     - '1'
 snapFB:

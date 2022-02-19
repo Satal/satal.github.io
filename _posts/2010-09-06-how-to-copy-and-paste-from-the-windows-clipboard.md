@@ -5,7 +5,7 @@ date: '2010-09-06T10:00:37+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/how-to-copy-and-paste-from-the-windows-clipboard/'
-permalink: /blog/2010/09/06/how-to-copy-and-paste-from-the-windows-clipboard/
+permalink: /how-to-copy-and-paste-from-the-windows-clipboard/
 rank_math_description:
     - 'VB.NET methods for copying and pasting text to the Windows clipboard'
 rank_math_facebook_description:

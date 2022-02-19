@@ -5,7 +5,7 @@ date: '2011-08-10T15:20:07+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2011/08/tsql-get-date-difference-as-string/'
-permalink: /blog/2011/08/10/tsql-get-date-difference-as-string/
+permalink: /tsql-get-date-difference-as-string/
 snap_MYURL:
     - ''
 snapFB:

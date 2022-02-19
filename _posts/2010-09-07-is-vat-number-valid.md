@@ -5,7 +5,7 @@ date: '2010-09-07T11:41:46+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/check-if-a-vat-number-is-valid/'
-permalink: /blog/2010/09/07/is-vat-number-valid/
+permalink: /is-vat-number-valid/
 rank_math_description:
     - 'A VB.NET function to check whether a specified VAT number is valid'
 rank_math_facebook_description:

@@ -5,7 +5,7 @@ date: '2010-05-31T09:52:37+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/reserved-words-in-vbnet/'
-permalink: /blog/2010/05/31/reserved-words-in-vbnet/
+permalink: /reserved-words-in-vbnet/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

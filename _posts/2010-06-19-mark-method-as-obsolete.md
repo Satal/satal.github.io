@@ -5,7 +5,7 @@ date: '2010-06-19T10:50:40+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/how-to-mark-method-as-obsolete/'
-permalink: /blog/2010/06/19/mark-method-as-obsolete/
+permalink: /mark-method-as-obsolete/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

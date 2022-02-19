@@ -4,7 +4,7 @@ title: 'Get the mid point between two date times'
 date: '2010-06-03T11:51:32+00:00'
 author: Satal
 guid: 'http://satalketo.com/2010/06/get-the-mid-point-between-two-date-times/'
-permalink: /blog/2010/06/03/get-the-mid-point-between-two-date-times/
+permalink: /get-the-mid-point-between-two-date-times/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

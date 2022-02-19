@@ -5,7 +5,7 @@ date: '2010-05-25T21:39:45+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/creating-multi-panel-interface-easily/'
-permalink: /blog/2010/05/25/creating-multi-panel-interface/
+permalink: /creating-multi-panel-interface/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

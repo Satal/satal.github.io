@@ -5,7 +5,7 @@ date: '2017-05-16T19:48:43+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=835'
-permalink: /blog/2017/05/16/stress-finding-the-right-level/
+permalink: /stress-finding-the-right-level/
 snap_isAutoPosted:
     - '1'
 snap_MYURL:

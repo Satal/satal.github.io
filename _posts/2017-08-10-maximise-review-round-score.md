@@ -5,7 +5,7 @@ date: '2017-08-10T16:30:11+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=3197'
-permalink: /blog/2017/08/10/maximise-review-round-score/
+permalink: /maximise-review-round-score/
 spacious_page_layout:
     - default_layout
 snap_isAutoPosted:

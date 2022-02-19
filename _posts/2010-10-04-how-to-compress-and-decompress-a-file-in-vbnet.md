@@ -5,7 +5,7 @@ date: '2010-10-04T10:27:11+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/10/how-to-compress-and-decompress-a-file-in-vbnet/'
-permalink: /blog/2010/10/04/how-to-compress-and-decompress-a-file-in-vbnet/
+permalink: /how-to-compress-and-decompress-a-file-in-vbnet/
 rank_math_description:
     - 'A couple of VB.NET methods for compressing and decompressing a file'
 rank_math_facebook_description:

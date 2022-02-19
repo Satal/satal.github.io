@@ -5,7 +5,7 @@ date: '2013-05-29T18:52:13+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=444'
-permalink: /blog/2013/05/29/vpn-on-your-android/
+permalink: /vpn-on-your-android/
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapFB:
