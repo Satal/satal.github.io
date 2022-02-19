@@ -5,7 +5,10 @@ date: '2010-08-04T14:43:20+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/08/check-to-see-whether-a-form-exists-at-runtime/'
-permalink: /blog/2010/08/04/check-to-see-whether-a-form-exists-at-runtime/
+redirect_from:
+    - /blog/2010/08/04/check-to-see-whether-a-form-exists-at-runtime/
+    - /2010/08/04/check-to-see-whether-a-form-exists-at-runtime/
+permalink: /check-to-see-whether-a-form-exists-at-runtime/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

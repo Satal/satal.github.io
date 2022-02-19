@@ -5,7 +5,10 @@ date: '2010-06-13T19:07:03+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/applying-multiple-namespaces-to-a-class/'
-permalink: /blog/2010/06/13/apply-multiple-namespaces/
+redirect_from:
+    - /blog/2010/06/13/apply-multiple-namespaces/
+    - /2010/06/13/apply-multiple-namespaces/
+permalink: /apply-multiple-namespaces/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

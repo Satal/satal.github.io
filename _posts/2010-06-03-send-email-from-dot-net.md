@@ -5,7 +5,10 @@ date: '2010-06-03T15:16:13+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/sending-an-email-from-a-net-application/'
-permalink: /blog/2010/06/03/send-email-from-dot-net/
+redirect_from:
+    - /blog/2010/06/03/send-email-from-dot-net/
+    - /2010/06/03/send-email-from-dot-net/
+permalink: /send-email-from-dot-net/
 snap_MYURL:
     - ''
 snapEdIT:

@@ -5,7 +5,10 @@ date: '2010-06-19T11:48:15+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/hashing-with-a-salt/'
-permalink: /blog/2010/06/19/hashing-with-a-salt-php/
+redirect_from:
+    - /blog/2010/06/19/hashing-with-a-salt-php/
+    - /2010/06/19/hashing-with-a-salt-php/
+permalink: /hashing-with-a-salt-php/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

@@ -5,7 +5,10 @@ date: '2013-12-05T07:16:40+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=625'
-permalink: /blog/2013/12/05/logging-sql-queries-mvc/
+redirect_from:
+    - /blog/2013/12/05/logging-sql-queries-mvc/
+    - /2013/12/05/logging-sql-queries-mvc/
+permalink: /logging-sql-queries-mvc/
 snap_isAutoPosted:
     - '1'
 snapFB:

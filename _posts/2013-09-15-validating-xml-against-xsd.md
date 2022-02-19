@@ -5,7 +5,10 @@ date: '2013-09-15T18:50:55+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=560'
-permalink: /blog/2013/09/15/validating-xml-against-xsd/
+redirect_from:
+    - /blog/2013/09/15/validating-xml-against-xsd/
+    - /2013/09/15/validating-xml-against-xsd/
+permalink: /validating-xml-against-xsd/
 snapLI:
     - 's:478:"a:1:{i:0;a:12:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:27:"New post  - %TITLE% (%URL%)";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:123:"http://www.linkedin.com/updates?discuss=&amp;scope=25932443&amp;stype=M&amp;topic=5785082122888818688&amp;type=U&amp;a=Ac66";s:5:"pDate";s:19:"2013-09-15 18:50:59";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snap_isAutoPosted:

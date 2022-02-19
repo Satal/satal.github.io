@@ -5,7 +5,10 @@ date: '2011-08-04T15:37:00+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2011/08/what-versions-of-excel-are-installed-and-where/'
-permalink: /blog/2011/08/04/installed-excel-versions/
+redirect_from:
+    - /blog/2011/08/04/installed-excel-versions/
+    - /2011/08/04/installed-excel-versions/
+permalink: /installed-excel-versions/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:

@@ -5,7 +5,10 @@ date: '2013-05-09T22:44:17+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=393'
-permalink: /blog/2013/05/09/developer-humour/
+redirect_from:
+    - /blog/2013/05/09/developer-humour/
+    - /2013/05/09/developer-humour/
+permalink: /developer-humour/
 snap_MYURL:
     - ''
 snapEdIT:

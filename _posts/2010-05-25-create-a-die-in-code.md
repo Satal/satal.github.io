@@ -5,7 +5,10 @@ date: '2010-05-25T14:31:13+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/how-to-create-a-die-in-code/'
-permalink: /blog/2010/05/25/create-a-die-in-code/
+redirect_from:
+    - /blog/2010/05/25/create-a-die-in-code/
+    - /2010/05/25/create-a-die-in-code/
+permalink: /create-a-die-in-code/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

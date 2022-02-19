@@ -5,7 +5,10 @@ date: '2017-02-25T12:44:00+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=779'
-permalink: /blog/2017/02/25/changing-hosting-provider/
+redirect_from:
+    - /blog/2017/02/25/changing-hosting-provider/
+    - /2017/02/25/changing-hosting-provider/
+permalink: /changing-hosting-provider/
 snap_isAutoPosted:
     - '1'
 snap_MYURL:

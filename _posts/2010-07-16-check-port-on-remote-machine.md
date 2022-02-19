@@ -5,7 +5,10 @@ date: '2010-07-16T08:03:49+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/07/check-whether-a-port-is-open-on-a-remote-machine/'
-permalink: /blog/2010/07/16/check-port-on-remote-machine/
+redirect_from:
+    - /blog/2010/07/16/check-port-on-remote-machine/
+    - /2010/07/16/check-port-on-remote-machine/
+permalink: /check-port-on-remote-machine/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

@@ -5,7 +5,10 @@ date: '2010-06-19T12:07:22+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/change-the-cursor/'
-permalink: /blog/2010/06/19/change-the-cursor-javascript/
+redirect_from:
+    - /blog/2010/06/19/change-the-cursor-javascript/
+    - /2010/06/19/change-the-cursor-javascript/
+permalink: /change-the-cursor-javascript/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

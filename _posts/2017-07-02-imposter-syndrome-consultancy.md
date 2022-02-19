@@ -5,7 +5,10 @@ date: '2017-07-02T19:22:54+00:00'
 author: Satal
 
 guid: 'https://satalketo.com/?p=918'
-permalink: /blog/2017/07/02/imposter-syndrome-consultancy/
+redirect_from:
+    - /blog/2017/07/02/imposter-syndrome-consultancy/
+    - /2017/07/02/imposter-syndrome-consultancy/
+permalink: /imposter-syndrome-consultancy/
 snap_MYURL:
     - ''
 snapEdIT:

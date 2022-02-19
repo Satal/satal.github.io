@@ -5,7 +5,10 @@ date: '2010-05-26T22:34:12+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/create-a-bit-for-bit-backup-of-a-default-installation/'
-permalink: /blog/2010/05/26/bit-for-bit-backup/
+redirect_from:
+    - /blog/2010/05/26/bit-for-bit-backup/
+    - /2010/05/26/bit-for-bit-backup/
+permalink: /bit-for-bit-backup/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

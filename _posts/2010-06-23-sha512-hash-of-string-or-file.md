@@ -5,7 +5,10 @@ date: '2010-06-23T22:00:43+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/calculate-sha512-hash-of-string-or-file/'
-permalink: /blog/2010/06/23/sha512-hash-of-string-or-file/
+redirect_from:
+    - /blog/2010/06/23/sha512-hash-of-string-or-file/
+    - /2010/06/23/sha512-hash-of-string-or-file/
+permalink: /sha512-hash-of-string-or-file/
 snap_MYURL:
     - ''
 snapEdIT:

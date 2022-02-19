@@ -5,7 +5,10 @@ date: '2010-06-03T16:12:58+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/get-the-id-for-the-last-inserted-record/'
-permalink: /blog/2010/06/03/id-for-last-inserted-record/
+redirect_from:
+    - /blog/2010/06/03/id-for-last-inserted-record/
+    - /2010/06/03/id-for-last-inserted-record/
+permalink: /id-for-last-inserted-record/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

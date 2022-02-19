@@ -5,7 +5,10 @@ date: '2010-10-21T14:30:09+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/10/shuffle-a-string-in-vbnet/'
-permalink: /blog/2010/10/21/shuffle-a-string-in-vbnet/
+redirect_from:
+    - /blog/2010/10/21/shuffle-a-string-in-vbnet/
+    - /2010/10/21/shuffle-a-string-in-vbnet/
+permalink: /shuffle-a-string-in-vbnet/
 rank_math_description:
     - 'A method of for how to shuffle the contents of a string'
 rank_math_focus_keyword:

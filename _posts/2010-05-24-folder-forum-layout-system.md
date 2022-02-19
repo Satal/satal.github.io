@@ -4,7 +4,10 @@ title: 'Folder/Forum layout system'
 date: '2010-05-24T10:46:14+00:00'
 author: Satal
 guid: 'http://satalketo.com/2010/05/folderforum-layout-system/'
-permalink: /blog/2010/05/24/folder-forum-layout-system/
+redirect_from:
+    - /blog/2010/05/24/folder-forum-layout-system/
+    - /2010/05/24/folder-forum-layout-system/
+permalink: /folder-forum-layout-system/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

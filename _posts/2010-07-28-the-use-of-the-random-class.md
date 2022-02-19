@@ -5,7 +5,10 @@ date: '2010-07-28T22:41:56+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/07/the-use-of-the-random-class/'
-permalink: /blog/2010/07/28/the-use-of-the-random-class/
+redirect_from:
+    - /blog/2010/07/28/the-use-of-the-random-class/
+    - /2010/07/28/the-use-of-the-random-class/
+permalink: /the-use-of-the-random-class/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

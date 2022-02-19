@@ -5,7 +5,10 @@ date: '2013-06-26T17:57:17+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=488'
-permalink: /blog/2013/06/26/google-now-a-review/
+redirect_from:
+    - /blog/2013/06/26/google-now-a-review/
+    - /2013/06/26/google-now-a-review/
+permalink: /google-now-a-review/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:

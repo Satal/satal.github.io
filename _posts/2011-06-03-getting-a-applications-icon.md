@@ -5,7 +5,10 @@ date: '2011-06-03T13:06:10+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2011/06/getting-the-applications-icon/'
-permalink: /blog/2011/06/03/getting-a-applications-icon/
+redirect_from:
+    - /blog/2011/06/03/getting-a-applications-icon/
+    - /2011/06/03/getting-a-applications-icon/
+permalink: /getting-a-applications-icon/
 rank_math_description:
     - 'A VB.NET method for retrieving the icon used for an application'
 rank_math_focus_keyword:

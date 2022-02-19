@@ -5,7 +5,10 @@ date: '2010-09-10T08:45:52+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/figure-out-if-access-is-installed-and-what-version-it-is/'
-permalink: /blog/2010/09/10/is-access-installed-what-version/
+redirect_from:
+    - /blog/2010/09/10/is-access-installed-what-version/
+    - /2010/09/10/is-access-installed-what-version/
+permalink: /is-access-installed-what-version/
 rank_math_description:
     - 'VB.NET functions to identify if Microsoft Access is installed and what version of Access it is'
 rank_math_facebook_description:

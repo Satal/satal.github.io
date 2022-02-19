@@ -6,7 +6,10 @@ author: Satal
 excerpt: 'Having my source control server on my development machine. Am I going to the deepest level of developer hell?'
 
 guid: 'http://blog.satalketo.co.uk/?p=110'
-permalink: /blog/2013/03/27/source-control-server-on-your-development-machine/
+redirect_from:
+    - /blog/2013/03/27/source-control-server-on-your-development-machine/
+    - /2013/03/27/source-control-server-on-your-development-machine/
+permalink: /source-control-server-on-your-development-machine/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:

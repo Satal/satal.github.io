@@ -5,7 +5,10 @@ date: '2010-09-10T11:25:27+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/'
-permalink: /blog/2010/09/10/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
+redirect_from:
+    - /blog/2010/09/10/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
+    - /2010/09/10/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
+permalink: /tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

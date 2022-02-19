@@ -5,7 +5,10 @@ date: '2010-06-14T10:49:06+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/06/track-number-of-times-a-file-is-downloaded/'
-permalink: /blog/2010/06/14/track-number-of-times-a-file-is-downloaded/
+redirect_from:
+    - /blog/2010/06/14/track-number-of-times-a-file-is-downloaded/
+    - /2010/06/14/track-number-of-times-a-file-is-downloaded/
+permalink: /track-number-of-times-a-file-is-downloaded/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

@@ -5,7 +5,10 @@ date: '2013-12-21T22:49:46+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=640'
-permalink: /blog/2013/12/21/nodatime-what-date-time-is-it/
+redirect_from:
+    - /blog/2013/12/21/nodatime-what-date-time-is-it/
+    - /2013/12/21/nodatime-what-date-time-is-it/
+permalink: /nodatime-what-date-time-is-it/
 snapFB:
     - 's:274:"a:1:{i:0;a:9:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;s:11:"isPrePosted";s:1:"1";}}";'
 snapLI:

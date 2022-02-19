@@ -5,7 +5,10 @@ date: '2010-09-10T08:48:32+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/figure-out-if-word-is-installed-and-what-version-it-is/'
-permalink: /blog/2010/09/10/is-word-installed-what-version/
+redirect_from:
+    - /blog/2010/09/10/is-word-installed-what-version/
+    - /2010/09/10/is-word-installed-what-version/
+permalink: /is-word-installed-what-version/
 rank_math_description:
     - 'VB.NET functions to identify if Microsoft Word is installed and what version of Word it is'
 rank_math_facebook_description:

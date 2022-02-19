@@ -5,7 +5,10 @@ date: '2010-05-26T23:03:02+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/05/how-to-zero-the-free-space-on-your-hard-drive/'
-permalink: /blog/2010/05/26/zero-free-space-on-hard-drive/
+redirect_from:
+    - /blog/2010/05/26/zero-free-space-on-hard-drive/
+    - /2010/05/26/zero-free-space-on-hard-drive/
+permalink: /zero-free-space-on-hard-drive/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:

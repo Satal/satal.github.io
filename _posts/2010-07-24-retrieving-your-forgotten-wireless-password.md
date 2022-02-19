@@ -5,7 +5,10 @@ date: '2010-07-24T14:37:17+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/07/retrieving-your-forgotten-wireless-password/'
-permalink: /blog/2010/07/24/retrieving-your-forgotten-wireless-password/
+redirect_from:
+    - /blog/2010/07/24/retrieving-your-forgotten-wireless-password/
+    - /2010/07/24/retrieving-your-forgotten-wireless-password/
+permalink: /retrieving-your-forgotten-wireless-password/
 rank_math_robots:
     - 'a:1:{i:0;s:5:"index";}'
 rank_math_internal_links_processed:

@@ -5,7 +5,10 @@ date: '2013-05-22T18:12:33+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/?p=433'
-permalink: /blog/2013/05/22/free-coffee-keep-it-joined-up/
+redirect_from:
+    - /blog/2013/05/22/free-coffee-keep-it-joined-up/
+    - /2013/05/22/free-coffee-keep-it-joined-up/
+permalink: /free-coffee-keep-it-joined-up/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:

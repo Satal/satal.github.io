@@ -5,7 +5,10 @@ date: '2010-09-29T02:00:10+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/comparing-two-images-to-see-if-they-are-the-same/'
-permalink: /blog/2010/09/29/comparing-two-images-to-see-if-they-are-the-same/
+redirect_from:
+    - /blog/2010/09/29/comparing-two-images-to-see-if-they-are-the-same/
+    - /2010/09/29/comparing-two-images-to-see-if-they-are-the-same/
+permalink: /comparing-two-images-to-see-if-they-are-the-same/
 rank_math_description:
     - 'A C# function for comparing two images to identify whether they are the same'
 rank_math_facebook_description:

@@ -5,7 +5,10 @@ date: '2010-09-06T09:22:21+00:00'
 author: Satal
 
 guid: 'http://satalketo.com/2010/09/how-to-get-all-instances-of-a-form/'
-permalink: /blog/2010/09/06/get-all-instances-of-a-form/
+redirect_from:
+    - /blog/2010/09/06/get-all-instances-of-a-form/
+    - /2010/09/06/get-all-instances-of-a-form/
+permalink: /get-all-instances-of-a-form/
 rank_math_description:
     - 'A VB.NET function to retrieve all instances of a particular form'
 rank_math_facebook_description:
