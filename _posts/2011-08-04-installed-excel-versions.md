@@ -45,7 +45,7 @@ tags:
 
 Microsoft Excel is probably one of the most used pieces of software on the planet. Spreadsheets are used heavily throughout the business world and Microsoft have enjoyed their Office suite taking a large proportion of businesses
 
-![The Microsoft Excel 2007 splash screen](https://samjenkins.com/wp-content/uploads/2011/08/excel-logo-300x157.jpg)
+![The Microsoft Excel 2007 splash screen](/assets/images/2011/08/excel-logo-300x157.jpg)
 
 There was a question recently on [Stack Overflow](http://stackoverflow.com/questions/6882010/how-to-choose-which-excel-version-to-open-using-vb-net "The question") which I felt was a challenge to answer as I couldn’t find anywhere online which appeared to give an answer on how to do it. After some time going through the registry, I was able to identify how to figure out which versions of Excel were installed.  
 The following snippet of code is what I came up with to answer the question, the variable rtn is a Dictionary which stores the version of Excel as the key and the directory in which Excel is installed as the value.

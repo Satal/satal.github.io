@@ -45,7 +45,7 @@ tags:
 
 I recently took the decision that I wanted to start to get more involved in the wider programming community, by giving back (through this blog and online through things like [StackOverflow](http://stackoverflow.com/users/465404/satal "My StackOverflow profile")) and by attending bootcamps, so I was really pleased when I heard about how Microsoft are doing a free [Windows Azure](http://www.windowsazure.com/ "Windows Azure") Bootcamp. The Bootcamp will be a “one day deep dive class” to introduce you to Windows Azure, this is aimed at both beginners and more seasoned Windows Azure users.
 
-[![Windows Azure logo](https://samjenkins.com/wp-content/uploads/2013/04/Windows-Azure-logo-300x48.jpg)](http://www.windowsazure.com/)
+[![Windows Azure logo](/assets/images/2013/04/Windows-Azure-logo-300x48.jpg)](http://www.windowsazure.com/)
 
 There are prerequisites for the attending the bootcamp although none of these should be a problem, they are detailed on the <del>prerequisites page</del> on the bootcamps website but in summary these are;
 

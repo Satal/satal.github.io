@@ -44,7 +44,7 @@ tags:
 
 I recently bought [Microsoft Office 2013 Professional](http://office.microsoft.com/ "Microsoft Office 2013") for use at home, while I am not a fan of the hefty price tag associated with Microsoft Office I got a really good deal on it through the company I work for. I am quite a fan of Microsoft Outlook and despite looking there is no free alternative which matches it (sorry [Mozilla Thunderbird](https://www.mozilla.org/en-US/thunderbird/ "Mozilla Thunderbird") fans but having my calendar integrated is important to me), which is the main reason for me purchasing it.
 
-![Microsoft Outlook 2013](https://samjenkins.com/wp-content/uploads/2013/05/2013_05_10_23_27_04_Opening_Outlook.png)
+![Microsoft Outlook 2013](/assets/images/2013/05/2013_05_10_23_27_04_Opening_Outlook.png)
 
 While I am a fan of Microsoft Outlook I am an Android user and like having my calendar events in [Google Calendar](http://calendar.google.com/ "Google Calendar") so that it is all sync’d in one location. So what I wanted to be able to do is to view the events from my Google Calendar within Microsoft Outlook. While Outlook has the capability to sync up with your GMail account it doesn’t sync up with Google Calendar as easily, so I thought I would share the steps that you need to take in order to view your Google Calendar events from Outlook.
 
@@ -52,15 +52,15 @@ While I am a fan of Microsoft Outlook I am an Android user and like having my ca
 
 The iCalendar format (not to be confused with [Apple iCal](http://www.apple.com/uk/support/ical/ "Apple iCal")) is designed to allow for users to share event details or event entire calendars through .ics files, sounds like what we need doesn’t it. So we need to go to Google Calendar and into our settings;
 
-![Google Calendar Settings Menu Item](https://samjenkins.com/wp-content/uploads/2013/05/2013_05_11_00_02_38_Google_Calendar.png)
+![Google Calendar Settings Menu Item](/assets/images/2013/05/2013_05_11_00_02_38_Google_Calendar.png)
 
 Within the Google Calendar settings we need to switch to the ‘Calendars’ page.
 
-![Google Calendar Settings Calendar Tab](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_04_41-Google-Calendar.png)
+![Google Calendar Settings Calendar Tab](/assets/images/2013/05/2013-05-11-00_04_41-Google-Calendar.png)
 
 Select the calendar that you want to get the iCal for, most people will only have one calendar so it’s an obvious choice which one to click.
 
-![Google Calendar select the calendar to configure](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_06_08-Google-Calendar.png)
+![Google Calendar select the calendar to configure](/assets/images/2013/05/2013-05-11-00_06_08-Google-Calendar.png)
 
 When you have selected the calendar that you wish to view within Microsoft Outlook if you scroll down to the bottom of the page you will be displayed with a Calendar Address and a Private address, Google describes them in the following way;
 
@@ -69,7 +69,7 @@ When you have selected the calendar that you wish to view within Microsoft Outlo
 
 As I wanted to be able to get information about all the events within my calendar I chose the Private Address.
 
-[![2013-05-11 00_07_05-Google Calendar](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_07_05-Google-Calendar.png)](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_07_05-Google-Calendar.png)
+[![2013-05-11 00_07_05-Google Calendar](/assets/images/2013/05/2013-05-11-00_07_05-Google-Calendar.png)](/assets/images/2013/05/2013-05-11-00_07_05-Google-Calendar.png)
 
 By clicking on the ICAL green button you will be presented with a box containing the private address for your ICAL, you will need to copy this as we will need it.
 
@@ -77,20 +77,20 @@ By clicking on the ICAL green button you will be presented with a box containing
 
 Within Microsoft Outlook switch to calendar view and on your ‘My Calendars’ list right click to add a new Internet calendar.
 
-![My Calendars Add Calendar From the Internet](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_12_20-Calendar-This-computer-only-satalketo@gmail.com-Outlook.png)
+![My Calendars Add Calendar From the Internet](/assets/images/2013/05/2013-05-11-00_12_20-Calendar-This-computer-only-satalketo@gmail.com-Outlook.png)
 
 This is where you need to paste in the link to the iCal file that you got from Google in the steps above.
 
-[![Enter iCal address](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_13_11-New-Internet-Calendar-Subscription.png)](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_13_11-New-Internet-Calendar-Subscription.png)
+[![Enter iCal address](/assets/images/2013/05/2013-05-11-00_13_11-New-Internet-Calendar-Subscription.png)](/assets/images/2013/05/2013-05-11-00_13_11-New-Internet-Calendar-Subscription.png)
 
 You will then be asked to confirm that you want to add the Internet calendar to Microsoft Outlook.
 
-![Confirm add iCal to Outlook](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_13_31-Microsoft-Outlook.png)
+![Confirm add iCal to Outlook](/assets/images/2013/05/2013-05-11-00_13_31-Microsoft-Outlook.png)
 
 Once you have confirmed that you want to have the iCal added to Outlook it will take a second or two to process and once it is finished you will have a new entry in your ‘My Calendars’ list.
 
-![New calendar appears in my calendars](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_14_32-Calendar-This-computer-only-satalketo@gmail.com-Outlook.png)
+![New calendar appears in my calendars](/assets/images/2013/05/2013-05-11-00_14_32-Calendar-This-computer-only-satalketo@gmail.com-Outlook.png)
 
 Personally at this point I unticked the local calendar as I didn’t want to see it but you may wish to use both. One thing to note is that this is only a one way sync so you will not be able to add events to your Google Calendar from within Outlook, this isn’t the most convenient but it is better than not having the calendar in Outlook IMHO.
 
-![No add options are available](https://samjenkins.com/wp-content/uploads/2013/05/2013-05-11-00_31_21-.png)
+![No add options are available](/assets/images/2013/05/2013-05-11-00_31_21-.png)

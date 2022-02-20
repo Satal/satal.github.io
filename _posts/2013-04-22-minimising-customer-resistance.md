@@ -55,13 +55,13 @@ So what sort of things can we do to decrease the resistance for the user to enga
 
 As with the Amazon example above, if the user only has to do one mouse click to achieve something they are much more likely to complete that action than one that requires ten. Having the user need to perform a larger number of actions to achieve their goal can also work to your benefit, a great example of this is a certain mobile insurance company that I used to deal with, in order to cancel their insurance you had to send them a snail mail letter, it couldn’t be done by phone or email, this put a larger effort for the customer to cancel their insurance, so are more likely to carry on having the few pounds a month be taken from their account.
 
-![Amazon 1-Click checkout, a great example of decreasing resistance](https://samjenkins.com/wp-content/uploads/2013/04/one-click-checkout.png)
+![Amazon 1-Click checkout, a great example of decreasing resistance](/assets/images/2013/04/one-click-checkout.png)
 
 #### QR Codes
 
 [QR Codes](http://en.wikipedia.org/wiki/QR_code "Wikipedia's entry for QR code") are matrix barcodes, which contain a certain amount of data which can be text, urls, phone numbers etc. an example of a QR code is below, if you scan it with a phone or other device that can read QR codes it will give you the URL for this website.
 
-![SatalKeto.com QR code](https://samjenkins.com/wp-content/uploads/2013/04/SatalKeto.com-QR-code.png)
+![SatalKeto.com QR code](/assets/images/2013/04/SatalKeto.com-QR-code.png)
 
 You will probably have seen this in action at train stations and other places where you can’t expect your potential customer to stand around for ages, you need to engage them quickly and get them looking at your offerings. There is a complex of flats being built at the end of my road in London, instead of having large amounts of information on the barriers around the construction site telling people about the flats that are being built, they have a couple photo’s and a QR code which takes the user to their website, where they have more information and better photos. This is a great use of QR codes as the user can quickly go to the website with almost no effort and get up to date information and much more of it than what could be provided on the boards/
 

@@ -37,7 +37,7 @@ The first thing we need to go is set up our form, you will need to add the follo
 
 I did some docking and other stuff to make my form look pretty but you don’t need to do this if you don’t want to. This is what my form looked like once I had added all the controls;
 
-![](https://samjenkins.com/wp-content/uploads/2010/07/formlayout.jpg)
+![](/assets/images/2010/07/formlayout.jpg)
 
 Now for some of the good stuff, double click on the form header to get yourself to the code screen with the Form\_Load event created. In the Form1\_Load event we want to add the following code;
 

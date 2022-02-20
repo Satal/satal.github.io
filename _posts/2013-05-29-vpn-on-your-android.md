@@ -43,7 +43,7 @@ tags:
 
 When this is posted I shall be travelling around Europe (I’ve set up delayed publish), while I’m away I will be getting my fix of the Internet through public wireless networks and networks in hostels. As any security conscious person will know public wireless networks are dangerous territory where unless your connections are secured it is possible for hackers to sniff your traffic or worse, so I am setting up VPN access on my Android phone and going to share it with you.
 
-![Secure Android](https://samjenkins.com/wp-content/uploads/2013/05/securityandroid.jpg)  
+![Secure Android](/assets/images/2013/05/securityandroid.jpg)  
 Image source: AndroidAuthority.com
 
 ### Why connect through a VPN
@@ -66,35 +66,35 @@ So on with the configuration, the first thing I did was to check what my IP addr
 
 So from the looks of it I am 31.122.30.212 (Note: this had changed by the time I finished writing this, so it belongs to someone else now). For the sharp eyed of you, yes this screen shot was taken at the end rather than at the beginning, I decided to just disconnect and reload the page to show the difference.
 
-![My IP without VPN](https://samjenkins.com/wp-content/uploads/2013/05/My-IP-without-VPN.png)
+![My IP without VPN](/assets/images/2013/05/My-IP-without-VPN.png)
 
 The first thing we need to do is go into our phones settings and select “More Settings”;
 
-[![Settings page](https://samjenkins.com/wp-content/uploads/2013/05/Settings-page.png)](https://samjenkins.com/wp-content/uploads/2013/05/Settings-page.png)
+[![Settings page](/assets/images/2013/05/Settings-page.png)](/assets/images/2013/05/Settings-page.png)
 
 Within the more settings menu, the fourth option is the VPN configuration menu item, it’s nice when it’s clear what to do;
 
-[![Select VPN](https://samjenkins.com/wp-content/uploads/2013/05/Select-VPN.png)](https://samjenkins.com/wp-content/uploads/2013/05/Select-VPN.png)
+[![Select VPN](/assets/images/2013/05/Select-VPN.png)](/assets/images/2013/05/Select-VPN.png)
 
 At the moment I don’t have any VPNs set up so there aren’t any showing up here, but if you have several VPNs set up they will be listed here so you can select which one you want to connect to. For the moment we need to configure our first VPN.
 
-[![Add VPN](https://samjenkins.com/wp-content/uploads/2013/05/Add-VPN.png)](https://samjenkins.com/wp-content/uploads/2013/05/Add-VPN.png)
+[![Add VPN](/assets/images/2013/05/Add-VPN.png)](/assets/images/2013/05/Add-VPN.png)
 
 Now I am going to be using some login credentials for a free VPN network provided by [VPN Gate](http://www.vpngate.net/ "VPN Gate"). For this we want one of the L2TP/IPSec PSK VPNs that they provide, you are able to filter the list of VPNs that they have on their homepage by what technology they use. Within the ‘advanced’ section of the VPN network configuration, we need to set the VPN pre-shared key and the ‘Forwarding routes’. The pre-shared key used by all VPN Gate VPNs is “vpn”, if you are using a paid for or commercial VPN then the pre-shared key is likely to be a little more complex than that. In forwarding routes, you need to specify “0.0.0.0/0”.
 
-[![Specify details](https://samjenkins.com/wp-content/uploads/2013/05/Specify-details.png)](https://samjenkins.com/wp-content/uploads/2013/05/Specify-details.png)
+[![Specify details](/assets/images/2013/05/Specify-details.png)](/assets/images/2013/05/Specify-details.png)
 
 Once we are finished entering the VPN server details, click on save at which point you’ll be taken back to the VPN list page and there will be the VPN that we just set up. By selecting the new VPN you are prompted to specify the login credentials for the VPN, in the case of VPN Gate these are ‘vpn’ and ‘vpn’, paid for and commercial VPN services will have more secure credentials for you to use, but as VPN Gate is a shared service these details are kept simple.
 
-[![Login](https://samjenkins.com/wp-content/uploads/2013/05/Login.png)](https://samjenkins.com/wp-content/uploads/2013/05/Login.png)
+[![Login](/assets/images/2013/05/Login.png)](/assets/images/2013/05/Login.png)
 
 If the VPN details specified are correct then after pressing ‘Connect’ you will now be connected to the VPN network, the VPN that you created will now be listed as ‘Connected’ and there will be a key in the top left-hand corner of your screen.
 
-[![Connected](https://samjenkins.com/wp-content/uploads/2013/05/Connected.png)](https://samjenkins.com/wp-content/uploads/2013/05/Connected.png)
+[![Connected](/assets/images/2013/05/Connected.png)](/assets/images/2013/05/Connected.png)
 
 Now that we have connected to the VPN let’s check what our IP address is now showing up as, 114.179.18.37, Google also prompted me to ask whether I really wanted to be using google.co.uk and whether I would rather be using google.jp so looks like it’s a Japanese IP address.
 
-[![My IP on VPN](https://samjenkins.com/wp-content/uploads/2013/05/My-IP-on-VPN.png)](https://samjenkins.com/wp-content/uploads/2013/05/My-IP-on-VPN.png)
+[![My IP on VPN](/assets/images/2013/05/My-IP-on-VPN.png)](/assets/images/2013/05/My-IP-on-VPN.png)
 
 ###  Conclusion
 

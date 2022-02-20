@@ -41,15 +41,15 @@ In order for you to get the ListView to act like a multicolumn ListBox you need 
 
 Once you have set the ListView properties appropriately, then you will need to click on the arrow on the top right of the ListView control on your form and click on “Edit Columns”.
 
-![Viewing the ListView's available tasks](https://samjenkins.com/wp-content/uploads/2010/08/listview-tasks.jpg "Viewing the ListView's available tasks")
+![Viewing the ListView's available tasks](/assets/images/2010/08/listview-tasks.jpg "Viewing the ListView's available tasks")
 
 You will then be presented with the following form, which allows for you to define the columns that will be in the ListView control.
 
-![View the collection of column headers](https://samjenkins.com/wp-content/uploads/2010/08/columnheader-editor.jpg "View the collection of column headers")
+![View the collection of column headers](/assets/images/2010/08/columnheader-editor.jpg "View the collection of column headers")
 
 When you click on “Add” you will be displayed the following. Change the “Text” property to the text that you wish to appear as the column header. If you wish to set the “Width” property then do so, but later I will talk about how to resize your columns to the appropriate width after you have inserted the data.
 
-![Add a ColumnHeader](https://samjenkins.com/wp-content/uploads/2010/08/add-columnheader.jpg "Add a ColumnHeader")
+![Add a ColumnHeader](/assets/images/2010/08/add-columnheader.jpg "Add a ColumnHeader")
 
 Repeat this for each column that you wish to have in your ListView.
 
@@ -95,7 +95,7 @@ End Class
 
 You would probably be looping through some data set adding to the ListView but this shows you how you can add the data. Arr(0) is the first column, arr(1) is the second column, arr(2) is the third column and guess what arr(3) is the fourth column. The result of the above code is;
 
-![Output 1](https://samjenkins.com/wp-content/uploads/2010/08/output-1.jpg "Output 1")
+![Output 1](/assets/images/2010/08/output-1.jpg "Output 1")
 
 Now as you can see we have 4 columns with data in them, but each of the columns are wider than they need to be so how can we get it so that so that the columns are resized to be the appropriate width? They we can do this is by using the following code.
 
@@ -109,7 +109,7 @@ End Sub
 
 Which gives you the following result;
 
-![Output 2](https://samjenkins.com/wp-content/uploads/2010/08/output-2.jpg "Output 2")
+![Output 2](/assets/images/2010/08/output-2.jpg "Output 2")
 
 There are two options when setting the width;
 
@@ -117,7 +117,7 @@ There are two options when setting the width;
 
 -1 Will give you the form shown below. Again each of the columns are resized to the width of the content of the column and this time Column4 doesn’t extend for the rest of the ListView control.
 
-![Output 3](https://samjenkins.com/wp-content/uploads/2010/08/output-3.jpg "Output 3")
+![Output 3](/assets/images/2010/08/output-3.jpg "Output 3")
 
 **Sorting a column**
 

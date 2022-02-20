@@ -37,24 +37,24 @@ tags:
 
 I admit it I go to Starbucks for coffee occasionally, I know I am a terrible person and I’m going to hell but it’s in my building and just so convenient when I am getting into work at 07:30 or something. On a more serious note, one of the things that I like about Starbucks is their Android app, which is basically the combination of a gift card and a loyalty card, you can load up with money and then use it to pay at the counter. While this isn’t too much more work than getting out your wallet to pay I like the novelty of it as I think paying through your mobile is the way forward and that hasn’t really hit off in the UK just yet.
 
-![Loading page](https://samjenkins.com/wp-content/uploads/2013/05/Loading-page.png)  
+![Loading page](/assets/images/2013/05/Loading-page.png)  
 This isn’t going to be a review of the Starbucks app, but I have to say that I think it is pretty well designed and it would be nice if more loyalty cards were done in this fashion rather than with the traditional stamped pieces of card or credit card style loyalty cards. With the Starbucks app, you simply load up the app and use the barcode displayed on your screen to pay.
 
 Personally, I’ve found this to be convenient as I can load it up as I’m walking up to the counter and by the time I want to pay I’m ready to go, you totally save like 5 seconds of your life!!! So while the time-saving aspect isn’t exactly amazing it just makes the whole transaction just that much easier. If you’re a Londoner or have ever used the Oyster card (or similar elsewhere in the world) imagine instead of just using your Oyster card actually getting out cash to pay, it takes slightly longer but you are still getting the same service, I’m not sure about anyone else but I’d rather top up in advance and have that extra convenience (admittedly Starbucks accepts card which makes it a little easier there).
 
-![Starbucks Barcode](https://samjenkins.com/wp-content/uploads/2013/05/Barcode.png)
+![Starbucks Barcode](/assets/images/2013/05/Barcode.png)
 
 ### Rewards
 
 As mentioned before, the Starbucks app acts as both a gift card and a loyalty card. Within the app you literally get given gold stars for each drink that you purchase and where else would you store your gold stars but in a disposable coffee cup.
 
-![Rewards screen](https://samjenkins.com/wp-content/uploads/2013/05/Rewards-page.png)
+![Rewards screen](/assets/images/2013/05/Rewards-page.png)
 
 ### Free drink!
 
 Now once you’ve bought the required number of drinks you can get your free drink! Now my expectation for this was that you would just as you would any other transaction just use the app but instead of money coming from your account, it is just redeemed against your free drink. Unfortunately I was wrong, instead what happened is you get a message telling you that you will receive a voucher for your free drink soon and that is what happened I have received a voucher in the mail for my free drink.
 
-![Free drink voucher](https://samjenkins.com/wp-content/uploads/2013/05/Free-Drink-Voucher.png)
+![Free drink voucher](/assets/images/2013/05/Free-Drink-Voucher.png)
 
 Pretty poor photo but you get the idea, they have sent me through a physical voucher for me to redeem my free drink. Now to me, this seems a little disjointed and actually costs Starbucks not only a free drink but the price of printing and postage, not exactly a huge amount of money but compared to the price of it being through the app it seems a waste.
 

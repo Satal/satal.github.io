@@ -34,7 +34,7 @@ categories:
 
 Hello Internet, it’s been a while! My last update was written in January 2014! This is obviously a very long time ago and a lot has happened in my life since then. The primary change in my life is that I have moved away from primarily working in development roles into more business consulting and project management. This means that while I might still post the occasional piece of code or tech they are likely to be less frequent.
 
-![The future next exit](https://samjenkins.com/wp-content/uploads/2017/02/the-future-11-300x150.jpg)
+![The future next exit](/assets/images/2017/02/the-future-11-300x150.jpg)
 
 # So what happens next?
 

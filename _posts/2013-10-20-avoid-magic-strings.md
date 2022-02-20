@@ -46,7 +46,7 @@ tags:
 
 One of my least favourite things about the .NET Framework is that there are plenty of places where it expects you use magic strings . These make maintaining your application harder as refactoring through Visual Studio will not pick up these references, which then get left behind with their original value. This blog post is to mostly share a very useful code snippet with you that helps us to avoid using magic strings and instead uses lambda expressions to specify the name we want.
 
-![Avoiding magic strings by using expression trees](https://samjenkins.com/wp-content/uploads/2013/10/i_dont_always_expression_trees-239x300.jpg)
+![Avoiding magic strings by using expression trees](/assets/images/2013/10/i_dont_always_expression_trees-239x300.jpg)
 
 I actually found this image when Googling for “magic string .net”, so perfect for this blog post.
 

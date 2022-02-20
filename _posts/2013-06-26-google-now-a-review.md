@@ -61,29 +61,29 @@ I recently did some travelling around Europe and during this time Google Now cam
 
 So Google knew where I was staying when I was supposed to check in and check out so I would get the cards informing me of this. As when I’m on holiday I try to forget about what day it is, it was useful to be told that I was supposed to be checking out the next day otherwise I would have quite happily stayed in some locations for the entire time of my holiday.
 
-[![Google Now's widget showing my Berlin hostel check in information](https://samjenkins.com/wp-content/uploads/2013/06/Widget-Berlin-check-in-information_thumb.png "Google Now's widget showing my Berlin hostel check in information")](https://samjenkins.com/wp-content/uploads/2013/06/Widget-Berlin-check-in-information.png)
+[![Google Now's widget showing my Berlin hostel check in information](/assets/images/2013/06/Widget-Berlin-check-in-information_thumb.png "Google Now's widget showing my Berlin hostel check in information")](/assets/images/2013/06/Widget-Berlin-check-in-information.png)
 
 The card below shows what I was given for my Berlin hostel, a nice photo (I’m not certain where they’re sourcing the photo’s from), the capability to go to the Hostels information, view the email that indicates that I will be checking into this hostel on that day and the capability to call the hostel, all quite standard stuff you might want to find out.
 
-[![Berlin check in information](https://samjenkins.com/wp-content/uploads/2013/06/Berlin-check-in-information_thumb.png "Berlin check in information")](https://samjenkins.com/wp-content/uploads/2013/06/Berlin-check-in-information.png)
+[![Berlin check in information](/assets/images/2013/06/Berlin-check-in-information_thumb.png "Berlin check in information")](/assets/images/2013/06/Berlin-check-in-information.png)
 
 Once I had checked into my hostel I would have a look at the other cards that Google Now was suggesting for me, things like local transport times, nearby attractions, common photo spots near to where you currently are, translation between your default language and the local language and the time at home, which wasn’t that useful for me as I was always UTC+1 so there wasn’t much in it, but I could see this as a useful feature for people who are frequently flying to different time zones.
 
-[![Local information](https://samjenkins.com/wp-content/uploads/2013/06/Local-information_thumb.png "Local information")](https://samjenkins.com/wp-content/uploads/2013/06/Local-information.png)
+[![Local information](/assets/images/2013/06/Local-information_thumb.png "Local information")](/assets/images/2013/06/Local-information.png)
 
-[![Exchange rate, translation and weather](https://samjenkins.com/wp-content/uploads/2013/06/Exchange-rate-translation-and-weather_thumb.png "Exchange rate, translation and weather")](https://samjenkins.com/wp-content/uploads/2013/06/Exchange-rate-translation-and-weather.png)
+[![Exchange rate, translation and weather](/assets/images/2013/06/Exchange-rate-translation-and-weather_thumb.png "Exchange rate, translation and weather")](/assets/images/2013/06/Exchange-rate-translation-and-weather.png)
 
 One feature of your phone constantly reporting your location is that Google Now can come up with an approximate number of miles that you have walked. Now I personally don’t believe the figure that it reported to me as I know that I walked at least 20 miles on one day during May and the idea of me having only walked an extra 4 miles on the rest of the time is preposterous. My thoughts are that it might only be covering the time when I was in London during may due to not having a constant Internet connection when I was abroad.
 
-[![Wrong walking information](https://samjenkins.com/wp-content/uploads/2013/06/Wrong-walking-information_thumb.png "Wrong walking information")](https://samjenkins.com/wp-content/uploads/2013/06/Wrong-walking-information.png)
+[![Wrong walking information](/assets/images/2013/06/Wrong-walking-information_thumb.png "Wrong walking information")](/assets/images/2013/06/Wrong-walking-information.png)
 
 ### Flights
 
 So I’ve been quite lucky in that I was able to go on a long weekend shortly after coming back from Europe (“no man needs a holiday more than one who’s just got back from one” and all that), upon arriving back I was greeted with information about my flight. Now while when I noticed it I had already arrived back in the UK I would assume that I would have received appropriate information about my flight before hand as well, but again no Internet connection to check. I’m not sure how long before the flight this pops up but I’m not sure how useful it would be, as for most flights you’re supposed to arrive two hours in advance, so by the time you’re leaving to head to the airport they may not already know whether a flight is delayed, maybe some frequent fliers could enlighten us about how far in advance you might be able to find out if your flight is delayed.
 
-[![Widget view of flight information](https://samjenkins.com/wp-content/uploads/2013/06/Widget-view-of-flight-information_thumb.png "Widget view of flight information")](https://samjenkins.com/wp-content/uploads/2013/06/Widget-view-of-flight-information.png)
+[![Widget view of flight information](/assets/images/2013/06/Widget-view-of-flight-information_thumb.png "Widget view of flight information")](/assets/images/2013/06/Widget-view-of-flight-information.png)
 
-[![Flight information](https://samjenkins.com/wp-content/uploads/2013/06/Flight-information_thumb.png "Flight information")](https://samjenkins.com/wp-content/uploads/2013/06/Flight-information.png)
+[![Flight information](/assets/images/2013/06/Flight-information_thumb.png "Flight information")](/assets/images/2013/06/Flight-information.png)
 
 I think it’s nice that they’re able to show what time the flight is expected to arrive at your destination, the actual arrival time is interesting but in my view a little pointless.
 
@@ -91,7 +91,7 @@ I think it’s nice that they’re able to show what time the flight is expected
 
 So this new one popped up recently which I wasn’t expecting, a movie suggestion based upon actors that I like, I’m not sure which actor that they’re referring to in this film – although it would be very interesting to know which actor and why it thinks I like them – but this film for me looks like a miss. The movie suggestion appears to also be missing the photo that goes along with it, but I guess that they will probably fix that rather soon.
 
-[![Movie suggestions](https://samjenkins.com/wp-content/uploads/2013/06/Movie-suggestions_thumb.png "Movie suggestions")](https://samjenkins.com/wp-content/uploads/2013/06/Movie-suggestions.png)
+[![Movie suggestions](/assets/images/2013/06/Movie-suggestions_thumb.png "Movie suggestions")](/assets/images/2013/06/Movie-suggestions.png)
 
 ### Overall experience
 

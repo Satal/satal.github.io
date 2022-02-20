@@ -46,7 +46,7 @@ tags:
 
 The Internet is full of bots. There’s no denying it, bots have been created to perform tasks on the Internet for many purposes, a good example is Ticketmaster, who have calculated that approximately 60% of all bookings are made by bots ([src nyt](http://www.nytimes.com/2013/05/27/business/media/bots-that-siphon-off-tickets-frustrate-concert-promoters.html?pagewanted=all&_r=1& "Concert Industry Struggles With ‘Bots’ That Siphon Off Tickets")).
 
-![Example of a reCAPTCHA](https://samjenkins.com/wp-content/uploads/2013/09/recaptcha-example-1.png)
+![Example of a reCAPTCHA](/assets/images/2013/09/recaptcha-example-1.png)
 
 One of the most common practices for fighting back against bots is by adding what is known as a ‘Completely Automated Public Turing test to tell Computers and Humans Apart’ or CAPTCHA for short. These are commonly either an image or audio clip with letters and numbers that the user has to type into the computer to prove that they are human. One of the most popular versions of the CAPTCHA is [reCAPTCHA](http://www.google.com/recaptcha "reCaptcha"), which is provided free of charge by Google, this is what we will be using to add a CAPTCHA to our registration page, to avoid bots registering for our website.
 
@@ -59,7 +59,7 @@ You will need to keep these details safe for later (although you can always go b
 
 Now lets go to our ASP.NET MVC application, the first thing that we need to do is to add a NuGet package called ‘reCAPTCHA for .NET’
 
-![reCAPTCHA for NET](https://samjenkins.com/wp-content/uploads/2013/09/reCAPTCHA-for-NET.png)
+![reCAPTCHA for NET](/assets/images/2013/09/reCAPTCHA-for-NET.png)
 
 One of the things that will happen during the installation of ‘reCAPTCHA for .NET’ is that two entries will be added to the web.config, one called ‘recaptchaPublicKey’ and the other called ‘recaptchaPrivateKey’ can you guess what we are supposed to put in there? Using the details from before put the public key in ‘recaptchaPublicKey’ and put the private key in ‘recaptchaPrivateKey’ entries. That is all the configuration the ‘reCAPTCHA for .NET’ requires, all we have to do now is put the code into our application.
 
@@ -170,4 +170,4 @@ public ActionResult Register(RegisterModel model)
 
 And that is it! Now you can run your app and you should be greeted by something similar to the following
 
-![Complete registration form](https://samjenkins.com/wp-content/uploads/2013/09/Complete-registration-form.png)
+![Complete registration form](/assets/images/2013/09/Complete-registration-form.png)

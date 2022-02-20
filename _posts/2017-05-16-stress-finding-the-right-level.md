@@ -38,7 +38,7 @@ tags:
 
 When you think of stress, you no doubt think of a situation similar to this picture. A situation of discomfort, strain and pressure, which could be caused by innumerable reasons. While this is definitely one form of stress, stress is also something that can also make you feel excited, motivated and challenged.
 
-![Man showing signs of stress](https://samjenkins.com/wp-content/uploads/2017/03/Stress-photo.jpeg)
+![Man showing signs of stress](/assets/images/2017/03/Stress-photo.jpeg)
 
 ## Types of Stress
 
@@ -68,7 +68,7 @@ Distress is the form of stress that we normally associate with the word “stres
 
 The pressure performance curve is a diagrammatic representation of the ability of an individual against the level of situational stress. As everyone is unique the levels of pressure and performance levels are obviously relative.
 
-![Performance-Pressure Curve](https://samjenkins.com/wp-content/uploads/2017/03/Performance-pressure-curve.png)
+![Performance-Pressure Curve](/assets/images/2017/03/Performance-pressure-curve.png)
 
 Source: https://rubica.co.uk/insights-resources/top-tips-for-building-team-resilience
 
@@ -84,7 +84,7 @@ We then move into the Strain and Overwhelmed side of things. These are when you 
 
 I won’t look at how to give yourself more stress, as this can easily be achieved by finding a more challenging role or taking on new responsibilities. I will, however, look at dealing with stress and methods for decreasing it.
 
-![](https://samjenkins.com/wp-content/uploads/2017/04/Zen.jpeg)
+![](/assets/images/2017/04/Zen.jpeg)
 
 It is important to realise that we work in a competitive and stress filled world. Every one of us will find times when we will start to stray into the strain and overwhelmed side of the graph. Being able to identify when we are feeling stressed and finding ways of reducing it that work for us is important.
 

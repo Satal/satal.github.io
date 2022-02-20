@@ -48,7 +48,7 @@ End Class
 
 If you run this you’re likely to get an outcome similar to this;
 
-![](https://samjenkins.com/wp-content/uploads/2010/07/badrandom.jpg)
+![](/assets/images/2010/07/badrandom.jpg)
 
 As you can see from the code they are creating a new Random object every time they want to get a random number. This is where the problem lies, the Random class requires a seed and if the programmer doesn’t supply a seed then the current system clock is used. Another thing to note about the seed for the Random class is that if you provide the same seed then the number that you receive when you call Next() will be the same.
 
@@ -77,7 +77,7 @@ End Class
 
 Now if you was to run the application and click on the button you will receive an output that looks more appropriate;
 
-![](https://samjenkins.com/wp-content/uploads/2010/07/goodrandom.jpg)
+![](/assets/images/2010/07/goodrandom.jpg)
 
 Obviously as this is random there is the possibility that when you click the button you will receive the same sort of output as above although that is highly unlikely and also it is not going to happen over and over again if you keep pressing the button like it would before hand.
 

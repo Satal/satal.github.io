@@ -46,7 +46,7 @@ tags:
 
 As developers we’re inclined to want to understand what is happening under the hood or at least know that we can check if we wanted to. This is the case with Entity Framework, which performs some magic to provide access to a database and allowing us to perform actions against it. While 99% of the time we are more than happy to treat Entity Framework as a black box, sometimes we like to look under the covers and see what the Entity Framework is doing. In this article I will show you how to log the SQL queries that are being performed by the Entity Framework in an ASP.NET MVC application.
 
-[![Entity Framework Logo](https://samjenkins.com/wp-content/uploads/2013/12/Entity-Framework-Logo.png)](http://msdn.microsoft.com/en-gb/data/ef.aspx)
+[![Entity Framework Logo](/assets/images/2013/12/Entity-Framework-Logo.png)](http://msdn.microsoft.com/en-gb/data/ef.aspx)
 
 ## What is Entity Framework?
 
@@ -150,7 +150,7 @@ protected void Application_Start()
 
 Our interceptor is all configured and ready to go, so all that remains is to run the application and look at the output.
 
-[![Logging output](https://samjenkins.com/wp-content/uploads/2013/12/Logging-output.png)](https://samjenkins.com/wp-content/uploads/2013/12/Logging-output.png)
+[![Logging output](/assets/images/2013/12/Logging-output.png)](/assets/images/2013/12/Logging-output.png)
 
 As you can see above, the SQL query is output to the logger, which in my case just writes the output to the debug window.
 

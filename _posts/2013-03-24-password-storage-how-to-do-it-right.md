@@ -43,7 +43,7 @@ tags:
 
 I’ve spoken before in some of my other blog posts (some of which haven’t been finished/published yet) about password storage strategies and how it is important to make sure that you choose the right storage strategy. One of my friends pointed out that while it should be a no-brainer not to store passwords plain text or encrypted I didn’t provide any reasoning for those who aren’t familiar with this, so in that spirit, I thought I would do a post on some of the problems with different storage strategies.
 
-[![A user table where the used password storage strategy is plain text](https://samjenkins.com/wp-content/uploads/2013/03/Usertable2.png "Password storage plain text")](https://samjenkins.com/wp-content/uploads/2013/03/Usertable2.png)  
+[![A user table where the used password storage strategy is plain text](/assets/images/2013/03/Usertable2.png "Password storage plain text")](/assets/images/2013/03/Usertable2.png)  
 In my opinion, there are three families of storage strategies, plain text, encryption and hashing. Encryption and hashing can be further broken down according to what encryption or hashing algorithm is used to compute the value but they are still the same family. In the following sections, I will discuss the advantages and disadvantages of each.
 
 ### Plain Text
@@ -89,7 +89,7 @@ Hashing is different to encryption in that hashing is a one-way process, hashing
 
 So as you can see none of the above solutions is truly perfect, even hashing has the potential of having collisions with easier to guess passwords and attackers being able to use pre-computed tables to look up the plain text. The problem of being able to look up a password from a pre-computed table is an out of the box issue and it is possible to make this harder for an attacker to do with very little work. This can be achieved by using what is referred to as a ‘salt’, a salt is a series of characters which are appended or prepended to a password prior to hashing. What the salt does is mean that if an attacker wishes to brute force all the hashes in a user table then for each user he will have to compute all the values again because each user has a unique salt.
 
-[![Usertable with Hashes](https://samjenkins.com/wp-content/uploads/2013/03/Usertable-with-Hashes.png "User table with Hashes")](https://samjenkins.com/wp-content/uploads/2013/03/Usertable-with-Hashes.png)
+[![Usertable with Hashes](/assets/images/2013/03/Usertable-with-Hashes.png "User table with Hashes")](/assets/images/2013/03/Usertable-with-Hashes.png)
 
 Hopefully, you will agree with me that the most appropriate method of storing passwords is to combine the password with a unique salt for that user and to hash the result. By using a unique salt for each user it increases the time commitment for an attacker to get all the passwords. Encryption should only be used in extreme circumstances where you absolutely must be able to retrieve the plain text password (I can’t think of any good reasons off the top of my head) and plain text should never be used as a method for storing passwords.
 

@@ -48,7 +48,7 @@ tags:
 
 If you have ever developed an application that is time sensitive you’ll appreciate just how much of a nightmare it can be to get right. Do you handle users in a different time zone to you? Do you handle day light savings? Do you handle leap seconds/days?
 
-[![Time_Flies_by_janussyndicate](https://samjenkins.com/wp-content/uploads/2013/12/Time_Flies_by_janussyndicate.jpg "Time_Flies_by_janussyndicate")](http://janussyndicate.deviantart.com/art/Time-Flies-85400304 "Time Flies by janussyndicate")
+[![Time_Flies_by_janussyndicate](/assets/images/2013/12/Time_Flies_by_janussyndicate.jpg "Time_Flies_by_janussyndicate")](http://janussyndicate.deviantart.com/art/Time-Flies-85400304 "Time Flies by janussyndicate")
 
 When we develop code that is error prone or we know it requires special care over making sure that we got the implementation correct we tend to check that it works through the use of unit tests. The problem that we face though is that writing unit tests that confirm date time specific functionality is correct can be problematic and potentially so troublesome so that you to avoid writing tests for that area of the application.
 

@@ -43,7 +43,7 @@ tags:
 
 So this is something I have seen a number of times on [StackOverflow](http://stackoverflow.com/ "StackOverflow"), so I thought I would spend some time while I was on a ferry creating a solution for. So what we have is a standard deck of cards, 52 cards (no jokers), 4 suits (Clubs, Diamonds, Hearts and Spades) each with 13 cards (ace through to king). In this post I will go through the code that has been produced and at the bottom of the post there is a download link for the entire solution, unit tests and all.
 
-[![Deck of Cards](https://samjenkins.com/wp-content/uploads/2013/04/playing-cards.jpg)](https://samjenkins.com/wp-content/uploads/2013/04/playing-cards.jpg)
+[![Deck of Cards](/assets/images/2013/04/playing-cards.jpg)](/assets/images/2013/04/playing-cards.jpg)
 
    
 Source: <http://www.leadersinstitute.com/wp-content/uploads/2011/02/playing-cards.jpg>
@@ -185,4 +185,4 @@ This method is like TakeCard although it allows for the user to take more than o
 
 The deck of cards code can be used to implement your own card game software, a solitaire, poker game etc. the code it pretty simple and well defined so shouldn’t require much in the way of adjustments for any standard 52 card deck game. If you want to add Jokers then that will require a little more work but nothing too major (I’m just not too sure about their usage in games so I thought I would leave them out).
 
-Anyway the solution that I produced for the deck of cards is available for download here ([Deck of Cards in C#](https://samjenkins.com/wp-content/uploads/2013/04/Cards.zip))
+Anyway the solution that I produced for the deck of cards is available for download here ([Deck of Cards in C#](/assets/images/2013/04/Cards.zip))

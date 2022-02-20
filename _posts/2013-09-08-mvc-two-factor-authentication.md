@@ -45,7 +45,7 @@ tags:
     - MVC
 ---
 
-It’s becoming more and more common for websites to provide the capability of having two factor authentication as part of you login process. Google, GitHub, Hotmail and Dropbox just to name a few of the organisations that have embraced two factor authentication and provided it as an optional security measure. In this article I will demonstrate how to implement two factor authentication in your ASP.NET MVC application using Google Authentication.![Two Factor Authentication devices](https://samjenkins.com/wp-content/uploads/2013/09/TwoFactorAuthentication.jpg)
+It’s becoming more and more common for websites to provide the capability of having two factor authentication as part of you login process. Google, GitHub, Hotmail and Dropbox just to name a few of the organisations that have embraced two factor authentication and provided it as an optional security measure. In this article I will demonstrate how to implement two factor authentication in your ASP.NET MVC application using Google Authentication.![Two Factor Authentication devices](/assets/images/2013/09/TwoFactorAuthentication.jpg)
 
 ## What is two factor authentication?
 

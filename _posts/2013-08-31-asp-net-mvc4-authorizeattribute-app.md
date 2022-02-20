@@ -49,13 +49,13 @@ tags:
 
 If you’re developing a website where there should only be a couple of publicly accessible pages in ASP.NET MVC, then at first you may try to go through all your controllers decorating them with the AuthorizeAttribute. Although you will still want to allow anonymous users access to the login page otherwise anonymous users can never become logged in users, in MVC4 you can specify that you want to allow anonymous access to a particular action within a controller which requires the users be logged in by the decorating the actions that you want to be publicly accessible with the AllowAnonymousAttribute
 
-![Control access to your webpages with the AuthorizeAttribute](https://samjenkins.com/wp-content/uploads/2013/08/Access-control.jpg)
+![Control access to your webpages with the AuthorizeAttribute](/assets/images/2013/08/Access-control.jpg)
 
 Nice and simple right? Well, what happens when another developer comes onto the team and creates a new controller without decorating it with the AuthorizeAttribute? I’ve dealt with this before by creating a unit test which checks that all actions in an application have the AuthorizeAttribute applied to them either through the controller or directly, I can already hear the unit test purists weeping at my abuse of unit tests, but it worked.
 
 But what works better is by having a system that automatically makes all actions have the AuthorizeAttribute applied to it unless you specifically apply the AllowAnonymouseAttribute. As we know whitelisting will always trump blacklisting when it comes to security, so this method will allow you to feel a little more at ease about there not being any unwanted anonymous access. The way that we can achieve this is by going to the FilterConfig class in the App\_Start directory of your ASP.NET MVC 4 application.
 
-![FilterConfig in the App_Start folder of your solution](https://samjenkins.com/wp-content/uploads/2013/08/2013-08-31-21_42_39-TwoFactorAuthentication-Microsoft-Visual-Studio.png)
+![FilterConfig in the App_Start folder of your solution](/assets/images/2013/08/2013-08-31-21_42_39-TwoFactorAuthentication-Microsoft-Visual-Studio.png)
 
 Within the FilterConfig.cs class, we want to add a new filter for the AuthorizeAttribute as below.
 

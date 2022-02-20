@@ -44,7 +44,7 @@ tags:
 
 Failing to handle null reference’s is one of the most common bugs in an application, this happens when a developer assumes that the a value will always contain an object even though it could be null. One of the nasty things about checking for nulls is that if you’re looking to retrieve a value from a deeply nested value would end up with a large number of nested if statements or one rather long if condition. In this blog post, I am going to show you a method that I have developed to avoid the need for these, allowing us to write much cleaner and more readable code.
 
-![Null Reference Exception](https://samjenkins.com/wp-content/uploads/2013/10/null-reference-exception.png)
+![Null Reference Exception](/assets/images/2013/10/null-reference-exception.png)
 
 We’ve all done it, you’ve written code where you either forgot or was too lazy to check that an object wasn’t null before trying to perform some action on it, whether that calls a method or retrieve a value. This is easily done and can be difficult to identify when visually inspecting your code, I dread to think how many times I have neglected to include checking for nulls in my code. To check that we aren’t going to cause a null reference exception, we need to go through each step checking that the returned value isn’t null before continuing on to the next, this leads to lots of nested if statements, which in my opinion aren’t very pretty. After coming across a requirement to do this deep if nesting with one of my personal projects I decided that if there had to be an easier way and if there wasn’t an existing way I’d come up with one, which resulted in the creation of a pretty unimaginative class called ValueRetriever.
 

@@ -49,7 +49,7 @@ tags:
     - 'review round'
 ---
 
-![Stormtrooper review round](https://samjenkins.com/wp-content/uploads/2017/08/Stormtroopers.jpg)
+![Stormtrooper review round](/assets/images/2017/08/Stormtroopers.jpg)
 
 You might have thought that working hard, getting results and doing a good job would be enough to get you a good review round score. Unfortunately, this only really works in small organisations where everyone knows you and they’re aware of how you’re performing. In larger organisations, the people making the final decisions around promotions and pay rises are unlikely to be personally familiar with your work. They will need to utilise a more formal appraisal process to ensure that everyone gets reviewed fairly.
 
@@ -81,7 +81,7 @@ In addition to the folder, I use a spread sheet for tracking my progress. In thi
 
 You can download a copy of the spread sheet (both Excel and Google Sheets) that I use, below.
 
-![Objectives progress tracker](https://samjenkins.com/wp-content/uploads/2017/08/Objectives-progress-tracker-1024x258.png)
+![Objectives progress tracker](/assets/images/2017/08/Objectives-progress-tracker-1024x258.png)
 
 <div>[contact-form-7 404 "Not Found"]</div>#### Regular reflection
 
@@ -99,7 +99,7 @@ Tracking how you are progressing against your objectives is fine but it is worth
 
 I’ve been very fortunate to have very friendly career managers, who I have enjoyed talking to about work and common interests. This has therefore been quite easy for me, but it is worthwhile putting in the effort to build up your relationship with your career manager.
 
-### ![Review chat](https://samjenkins.com/wp-content/uploads/2017/07/Review-chat-640x350.jpg)Discuss expectations early in the year
+### ![Review chat](/assets/images/2017/07/Review-chat-640x350.jpg)Discuss expectations early in the year
 
 Do you want to go for promotion this year? If so you should be speaking to your career manager about this at the beginning of the year. They may have a view of whether you are ready for the promotion or not. Knowing this early can help you plan for the year. If there’s a lot of competencies to demonstrate before they will put you forward, you can discuss options for demonstrating them during the year.
 

@@ -76,7 +76,7 @@ A common thought with Imposter Syndrome is that everyone knows more than you. In
 
 Everyone has their areas of knowledge, while your colleague may have talked about network configuration, which you know nothing about, they may not know the difference between Change and Release management. This doesn’t make either of you smarter than the other. The Venn diagrams below very simply explain people’s overlapping knowledge bases in a very nice way.
 
-![Imposter-Syndrome-Belief](https://samjenkins.com/wp-content/uploads/2017/07/Imposter-Syndrome-Belief.png)
+![Imposter-Syndrome-Belief](/assets/images/2017/07/Imposter-Syndrome-Belief.png)
 
 Source: https://open.buffer.com/impostor-syndrome-8-tips-i-wish-i-had-known/
 
@@ -104,7 +104,7 @@ Imposter syndrome is something that almost everyone will experience during their
 
 The key message is, you can almost guarantee that everyone around you has experienced the same feelings of doubt as you, and it’s perfectly normal. If you don’t believe me, then take a look at the chart below (because charts never lie).
 
-![Being Okay with Imposter Syndrome](https://samjenkins.com/wp-content/uploads/2017/07/Being-okay-with-imposter.png)
+![Being Okay with Imposter Syndrome](/assets/images/2017/07/Being-okay-with-imposter.png)
 
 Source: http://errantscience.com/imposter-syndrome/
 
