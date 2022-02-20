@@ -38,7 +38,7 @@ In this post, I’m going to talk about my recent change of hosting provider and
 
 ## Why move hosting provider?
 
-While in hindsight this is very obvious, it was something that I hadn’t thought about properly previously. Prior to moving my websites to [SiteGround](https://samjenkins.com/SiteGround), I had a few different websites with different hosting providers. This is obviously a sub-ideal arrangement as it duplicates costs between them. With moving all my sites to the same hosting provider I was able to decrease the amount of money I was paying for each website as the cost of hosting was split between the sites. Always a good thing!
+While in hindsight this is very obvious, it was something that I hadn’t thought about properly previously. Prior to moving my websites to [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11), I had a few different websites with different hosting providers. This is obviously a sub-ideal arrangement as it duplicates costs between them. With moving all my sites to the same hosting provider I was able to decrease the amount of money I was paying for each website as the cost of hosting was split between the sites. Always a good thing!
 
 ## Why SiteGround?
 
