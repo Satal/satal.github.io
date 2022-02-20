@@ -59,7 +59,7 @@ When we are creating the drop down lists we will need to use named ranges to spe
 
 To define a new named range we can go to the Formulas tab and click on the Define Name button.
 
-![](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Define-Name.png)
+![Define name button in Ribbon](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Define-Name.png)
 
 This will then give us a pop-up where we specify the name of the named range and what cells it refers to. You will need to type in the table name and column as selecting the cells will give you absolute references.
 

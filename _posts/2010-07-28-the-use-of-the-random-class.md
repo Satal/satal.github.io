@@ -77,7 +77,7 @@ End Class
 
 Now if you was to run the application and click on the button you will receive an output that looks more appropriate;
 
-![](/assets/images/2010/07/goodrandom.jpg)
+![A form showing random numbers](/assets/images/2010/07/goodrandom.jpg)
 
 Obviously as this is random there is the possibility that when you click the button you will receive the same sort of output as above although that is highly unlikely and also it is not going to happen over and over again if you keep pressing the button like it would before hand.
 

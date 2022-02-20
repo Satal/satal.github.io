@@ -84,7 +84,7 @@ We then move into the Strain and Overwhelmed side of things. These are when you 
 
 I won’t look at how to give yourself more stress, as this can easily be achieved by finding a more challenging role or taking on new responsibilities. I will, however, look at dealing with stress and methods for decreasing it.
 
-![](/assets/images/2017/04/Zen.jpeg)
+![Stacked stoned over a stream](/assets/images/2017/04/Zen.jpeg)
 
 It is important to realise that we work in a competitive and stress filled world. Every one of us will find times when we will start to stray into the strain and overwhelmed side of the graph. Being able to identify when we are feeling stressed and finding ways of reducing it that work for us is important.
 

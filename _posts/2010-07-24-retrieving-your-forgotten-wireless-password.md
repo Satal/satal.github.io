@@ -31,6 +31,6 @@ Thankfully some genius had already experienced this problem and had created an a
 
 To get the password back it was quite as simple as running the application, if you’re using Vista or Windows 7 then you will need to allow the UAC and then you will be greeted with a list of wireless access points that the current computer has connected to and the keys for accessing them.
 
-![](http://www.nirsoft.net/utils/wirelesskeyview.gif)
+![Wireless key view](/assets/images/wirelesskeyview.gif)
 
 The tool is available from [http://www.nirsoft.net/utils/wireless\_key.html](http://www.nirsoft.net/utils/wireless_key.html).
