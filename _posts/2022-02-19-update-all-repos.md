@@ -12,6 +12,8 @@ tags:
 
 Over the years I've been working to move more and more of the content into version control. This spans both my development work and writing for this site and books/documents. However, as I switch between multiple computers where I will use one as my day-to-day driver and a second one for when I'm travelling to and from work, ensuring that I keep all the repos up to date can be an issue. I also use a varient of this on my phone to ensure everything is kept up to date on there as well.
 
+<span id="ezoic-pub-video-placeholder-1"></span>
+
 For this reason, I have created a bash script that I can use on my laptops to iterate through all of my repos and pull down the latest commits. While this is not necessarily best practice, it suits my purposes and I imagine that it will be something that will be helpful for a large number of other people, hence creating this.
 
 ## The code
