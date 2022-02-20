@@ -24,7 +24,7 @@ tags:
     - VB.NET
 ---
 
-This article goes hand in hand with my article called “[Restrict characters entered into textbox](https://samjenkins.com/restrict-characters-entered-into-textbox)” and I shall use pretty much the same example as I used before.
+This article goes hand in hand with my article called “[Restrict characters entered into textbox](https://samjenkins.com/restrict-characters-entered-into-textbox/)” and I shall use pretty much the same example as I used before.
 
 If you wanted to stop a user from entering anything but numbers into a TextBox you could use the method described in the previous article, but the one problem with that is that the user is still able to paste letters into the TextBox. The following code will not only stop the user from entering anything except for the particular characters specified but also wont allow for the user paste.
 
