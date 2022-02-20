@@ -1,7 +1,6 @@
 ---
 title: Update all Git repositories
 date: '2022-02-19T11:30:11+00:00'
-tags: Git
 permalink: /update-all-repos/
 author: Satal
 
