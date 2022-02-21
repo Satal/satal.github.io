@@ -12,6 +12,11 @@ tags:
   - Jekyll
 ---
 
+As part of my work to move my life to Markdown, I've moved my site SamJenkins.com to a static site generator called [Jekyll](https://jekyllrb.com/) and deployed it to Github.
+
+## Why run your site on Github?
+
+I have previously been a strong advocate of running sites on WordPress, as long as they were properly maintained and updated.
 
 ## Setting Up Google Tag Manager
 
