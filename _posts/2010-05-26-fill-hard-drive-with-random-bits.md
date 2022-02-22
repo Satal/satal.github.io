@@ -6,6 +6,9 @@ author: Satal
 
 guid: 'http://satalketo.com/2010/05/how-to-fill-your-hard-drive-up-with-random-bits/'
 permalink: /fill-hard-drive-with-random-bits/
+redirect_from:
+    - /blog/2010/05/26/fill-hard-drive-with-random-bits/
+    - /2010/05/26/fill-hard-drive-with-random-bits/
 spacious_page_layout:
     - default_layout
 rank_math_primary_category:
