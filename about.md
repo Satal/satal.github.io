@@ -24,7 +24,9 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
-permalink: /about/
+permalink: /about-me/
+redirect_from:
+  - /about/
 ---
 
 ![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
