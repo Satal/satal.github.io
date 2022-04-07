@@ -44,7 +44,7 @@ While in hindsight this is very obvious, it was something that I hadn’t though
 
 I have to admit, when setting up [SatalKeto.com](https://samjenkins.com) originally, I hadn’t gone out of my way to find the best hosting provider. I had just chosen a well-known hosting provider and never went back to review if it was the best option. It was an approach I had taken for other websites too, which looking back is rather foolish.
 
-Towards the end of last year, I started looking at setting up a new website. When looking for a hosting provider for that website I came across a lot of good reviews for [SiteGround](https://samjenkins.com/SiteGround) and thought I would give them a try. Obviously, how little the website would cost was a factor, so I won’t talk about, but some of the other reasons I chose it were:
+Towards the end of last year, I started looking at setting up a new website. When looking for a hosting provider for that website I came across a lot of good reviews for [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) and thought I would give them a try. Obviously, how little the website would cost was a factor, so I won’t talk about, but some of the other reasons I chose it were:
 
 - Automatic updates for [WordPress](https://www.siteground.co.uk/tutorials/wordpress/siteground-autoupdate.htm) and [Joomla](https://www.siteground.co.uk/tutorials/joomla/joomla-autoupdate.htm);
 - Promises of great support (more on that later);
@@ -54,26 +54,26 @@ Towards the end of last year, I started looking at setting up a new website. Whe
 
 ## Introducing Free SSL
 
-Since I originally joined [SiteGround](https://samjenkins.com/SiteGround), they have started providing free SSL on ALL accounts. This is enabled by default for all new website. For existing websites, they have made it incredibly simple to switch on.
+Since I originally joined [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11), they have started providing free SSL on ALL accounts. This is enabled by default for all new website. For existing websites, they have made it incredibly simple to switch on.
 
-[SiteGround](https://samjenkins.com/SiteGround) talk about how they’ve joined up with [Let’s Encrypt ](https://letsencrypt.org/)to allow all users to run their websites through HTTPS [here](https://www.siteground.com/blog/lets-encrypt/).
+[SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) talk about how they’ve joined up with [Let’s Encrypt ](https://letsencrypt.org/)to allow all users to run their websites through HTTPS [here](https://www.siteground.com/blog/lets-encrypt/).
 
 ## SiteGround Support
 
-One thing that has really pleasantly surprised me is how good [SiteGround](https://samjenkins.com/SiteGround)‘s support has been. They have been able to quickly and easily resolve the standard sort of questions that you would get with hosting. In addition, they have been able to help with very specific WordPress/Joomla issues and resolve them for me.
+One thing that has really pleasantly surprised me is how good [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11)‘s support has been. They have been able to quickly and easily resolve the standard sort of questions that you would get with hosting. In addition, they have been able to help with very specific WordPress/Joomla issues and resolve them for me.
 
-As far as timeliness, while I haven’t tried asking them questions at weird and wonderful hours, [SiteGround](https://samjenkins.com/SiteGround)‘s support have always answered within 20 minutes. The longer instances have been where they have already resolved my issue for me and are just writing to confirm it’s sorted! Now that’s service I can get used to.
+As far as timeliness, while I haven’t tried asking them questions at weird and wonderful hours, [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11)‘s support have always answered within 20 minutes. The longer instances have been where they have already resolved my issue for me and are just writing to confirm it’s sorted! Now that’s service I can get used to.
 
 ## Impact of changing hosting provider
 
-Having moved this website over to [SiteGround](https://samjenkins.com/SiteGround) 6 days ago and the number of weekly visits has DOUBLED its normal number. This is without having added new content or having advertised the website at all.
+Having moved this website over to [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) 6 days ago and the number of weekly visits has DOUBLED its normal number. This is without having added new content or having advertised the website at all.
 
-Realistically I would predominantly put this down to the addition of HTTPS to the entire website. Google have previously said whether a website uses HTTPS is taken into consideration for rankings (blog post [here](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html)). It may seem unfair to attribute the increase in visitors to [SiteGround](https://samjenkins.com/SiteGround) because I implemented HTTPS but I wouldn’t have implemented it if [SiteGround](https://samjenkins.com/SiteGround) hadn’t made it free and so simple to implement.
+Realistically I would predominantly put this down to the addition of HTTPS to the entire website. Google have previously said whether a website uses HTTPS is taken into consideration for rankings (blog post [here](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html)). It may seem unfair to attribute the increase in visitors to [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) because I implemented HTTPS but I wouldn’t have implemented it if [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) hadn’t made it free and so simple to implement.
 
 While it is perhaps a little more subjective, I have also felt that the website has been more responsive since the move. Unfortunately, I failed to take the necessary measurements to definitely state that this is true.
 
 ## Summing Up
 
-Overall I’ve found [SiteGround](https://samjenkins.com/SiteGround) to be a great option for when you want to get a simple WordPress or Joomla up and running. [SiteGround](https://samjenkins.com/SiteGround) have made it ridiculously simple to get your site running over HTTPS while keeping it up to date.
+Overall I’ve found [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) to be a great option for when you want to get a simple WordPress or Joomla up and running. [SiteGround](https://www.siteground.com/index.htm?afcode=b054fc32316f479125dd83ae49ac7a11) have made it ridiculously simple to get your site running over HTTPS while keeping it up to date.
 
 If you’re looking to start a new website or like me want to consolidate your websites into one hosting provider, I’d strongly suggest giving them a look.
