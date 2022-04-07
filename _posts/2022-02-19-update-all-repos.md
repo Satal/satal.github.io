@@ -48,5 +48,3 @@ chmod +x update_all_repos.sh
 ```
 
 Once this has been completed you're able to run the script by running `./update_all_repos.sh`.
-
-[broken link](/broken)

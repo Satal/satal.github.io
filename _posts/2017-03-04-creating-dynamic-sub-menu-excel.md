@@ -47,7 +47,9 @@ We are going to make a simple look up, which when you specify a country will giv
 
 ### Creating the data for the dynamic sub-menu
 
-The first thing we are going to do is create six tables, one table for the names of the countries and one table for each of the countries. In my case, I have chosen Belgium, Croatia, Italy, Spain and the UK, and Googled a list of ten cities in each of them.![The tables for the dynamic sub-menu](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Tables.png)
+The first thing we are going to do is create six tables, one table for the names of the countries and one table for each of the countries. In my case, I have chosen Belgium, Croatia, Italy, Spain and the UK, and Googled a list of ten cities in each of them.
+
+![The tables for the dynamic sub-menu](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Tables.png)
 
 You’ll notice for I have made the column header for each table to be a description of what the table contains. This is just for clarify. Depending on how clear you like your references to be, you could also go ahead and specify a name for each of the tables by going into Table Tools &gt; Design, then updating the Table Name. It is important that you don’t name any of the tables just their country name, you’ll see why later. Instead, I would suggest something like UKCities.
 
