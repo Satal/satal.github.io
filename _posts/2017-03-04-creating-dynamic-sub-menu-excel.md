@@ -99,7 +99,7 @@ When you click on OK, you might get a warning that this formula gives an error, 
 
 We are now complete, if you select one of the countries then the options available in the city cell will be those specified in the corresponding table. If you add an item to the table it will automatically be added without having to worry about changing the named range.
 
-![](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Final-Drop-Downs.png)
+![The final drop downs](/assets/images/2017/02/Excel-Dynamic-Sub-Menu-Final-Drop-Downs.png)
 
 ## Why I chose to use Tables
 

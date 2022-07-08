@@ -48,7 +48,7 @@ End Class
 
 If you run this you’re likely to get an outcome similar to this;
 
-![](/assets/images/2010/07/badrandom.jpg)
+![Random done wrong](/assets/images/2010/07/badrandom.jpg)
 
 As you can see from the code they are creating a new Random object every time they want to get a random number. This is where the problem lies, the Random class requires a seed and if the programmer doesn’t supply a seed then the current system clock is used. Another thing to note about the seed for the Random class is that if you provide the same seed then the number that you receive when you call Next() will be the same.
 
