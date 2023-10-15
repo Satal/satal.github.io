@@ -52,6 +52,8 @@ Personally, I have my photo and QR code on the back of my business card, leaving
 
 Consider creating a separate business card specifically for trades. This card can offer incentives, such as a finder's fee, encouraging tradespeople to refer potential vendors to you. By establishing this sort of partnership, you open up a direct avenue to potential leads, particularly those interested in selling property.
 
+| Trade card |
+| --- |
 ![Trade card](../assets/images/2023/Trade_card.png)
 
 ## Final Thoughts
