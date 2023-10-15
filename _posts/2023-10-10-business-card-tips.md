@@ -54,7 +54,7 @@ Consider creating a separate business card specifically for trades. This card ca
 
 | Trade card |
 | --- |
-![Trade card](../assets/images/2023/Trade_card.png)
+| ![Trade card](../assets/images/2023/Trade_card.png) |
 
 ## Final Thoughts
 
