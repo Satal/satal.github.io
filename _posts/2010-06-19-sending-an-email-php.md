@@ -1,20 +1,12 @@
 ---
-id: 56
 title: 'Sending an email in PHP'
 date: '2010-06-19T11:52:55+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/sending-an-email/'
 redirect_from:
     - /blog/2010/06/19/sending-an-email-php/
     - /2010/06/19/sending-an-email-php/
 permalink: /sending-an-email-php/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '174'
 categories:
     - All
     - Computer

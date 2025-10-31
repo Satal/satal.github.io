@@ -1,10 +1,8 @@
 ---
-id: 587
 title: 'Magic Strings: How to avoid them in C#'
 date: '2013-10-20T14:47:40+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=587'
 redirect_from:
     - /blog/2013/10/20/avoid-magic-strings/
     - /2013/10/20/avoid-magic-strings/
@@ -12,29 +10,11 @@ permalink: /avoid-magic-strings/
 snapFB:
     - 's:383:"a:1:{i:0;a:12:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:27:"605595058_10151627618425059";s:5:"pDate";s:19:"2013-10-20 14:47:44";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:
-    - 's:492:"a:1:{i:0;a:12:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:123:"http://www.linkedin.com/updates?discuss=&amp;scope=25932443&amp;stype=M&amp;topic=5797704486835220480&amp;type=U&amp;a=-6kE";s:5:"pDate";s:19:"2013-10-20 14:47:45";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
+    - 's:492:"a:1:{i:0;a:12:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:123:"https://www.linkedin.com/updates?discuss=&amp;scope=25932443&amp;stype=M&amp;topic=5797704486835220480&amp;type=U&amp;a=-6kE";s:5:"pDate";s:19:"2013-10-20 14:47:45";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snap_isAutoPosted:
     - '1'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:268:"a:1:{i:0;a:8:{s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:2:"do";i:0;}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_description:
-    - 'Showing how to avoid using magic strings within your application and instead using lambda expressions to specify the class/method/variable name.'
 rank_math_focus_keyword:
     - 'Magic string'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '112'
 image: /wp-content/uploads/2013/10/i_dont_always_expression_trees-1.jpg
 categories:
     - All
@@ -68,7 +48,7 @@ As you can see the method has a parameter which we check to see whether or not i
 
 ## The magic anti-magic strings code
 
-So I am currently looking at implementing a Ribbon for the XML File Explorer and found a good explanation on how to do it [here](http://blogs.microsoft.co.il/blogs/arik/archive/2009/12/23/windows-ribbon-for-winforms-part-0-table-of-contents.aspx "Windows Ribbon for WinForms"), but while I was looking through some of the other things Arik has done I found [this](http://blogs.microsoft.co.il/blogs/arik/archive/2010/11/17/no-more-magic-strings-presenting-string-of.aspx "No More Magic Strings! Presenting: @string.of") little beauty. The code uses [Expressions ](http://msdn.microsoft.com/en-us/library/system.linq.expressions.expression.aspx "MSDN documentation for the Expression Class ") allowing us to specify a variable, field, method, property and retrieve the name as a string, it also includes just for completeness a way of getting a class name as string although this is done in a different way. The website provides a sample project which contains the code, although strangely enough you download it as a zip.txt.
+So I am currently looking at implementing a Ribbon for the XML File Explorer and found a good explanation on how to do it [here](https://blogs.microsoft.co.il/blogs/arik/archive/2009/12/23/windows-ribbon-for-winforms-part-0-table-of-contents.aspx "Windows Ribbon for WinForms"), but while I was looking through some of the other things Arik has done I found [this](https://blogs.microsoft.co.il/blogs/arik/archive/2010/11/17/no-more-magic-strings-presenting-string-of.aspx "No More Magic Strings! Presenting: @string.of") little beauty. The code uses [Expressions ](https://msdn.microsoft.com/en-us/library/system.linq.expressions.expression.aspx "MSDN documentation for the Expression Class ") allowing us to specify a variable, field, method, property and retrieve the name as a string, it also includes just for completeness a way of getting a class name as string although this is done in a different way. The website provides a sample project which contains the code, although strangely enough you download it as a zip.txt.
 
 ```csharp
 using System;

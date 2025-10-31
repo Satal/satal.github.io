@@ -1,20 +1,12 @@
 ---
-id: 74
 title: 'The use of the Random class'
 date: '2010-07-28T22:41:56+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/07/the-use-of-the-random-class/'
 redirect_from:
     - /blog/2010/07/28/the-use-of-the-random-class/
     - /2010/07/28/the-use-of-the-random-class/
 permalink: /the-use-of-the-random-class/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '161'
 image: /wp-content/uploads/2010/07/badrandom-1.jpg
 categories:
     - All

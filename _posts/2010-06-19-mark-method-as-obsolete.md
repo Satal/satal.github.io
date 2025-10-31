@@ -1,24 +1,12 @@
 ---
-id: 53
 title: 'How to mark method as obsolete'
 date: '2010-06-19T10:50:40+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/how-to-mark-method-as-obsolete/'
 redirect_from:
     - /blog/2010/06/19/mark-method-as-obsolete/
     - /2010/06/19/mark-method-as-obsolete/
 permalink: /mark-method-as-obsolete/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '176'
 categories:
     - All
     - Computer

@@ -1,20 +1,12 @@
 ---
-id: 77
 title: 'Dynamically adding and later referencing control'
 date: '2010-08-04T12:46:14+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/dynamically-adding-and-later-referencing-control/'
 redirect_from:
     - /blog/2010/08/04/add-and-referencing-control/
     - /2010/08/04/add-and-referencing-control/
 permalink: /add-and-referencing-control/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '159'
 categories:
     - All
     - Computer

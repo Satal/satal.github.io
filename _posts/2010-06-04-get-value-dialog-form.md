@@ -1,24 +1,12 @@
 ---
-id: 41
 title: 'Get a value back from a dialog form'
 date: '2010-06-04T09:47:57+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/get-a-value-back-from-a-dialog-form/'
 redirect_from:
     - /blog/2010/06/04/get-value-dialog-form/
     - /2010/06/04/get-value-dialog-form/
 permalink: /get-value-dialog-form/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '179'
 categories:
     - All
     - Computer

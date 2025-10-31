@@ -1,24 +1,12 @@
 ---
-id: 51
 title: 'Applying multiple namespaces to a class'
 date: '2010-06-13T19:07:03+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/applying-multiple-namespaces-to-a-class/'
 redirect_from:
     - /blog/2010/06/13/apply-multiple-namespaces/
     - /2010/06/13/apply-multiple-namespaces/
 permalink: /apply-multiple-namespaces/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '178'
 categories:
     - All
     - Computer

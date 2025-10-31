@@ -1,20 +1,12 @@
 ---
-id: 70
 title: 'Retrieving your forgotten wireless password'
 date: '2010-07-24T14:37:17+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/07/retrieving-your-forgotten-wireless-password/'
 redirect_from:
     - /blog/2010/07/24/retrieving-your-forgotten-wireless-password/
     - /2010/07/24/retrieving-your-forgotten-wireless-password/
 permalink: /retrieving-your-forgotten-wireless-password/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '163'
 categories:
     - All
     - Computer
@@ -33,4 +25,4 @@ To get the password back it was quite as simple as running the application, if y
 
 ![Wireless key view](/assets/images/wirelesskeyview.gif)
 
-The tool is available from [http://www.nirsoft.net/utils/wireless\_key.html](http://www.nirsoft.net/utils/wireless_key.html).
+The tool is available from [https://www.nirsoft.net/utils/wireless\_key.html](https://www.nirsoft.net/utils/wireless_key.html).

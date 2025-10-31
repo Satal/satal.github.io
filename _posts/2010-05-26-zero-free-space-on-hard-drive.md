@@ -1,24 +1,12 @@
 ---
-id: 35
 title: 'How to zero the free space on your hard drive on Linux'
 date: '2010-05-26T23:03:02+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/how-to-zero-the-free-space-on-your-hard-drive/'
 redirect_from:
     - /blog/2010/05/26/zero-free-space-on-hard-drive/
     - /2010/05/26/zero-free-space-on-hard-drive/
 permalink: /zero-free-space-on-hard-drive/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '185'
 categories:
     - All
     - Computer
@@ -28,7 +16,7 @@ categories:
 The reason you’re reading this tutorial is probably because you have read about how when you delete a file it isn’t actually deleted only the pointer which tells the OS where to find the file is deleted and you want to reduce the chance of someone being able to recover files that you have deleted from your computer (please bare in mind that the only sure fire way to get rid of all the files from your hard drive is by physically destroying your hard drive).
 
 Tools Required:  
-Linux (if you really want you can run this all from a LiveCD like [BackTrack](http://www.backtrack-linux.org/) or the [Ubuntu](http://www.ubuntu.com/) install CD in try mode)
+Linux (if you really want you can run this all from a LiveCD like [BackTrack](https://www.backtrack-linux.org/) or the [Ubuntu](https://www.ubuntu.com/) install CD in try mode)
 
 Steps:
 

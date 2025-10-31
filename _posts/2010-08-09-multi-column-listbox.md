@@ -1,24 +1,12 @@
 ---
-id: 87
 title: 'Using a ListView as a multi column ListBox'
 date: '2010-08-09T10:49:15+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/using-a-listview-as-a-multi-column-listbox/'
 redirect_from:
     - /blog/2010/08/09/multi-column-listbox/
     - /2010/08/09/multi-column-listbox/
 permalink: /multi-column-listbox/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - ''
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '155'
 image: /wp-content/uploads/2010/08/listview-tasks-1.jpg
 categories:
     - All
@@ -123,6 +111,6 @@ There are two options when setting the width;
 
 One thing that you find that you commonly want to do is to sort a column according to the content of the column.
 
-In order to do this you will need to get the ListViewComparer class from [http://www.vb-helper.com/howto\_net\_listview\_sort\_clicked\_column.html](http://www.vb-helper.com/howto_net_listview_sort_clicked_column.html) and add it to your solution.
+In order to do this you will need to get the ListViewComparer class from [https://www.vb-helper.com/howto\_net\_listview\_sort\_clicked\_column.html](https://www.vb-helper.com/howto_net_listview_sort_clicked_column.html) and add it to your solution.
 
 Once you have done this then you will need to add the private field that is specified in the latter half of the above webpage called m\_SortingColumn and implement the ColumnClick event for your ListView with the appropriate code again from the latter half of the above webpage.

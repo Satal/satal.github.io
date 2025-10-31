@@ -1,10 +1,8 @@
 ---
-id: 15
 title: 'Strong password storage strategies on websites'
 date: '2013-03-17T11:17:47+00:00'
 author: Satal
 
-guid: 'http://blog.satalketo.co.uk/?p=15'
 redirect_from:
     - /blog/2013/03/17/password-storage/
     - /2013/03/17/password-storage/
@@ -13,24 +11,8 @@ snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:268:"a:1:{i:0;a:8:{s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:2:"do";i:0;}}";'
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'Is blind trust in a websites password storage strategy adequate? Promoting strong password storage strategies within online organisations.'
 rank_math_focus_keyword:
     - 'Password storage'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '132'
 categories:
     - All
     - Computer
@@ -46,15 +28,15 @@ Yesterday I realised that I had forgotten my password for a web hosting service 
 
 [![Email from Streamline, showing their poor password storage strategy](/assets/images/2013/03/Email-from-Streamline.png)](/assets/images/2013/03/Email-from-Streamline.png)<figcaption class="wp-caption-text" id="caption-attachment-16">The ‘Forgot my password’ email from a hosting company, showing their poor password storage strategy</figcaption></figure>
 
-This tells me instantly that their password storage strategy is flawed, they should not be able to retrieve the plain text version of my password. You would have hoped with the number of large websites which have had their user details stolen that companies would have realised that they need a decent password storage policy. Some great examples of where the password storage strategy has not been adequate are [Tesco](http://www.theregister.co.uk/2012/07/31/tesco_website_insecurity/ "TheRegister - Tesco Web Insecurity"), [Gawker](http://www.bbc.co.uk/news/technology-11998648 "BBC News - Gawker hack triggers password resets at major sites"), [ABC](http://www.mailguard.com.au/blog/hashed-abc-passwords-cracked-by-australian-security-researcher/ "Mailguard.com.au - “Hashed” ABC Passwords Cracked by Australian Security Researcher") and of course [Sony](http://www.zdnet.com/article/sony-hacked-again-another-1m-passwords-exposed/ "Sony Hacked Again, 1 Million Passwords Exposed").
+This tells me instantly that their password storage strategy is flawed, they should not be able to retrieve the plain text version of my password. You would have hoped with the number of large websites which have had their user details stolen that companies would have realised that they need a decent password storage policy. Some great examples of where the password storage strategy has not been adequate are [Tesco](https://www.theregister.co.uk/2012/07/31/tesco_website_insecurity/ "TheRegister - Tesco Web Insecurity"), [Gawker](https://www.bbc.co.uk/news/technology-11998648 "BBC News - Gawker hack triggers password resets at major sites"), [ABC](https://www.mailguard.com.au/blog/hashed-abc-passwords-cracked-by-australian-security-researcher/ "Mailguard.com.au - “Hashed” ABC Passwords Cracked by Australian Security Researcher") and of course [Sony](https://www.zdnet.com/article/sony-hacked-again-another-1m-passwords-exposed/ "Sony Hacked Again, 1 Million Passwords Exposed").
 
 ### Public disclosure of password storage strategy
 
-Troy Hunt recently voiced [his views](http://www.troyhunt.com/2013/03/should-websites-be-required-to-publicly.html "Should websites be required to publicly disclose their password storage strategy?") on how this problem could be dealt with, his suggestion being to bring in legislation similar to the [EU’s Cookie Law](http://www.cookielaw.org/ "EU Cookie Law - Audit, Analytics, Cookie Compliance"), which would require that websites that store users passwords have their password storage strategy prominently displayed on their registration page. While it wouldn’t necessarily mean that all websites that would stop storing their users’ passwords stored plain text, it would be much less common. How many organisations do you think of that would be happy with their registration page looking like this?
+Troy Hunt recently voiced [his views](https://www.troyhunt.com/2013/03/should-websites-be-required-to-publicly.html "Should websites be required to publicly disclose their password storage strategy?") on how this problem could be dealt with, his suggestion being to bring in legislation similar to the [EU’s Cookie Law](https://www.cookielaw.org/ "EU Cookie Law - Audit, Analytics, Cookie Compliance"), which would require that websites that store users passwords have their password storage strategy prominently displayed on their registration page. While it wouldn’t necessarily mean that all websites that would stop storing their users’ passwords stored plain text, it would be much less common. How many organisations do you think of that would be happy with their registration page looking like this?
 
 ![Tesco online registration page with 'Password Storage Statement: Plain text' displayed](../assets/images/Tesco-password.png)
 
-A mock-up of Tesco online’s registration page displaying their password storage statement. This image belongs to Troy Hunt (http://www.troyhunt.com/2013/03/should-websites-be-required-to-publicly.html)
+A mock-up of Tesco online's registration page displaying their password storage statement. This image belongs to Troy Hunt (https://www.troyhunt.com/2013/03/should-websites-be-required-to-publicly.html)
 
 I feel that this is a great suggestion and if it was brought into legislation that it was required for websites then it would help to convince most of the plain text offenders to switch from having the passwords stored plain text to uniquely salted hashes.
 

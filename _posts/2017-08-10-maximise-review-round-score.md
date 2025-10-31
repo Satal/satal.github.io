@@ -1,44 +1,26 @@
 ---
-id: 3197
 title: 'Review round: 5 easy ways to maximise your score'
 date: '2017-08-10T16:30:11+00:00'
 author: Satal
 
-guid: 'https://satalketo.com/?p=3197'
 redirect_from:
     - /blog/2017/08/10/maximise-review-round-score/
     - /2017/08/10/maximise-review-round-score/
 permalink: /maximise-review-round-score/
-spacious_page_layout:
-    - default_layout
 snap_isAutoPosted:
-    - '1'
-snap_MYURL:
-    - ''
-snapEdIT:
     - '1'
 snapLI:
     - 's:451:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:8:"postType";s:1:"T";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:19:"6301451468738166784";s:7:"postURL";s:104:"https://www.linkedin.com/updates?discuss=&scope=25932443&stype=M&topic=6301451468738166784&type=U&a=XpCG";s:5:"pDate";s:19:"2017-08-10 16:38:25";}}";'
 snapFB:
-    - 's:411:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:8:"postType";s:1:"A";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:27:"605595058_10154566088810059";s:7:"postURL";s:57:"http://www.facebook.com/605595058/posts/10154566088810059";s:5:"pDate";s:19:"2017-08-10 16:38:54";}}";'
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'In this post, we will look at the review round and ways that you can help to maximise the results that you receive and hopefully pay-rises/bonuses.'
+    - 's:411:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:8:"postType";s:1:"A";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:27:"605595058_10154566088810059";s:7:"postURL";s:57:"https://www.facebook.com/605595058/posts/10154566088810059";s:5:"pDate";s:19:"2017-08-10 16:38:54";}}";'
 rank_math_focus_keyword:
     - 'review round'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
 rank_math_seo_score:
     - '84'
 hefo_before:
     - '0'
 hefo_after:
     - '0'
-rank_math_analytic_object_id:
-    - '101'
 image: /wp-content/uploads/2017/08/Performance-review-1.jpg
 categories:
     - Career

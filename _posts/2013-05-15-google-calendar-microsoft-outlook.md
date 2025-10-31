@@ -1,10 +1,8 @@
 ---
-id: 400
 title: 'Google Calendar events in Microsoft Outlook'
 date: '2013-05-15T20:52:58+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=400'
 redirect_from:
     - /blog/2013/05/15/google-calendar-microsoft-outlook/
     - /2013/05/15/google-calendar-microsoft-outlook/
@@ -13,24 +11,8 @@ snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:268:"a:1:{i:0;a:8:{s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:2:"do";i:0;}}";'
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'A method for being able to view your Google Calendar events from within Microsoft Outlook'
 rank_math_focus_keyword:
     - 'Microsoft Outlook'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '122'
 image: /wp-content/uploads/2013/05/2013_05_10_23_27_04_Opening_Outlook-1.png
 categories:
     - All
@@ -42,15 +24,15 @@ tags:
     - 'Microsoft Outlook'
 ---
 
-I recently bought [Microsoft Office 2013 Professional](http://office.microsoft.com/ "Microsoft Office 2013") for use at home, while I am not a fan of the hefty price tag associated with Microsoft Office I got a really good deal on it through the company I work for. I am quite a fan of Microsoft Outlook and despite looking there is no free alternative which matches it (sorry [Mozilla Thunderbird](https://www.mozilla.org/en-US/thunderbird/ "Mozilla Thunderbird") fans but having my calendar integrated is important to me), which is the main reason for me purchasing it.
+I recently bought [Microsoft Office 2013 Professional](https://office.microsoft.com/ "Microsoft Office 2013") for use at home, while I am not a fan of the hefty price tag associated with Microsoft Office I got a really good deal on it through the company I work for. I am quite a fan of Microsoft Outlook and despite looking there is no free alternative which matches it (sorry [Mozilla Thunderbird](https://www.mozilla.org/en-US/thunderbird/ "Mozilla Thunderbird") fans but having my calendar integrated is important to me), which is the main reason for me purchasing it.
 
 ![Microsoft Outlook 2013](/assets/images/2013/05/2013_05_10_23_27_04_Opening_Outlook.png)
 
-While I am a fan of Microsoft Outlook I am an Android user and like having my calendar events in [Google Calendar](http://calendar.google.com/ "Google Calendar") so that it is all sync’d in one location. So what I wanted to be able to do is to view the events from my Google Calendar within Microsoft Outlook. While Outlook has the capability to sync up with your GMail account it doesn’t sync up with Google Calendar as easily, so I thought I would share the steps that you need to take in order to view your Google Calendar events from Outlook.
+While I am a fan of Microsoft Outlook I am an Android user and like having my calendar events in [Google Calendar](https://calendar.google.com/ "Google Calendar") so that it is all sync’d in one location. So what I wanted to be able to do is to view the events from my Google Calendar within Microsoft Outlook. While Outlook has the capability to sync up with your GMail account it doesn’t sync up with Google Calendar as easily, so I thought I would share the steps that you need to take in order to view your Google Calendar events from Outlook.
 
 ### Get your Google Calendar ICAL location
 
-The iCalendar format (not to be confused with [Apple iCal](http://www.apple.com/uk/support/ical/ "Apple iCal")) is designed to allow for users to share event details or event entire calendars through .ics files, sounds like what we need doesn’t it. So we need to go to Google Calendar and into our settings;
+The iCalendar format (not to be confused with [Apple iCal](https://www.apple.com/uk/support/ical/ "Apple iCal")) is designed to allow for users to share event details or event entire calendars through .ics files, sounds like what we need doesn’t it. So we need to go to Google Calendar and into our settings;
 
 ![Google Calendar Settings Menu Item](/assets/images/2013/05/2013_05_11_00_02_38_Google_Calendar.png)
 

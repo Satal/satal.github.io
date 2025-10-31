@@ -1,24 +1,12 @@
 ---
-id: 52
 title: 'Track number of times a file is downloaded'
 date: '2010-06-14T10:49:06+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/track-number-of-times-a-file-is-downloaded/'
 redirect_from:
     - /blog/2010/06/14/track-number-of-times-a-file-is-downloaded/
     - /2010/06/14/track-number-of-times-a-file-is-downloaded/
 permalink: /track-number-of-times-a-file-is-downloaded/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '177'
 categories:
     - All
     - Computer

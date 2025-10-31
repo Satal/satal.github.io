@@ -1,23 +1,11 @@
 ---
-id: 13177
 title: 'Get the mid point between two date times'
 date: '2010-06-03T11:51:32+00:00'
 author: Satal
-guid: 'http://satalketo.com/2010/06/get-the-mid-point-between-two-date-times/'
 redirect_from:
     - /blog/2010/06/03/get-the-mid-point-between-two-date-times/
     - /2010/06/03/get-the-mid-point-between-two-date-times/
 permalink: /get-the-mid-point-between-two-date-times/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '182'
 categories:
     - All
     - Computer

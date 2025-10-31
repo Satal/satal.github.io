@@ -1,24 +1,12 @@
 ---
-id: 78
 title: 'Get an instance of a form dynamically at runtime'
 date: '2010-08-04T14:36:27+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/get-an-instance-of-a-form-dynamically-at-runtime/'
 redirect_from:
     - /blog/2010/08/04/get-an-instance-of-a-form-dynamically-at-runtime/
     - /2010/08/04/get-an-instance-of-a-form-dynamically-at-runtime/
 permalink: /get-an-instance-of-a-form-dynamically-at-runtime/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - ''
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '158'
 categories:
     - All
     - Computer

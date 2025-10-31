@@ -1,38 +1,18 @@
 ---
-id: 502
 title: 'Using reCAPTCHA in your ASP.NET MVC app'
 date: '2013-09-02T06:35:11+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=502'
 redirect_from:
     - /blog/2013/09/02/recaptcha-in-asp-net-mvc-app/
     - /2013/09/02/recaptcha-in-asp-net-mvc-app/
 permalink: /recaptcha-in-asp-net-mvc-app/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snap_MYURL:
-    - ''
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:142:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_description:
-    - 'A demonstration of how to reduce the risk of bots using reCAPTCHA on the registation form for an ASP.NET MVC app.'
 rank_math_focus_keyword:
     - recaptcha
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '116'
 categories:
     - All
     - Computer
@@ -44,11 +24,11 @@ tags:
     - MVC
 ---
 
-The Internet is full of bots. There’s no denying it, bots have been created to perform tasks on the Internet for many purposes, a good example is Ticketmaster, who have calculated that approximately 60% of all bookings are made by bots ([src nyt](http://www.nytimes.com/2013/05/27/business/media/bots-that-siphon-off-tickets-frustrate-concert-promoters.html?pagewanted=all&_r=1& "Concert Industry Struggles With ‘Bots’ That Siphon Off Tickets")).
+The Internet is full of bots. There’s no denying it, bots have been created to perform tasks on the Internet for many purposes, a good example is Ticketmaster, who have calculated that approximately 60% of all bookings are made by bots ([src nyt](https://www.nytimes.com/2013/05/27/business/media/bots-that-siphon-off-tickets-frustrate-concert-promoters.html?pagewanted=all&_r=1& "Concert Industry Struggles With ‘Bots’ That Siphon Off Tickets")).
 
 ![Example of a reCAPTCHA](/assets/images/2013/09/recaptcha-example-1.png)
 
-One of the most common practices for fighting back against bots is by adding what is known as a ‘Completely Automated Public Turing test to tell Computers and Humans Apart’ or CAPTCHA for short. These are commonly either an image or audio clip with letters and numbers that the user has to type into the computer to prove that they are human. One of the most popular versions of the CAPTCHA is [reCAPTCHA](http://www.google.com/recaptcha "reCaptcha"), which is provided free of charge by Google, this is what we will be using to add a CAPTCHA to our registration page, to avoid bots registering for our website.
+One of the most common practices for fighting back against bots is by adding what is known as a ‘Completely Automated Public Turing test to tell Computers and Humans Apart’ or CAPTCHA for short. These are commonly either an image or audio clip with letters and numbers that the user has to type into the computer to prove that they are human. One of the most popular versions of the CAPTCHA is [reCAPTCHA](https://www.google.com/recaptcha "reCaptcha"), which is provided free of charge by Google, this is what we will be using to add a CAPTCHA to our registration page, to avoid bots registering for our website.
 
 The first thing that you’re going to need to do is retrieve your public and private keys from [reCAPTCHA](https://www.google.com/recaptcha/admin/list "My reCAPTCHA Sites"), Google have made this incredibly simple, just a case of specifying your domain and whether you would like to limit the keys to just that site. The public and private keys should look something like this;
 

@@ -1,23 +1,11 @@
 ---
-id: 27
 title: 'Folder/Forum layout system'
 date: '2010-05-24T10:46:14+00:00'
 author: Satal
-guid: 'http://satalketo.com/2010/05/folderforum-layout-system/'
 redirect_from:
     - /blog/2010/05/24/folder-forum-layout-system/
     - /2010/05/24/folder-forum-layout-system/
 permalink: /folder-forum-layout-system/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '192'
 categories:
     - All
     - Computer

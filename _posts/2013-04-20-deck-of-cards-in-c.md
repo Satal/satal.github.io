@@ -1,10 +1,8 @@
 ---
-id: 340
 title: 'Deck of Cards in C#'
 date: '2013-04-20T21:44:28+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=340'
 redirect_from:
     - /blog/2013/04/20/deck-of-cards-in-c/
     - /2013/04/20/deck-of-cards-in-c/
@@ -13,24 +11,8 @@ snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:268:"a:1:{i:0;a:8:{s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:2:"do";i:0;}}";'
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'The code to create a deck of cards in C# with downloadable solution and unit tests to prove reliability.'
 rank_math_focus_keyword:
     - 'Deck of Cards'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '127'
 image: /wp-content/uploads/2013/04/playing-cards-1.jpg
 categories:
     - All
@@ -41,12 +23,12 @@ tags:
     - 'C#'
 ---
 
-So this is something I have seen a number of times on [StackOverflow](http://stackoverflow.com/ "StackOverflow"), so I thought I would spend some time while I was on a ferry creating a solution for. So what we have is a standard deck of cards, 52 cards (no jokers), 4 suits (Clubs, Diamonds, Hearts and Spades) each with 13 cards (ace through to king). In this post I will go through the code that has been produced and at the bottom of the post there is a download link for the entire solution, unit tests and all.
+So this is something I have seen a number of times on [StackOverflow](https://stackoverflow.com/ "StackOverflow"), so I thought I would spend some time while I was on a ferry creating a solution for. So what we have is a standard deck of cards, 52 cards (no jokers), 4 suits (Clubs, Diamonds, Hearts and Spades) each with 13 cards (ace through to king). In this post I will go through the code that has been produced and at the bottom of the post there is a download link for the entire solution, unit tests and all.
 
 [![Deck of Cards](/assets/images/2013/04/playing-cards.jpg)](/assets/images/2013/04/playing-cards.jpg)
 
    
-Source: <http://www.leadersinstitute.com/wp-content/uploads/2011/02/playing-cards.jpg>
+Source: <https://www.leadersinstitute.com/wp-content/uploads/2011/02/playing-cards.jpg>
 
 ### Suit Enum
 

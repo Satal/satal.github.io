@@ -1,20 +1,12 @@
 ---
-id: 76
 title: 'How to log into a website from VB.Net'
 date: '2010-07-28T23:54:04+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/07/how-to-log-into-a-website-from-vbnet/'
 redirect_from:
     - /blog/2010/07/28/log-into-a-website-from-vbnet/
     - /2010/07/28/log-into-a-website-from-vbnet/
 permalink: /log-into-a-website-from-vbnet/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '160'
 image: /wp-content/uploads/2010/07/formlayout-1.jpg
 categories:
     - All
@@ -27,7 +19,7 @@ tags:
 
 Something that seems to get asked at least 3 times a day in the forums that I hang around on is how to get their application to be able to log into a specific website. This is something that is fairly easily done under the right circumstances.
 
-For this example I am going to get my application to log into the [VB Forums](http://www.vbforums.com) website. There is no particular reason why I have chosen this website it just happened to be a website I had open at the time.
+For this example I am going to get my application to log into the [VB Forums](https://www.vbforums.com) website. There is no particular reason why I have chosen this website it just happened to be a website I had open at the time.
 
 The first thing we need to go is set up our form, you will need to add the following controls to Form1
 
@@ -42,7 +34,7 @@ I did some docking and other stuff to make my form look pretty but you don’t n
 Now for some of the good stuff, double click on the form header to get yourself to the code screen with the Form\_Load event created. In the Form1\_Load event we want to add the following code;
 
 ```vbnet
-WebBrowser1.Navigate("http://www.vbforums.com/")
+WebBrowser1.Navigate("https://www.vbforums.com/")
 ```
 
 What this code does is tell the WebBrowser control to go to the address that we have specified. At the moment we are going to manually enter the username and password into the textboxes and click the Login button when the page has finished loading, although later we will briefly look at how to automatically log into the website when the page has finished loading.

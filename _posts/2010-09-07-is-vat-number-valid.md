@@ -1,24 +1,12 @@
 ---
-id: 95
 title: 'Check if a VAT Number is valid'
 date: '2010-09-07T11:41:46+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/check-if-a-vat-number-is-valid/'
 redirect_from:
     - /blog/2010/09/07/is-vat-number-valid/
     - /2010/09/07/is-vat-number-valid/
 permalink: /is-vat-number-valid/
-rank_math_description:
-    - 'A VB.NET function to check whether a specified VAT number is valid'
-rank_math_facebook_description:
-    - 'A VB.NET function to check whether a specified VAT number is valid'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '147'
 categories:
     - All
     - Computer

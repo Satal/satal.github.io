@@ -1,24 +1,12 @@
 ---
-id: 28
 title: 'How to create a Die in code'
 date: '2010-05-25T14:31:13+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/how-to-create-a-die-in-code/'
 redirect_from:
     - /blog/2010/05/25/create-a-die-in-code/
     - /2010/05/25/create-a-die-in-code/
 permalink: /create-a-die-in-code/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '191'
 categories:
     - All
     - Computer

@@ -1,24 +1,12 @@
 ---
-id: 30
 title: 'Creating multi panel interface easily'
 date: '2010-05-25T21:39:45+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/creating-multi-panel-interface-easily/'
 redirect_from:
     - /blog/2010/05/25/creating-multi-panel-interface/
     - /2010/05/25/creating-multi-panel-interface/
 permalink: /creating-multi-panel-interface/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '189'
 categories:
     - All
     - Computer

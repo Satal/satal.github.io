@@ -1,36 +1,16 @@
 ---
-id: 803
 title: 'Creating dynamic sub-menu in Excel'
 date: '2017-03-04T15:54:52+00:00'
 author: Satal
 
-guid: 'https://satalketo.com/?p=803'
 redirect_from:
     - /blog/2017/03/04/creating-dynamic-sub-menu-excel/
     - /2017/03/04/creating-dynamic-sub-menu-excel/
 permalink: /creating-dynamic-sub-menu-excel/
 snap_isAutoPosted:
     - '1'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:408:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"838060768872566785";s:7:"postURL";s:55:"https://twitter.com/SatalKeto/status/838060768872566785";s:5:"pDate";s:19:"2017-03-04 16:17:12";}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'In this post, we will create a dynamic sub-menu in Excel, which will provide different options based on the choice made in the first drop down list.'
 rank_math_focus_keyword:
     - 'Dynamic Sub-Menu'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '104'
 image: /wp-content/uploads/2017/02/Excel-Dynamic-Sub-Menu-Final-Drop-Downs-1.png
 categories:
     - Excel

@@ -1,34 +1,16 @@
 ---
-id: 779
 title: 'Positive impact of changing my hosting provider'
 date: '2017-02-25T12:44:00+00:00'
 author: Satal
 
-guid: 'https://satalketo.com/?p=779'
 redirect_from:
     - /blog/2017/02/25/changing-hosting-provider/
     - /2017/02/25/changing-hosting-provider/
 permalink: /changing-hosting-provider/
 snap_isAutoPosted:
     - '1'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:408:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"835470485878108160";s:7:"postURL";s:55:"https://twitter.com/SatalKeto/status/835470485878108160";s:5:"pDate";s:19:"2017-02-25 12:44:21";}}";'
-rank_math_primary_category:
-    - '72'
-rank_math_description:
-    - 'In this post, I talk about why I recently decided to change my hosting provider to SiteGround and the positive impact it has had on my website.'
 rank_math_focus_keyword:
     - 'hosting provider'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '105'
 image: /wp-content/uploads/2017/02/wordpress_migration-667x485-e1488024160337-1.jpg
 categories:
     - Websites

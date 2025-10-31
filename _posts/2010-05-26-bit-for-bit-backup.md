@@ -1,24 +1,12 @@
 ---
-id: 33
 title: 'Create a bit for bit backup of a default installation'
 date: '2010-05-26T22:34:12+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/create-a-bit-for-bit-backup-of-a-default-installation/'
 redirect_from:
     - /blog/2010/05/26/bit-for-bit-backup/
     - /2010/05/26/bit-for-bit-backup/
 permalink: /bit-for-bit-backup/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '187'
 categories:
     - All
     - Computer

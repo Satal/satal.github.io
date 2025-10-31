@@ -1,24 +1,12 @@
 ---
-id: 29
 title: 'List of really useful Windows command prompt commands'
 date: '2010-05-25T21:36:55+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/list-of-really-useful-windows-command-prompt-commands/'
 redirect_from:
     - /blog/2010/05/25/useful-windows-command-prompt-commands/
     - /2010/05/25/useful-windows-command-prompt-commands/
 permalink: /useful-windows-command-prompt-commands/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '190'
 categories:
     - All
     - Computer

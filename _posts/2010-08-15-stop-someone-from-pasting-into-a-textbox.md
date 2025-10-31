@@ -1,20 +1,12 @@
 ---
-id: 88
 title: 'Stop someone from pasting into a TextBox'
 date: '2010-08-15T22:19:13+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/stop-someone-from-pasting-into-a-textbox/'
 redirect_from:
     - /blog/2010/08/15/stop-someone-from-pasting-into-a-textbox/
     - /2010/08/15/stop-someone-from-pasting-into-a-textbox/
 permalink: /stop-someone-from-pasting-into-a-textbox/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '154'
 categories:
     - All
     - Computer

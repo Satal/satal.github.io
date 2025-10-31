@@ -1,10 +1,8 @@
 ---
-id: 520
 title: 'Two Factor Authentication in ASP.NET MVC'
 date: '2013-09-08T13:51:48+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=520'
 redirect_from:
     - /blog/2013/09/08/mvc-two-factor-authentication/
     - /2013/09/08/mvc-two-factor-authentication/
@@ -13,26 +11,8 @@ snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:268:"a:1:{i:0;a:8:{s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:2:"do";i:0;}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_description:
-    - 'A demo for how to implement two factor authentication in your ASP.NET MVC 4 Internet application, with a QR code for easy addition to Google Authenticator.'
 rank_math_focus_keyword:
     - 'two factor authentication'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '115'
 image: /wp-content/uploads/2013/09/TwoFactorAuthentication-1.jpg
 categories:
     - All
@@ -74,7 +54,7 @@ aspnet_regsql -S .\SQLEXPRESS -E -A all -d MvcTFA
 aspnet_regsql -S .\SQLEXPRESS -U Satal -P Password1 -A all -d MvcTFA
 ```
 
-The first one is using Windows Authentication to log into your SQL Server instance and the second is using the username and password that you have specified. What we have just told aspnet\_regsql to do is to connect to the server (specified with -S, in my case against my local SQL Server Express instance) using the login credentials specified, creating a database called ‘MvcTFA’ (-d MvcTFA) and installing all objects for ASP.NET Membership (-A all). A list of all of the available options for aspnet\_regsql is available on the Microsoft website at [ASP.NET SQL Server Registration Tool (Aspnet\_regsql.exe)](http://msdn.microsoft.com/en-us/library/ms229862(v=vs.100).aspx "ASP.NET SQL Server Registration Tool (Aspnet_regsql.exe)"). Once this has been run, assuming you provided the right details you will now have a full installation for the ASP.NET Membership database, which we will be running our application against. To configure our website to run against this database we need to go to the web.config and modify the connection string to be like one of the following two;
+The first one is using Windows Authentication to log into your SQL Server instance and the second is using the username and password that you have specified. What we have just told aspnet\_regsql to do is to connect to the server (specified with -S, in my case against my local SQL Server Express instance) using the login credentials specified, creating a database called ‘MvcTFA’ (-d MvcTFA) and installing all objects for ASP.NET Membership (-A all). A list of all of the available options for aspnet\_regsql is available on the Microsoft website at [ASP.NET SQL Server Registration Tool (Aspnet\_regsql.exe)](https://msdn.microsoft.com/en-us/library/ms229862(v=vs.100).aspx "ASP.NET SQL Server Registration Tool (Aspnet_regsql.exe)"). Once this has been run, assuming you provided the right details you will now have a full installation for the ASP.NET Membership database, which we will be running our application against. To configure our website to run against this database we need to go to the web.config and modify the connection string to be like one of the following two;
 
 ```xml
 <connectionStrings>
@@ -166,7 +146,7 @@ What this does is to specify that the profile we are using inherits MvcTFA.MvcTF
 
 ## Google Authenticator
 
-We will be focusing our implementation of two factor authentication against Google Authenticator, which creates a new two factor authentication one time password every 30 seconds, based on the number of 30 second intervals since unix time (1970/01/01 00:00:00 UTC). As this functionality is can be re-used across multiple applications and is not specific to just this app I decided to create a class library for storing this in called Domain (original I know). I created a class called GoogleAuthenticator and used code based upon the Stackoverflow answer available [here](http://stackoverflow.com/a/12398317/465404 "Is there a tutorial on how to implement Google Authenticator in .NET apps?"). While the class provided by this answer included a method for displaying the secret key as a QR Code by using an online service provided by Google I decided against using it later in development as most of the time I was working on this I was on the train without Internet access which would have made viewing the QR code rather difficult.
+We will be focusing our implementation of two factor authentication against Google Authenticator, which creates a new two factor authentication one time password every 30 seconds, based on the number of 30 second intervals since unix time (1970/01/01 00:00:00 UTC). As this functionality is can be re-used across multiple applications and is not specific to just this app I decided to create a class library for storing this in called Domain (original I know). I created a class called GoogleAuthenticator and used code based upon the Stackoverflow answer available [here](https://stackoverflow.com/a/12398317/465404 "Is there a tutorial on how to implement Google Authenticator in .NET apps?"). While the class provided by this answer included a method for displaying the secret key as a QR Code by using an online service provided by Google I decided against using it later in development as most of the time I was working on this I was on the train without Internet access which would have made viewing the QR code rather difficult.
 
 ```csharp
 using System;
@@ -178,7 +158,7 @@ namespace MvcTFA.Domain
 {
     public class GoogleAuthenticator
     {
-        // Based on the code at http://stackoverflow.com/a/12398317/465404
+        // Based on the code at https://stackoverflow.com/a/12398317/465404
         const int IntervalLength = 30;
         const int PinLength = 6;
         static readonly int PinModulo = (int)Math.Pow(10, PinLength);
@@ -287,7 +267,7 @@ namespace MvcTFA.Domain
 {
     public static class Base32Encoder
     {
-        // Based on the code at http://stackoverflow.com/a/12398317/465404
+        // Based on the code at https://stackoverflow.com/a/12398317/465404
         private const string Base32Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
         private const int InByteSize = 8;
         private const int OutByteSize = 5;
@@ -335,7 +315,7 @@ namespace MvcTFA.Domain
 
         public static byte[] FromBase32String(string input)
         {
-            // Based on the code here: http://stackoverflow.com/a/7135008/465404
+            // Based on the code here: https://stackoverflow.com/a/7135008/465404
             if (string.IsNullOrEmpty(input))
             {
                 throw new ArgumentNullException("input");
@@ -445,7 +425,7 @@ What I have done in the action is retrieved a copy of the newly registered users
 
 ## QR Code and opting in
 
-At the moment we are storing the user’s two factor authentication secret key Base32 encoded within their profile, while users are able to take this Base32 encoded string and enter it manually into Google Authenticator, those fleshy things called humans are rather error prone and are likely to make a mistake, so to help them Google Authenticator allows for users to scan a QR Code which will allow for the secret key to be loaded automatically. This makes things easier for the user and also it is less likely that the user will make a mistake, which is a good thing. As mentioned above, while it is possible to use an external web service for generating the QR code I opted to use a library which would generate the QR code for me, this was primarily because I did my development on a train with no Internet connection, but it is also worth while avoiding becoming reliant on external web services where easily possible. The library I used for this is [QRCode.NET](http://qrcodenet.codeplex.com/documentation "QR Code.NET"), feel free to use different libraries if you want, this is just the one that I happened to choose.
+At the moment we are storing the user’s two factor authentication secret key Base32 encoded within their profile, while users are able to take this Base32 encoded string and enter it manually into Google Authenticator, those fleshy things called humans are rather error prone and are likely to make a mistake, so to help them Google Authenticator allows for users to scan a QR Code which will allow for the secret key to be loaded automatically. This makes things easier for the user and also it is less likely that the user will make a mistake, which is a good thing. As mentioned above, while it is possible to use an external web service for generating the QR code I opted to use a library which would generate the QR code for me, this was primarily because I did my development on a train with no Internet connection, but it is also worth while avoiding becoming reliant on external web services where easily possible. The library I used for this is [QRCode.NET](https://qrcodenet.codeplex.com/documentation "QR Code.NET"), feel free to use different libraries if you want, this is just the one that I happened to choose.
 
 To make generating the QR code easier within the view I decided to create a helper class to deal with all the bits to do with generating the QR code.
 

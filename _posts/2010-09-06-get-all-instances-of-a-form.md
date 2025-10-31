@@ -1,24 +1,12 @@
 ---
-id: 92
 title: 'How to get all instances of a form'
 date: '2010-09-06T09:22:21+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/how-to-get-all-instances-of-a-form/'
 redirect_from:
     - /blog/2010/09/06/get-all-instances-of-a-form/
     - /2010/09/06/get-all-instances-of-a-form/
 permalink: /get-all-instances-of-a-form/
-rank_math_description:
-    - 'A VB.NET function to retrieve all instances of a particular form'
-rank_math_facebook_description:
-    - 'A VB.NET function to retrieve all instances of a particular form'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '150'
 categories:
     - All
     - Computer

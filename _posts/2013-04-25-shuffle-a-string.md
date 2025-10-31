@@ -1,34 +1,18 @@
 ---
-id: 369
 title: 'Shuffle a string in C#'
 date: '2013-04-25T08:54:27+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=369'
 redirect_from:
     - /blog/2013/04/25/shuffle-a-string/
     - /2013/04/25/shuffle-a-string/
 permalink: /shuffle-a-string/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snapEdIT:
-    - '1'
-snap_MYURL:
-    - ''
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snapTW:
-    - 's:142:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;}}";'
-rank_math_description:
-    - 'This is an update to an article I wrote back in 2010 on how to shuffle the characters in a string, I achieve this through the use of LINQ.'
 rank_math_focus_keyword:
     - Shuffle
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '124'
 categories:
     - All
     - Computer

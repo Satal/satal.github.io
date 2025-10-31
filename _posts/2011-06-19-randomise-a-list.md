@@ -1,24 +1,14 @@
 ---
-id: 108
 title: 'Randomise a List'
 date: '2011-06-19T19:51:50+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2011/06/randomise-a-list/'
 redirect_from:
     - /blog/2011/06/19/randomise-a-list/
     - /2011/06/19/randomise-a-list/
 permalink: /randomise-a-list/
-rank_math_description:
-    - 'A quick explanation of how to randomise the contents of a List using LINQ'
 rank_math_focus_keyword:
     - Randomise
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '135'
 categories:
     - All
     - Computer

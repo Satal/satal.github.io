@@ -1,22 +1,12 @@
 ---
-id: 93
 title: 'Check whether an instance of a form is open'
 date: '2010-09-06T09:25:07+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/check-whether-an-instance-of-a-form-is-open/'
 redirect_from:
     - /blog/2010/09/06/is-instance-of-a-form-open/
     - /2010/09/06/is-instance-of-a-form-open/
 permalink: /is-instance-of-a-form-open/
-rank_math_description:
-    - 'A VB.NET function to identify whether an instance of a particular form is open'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '149'
 categories:
     - All
     - Computer

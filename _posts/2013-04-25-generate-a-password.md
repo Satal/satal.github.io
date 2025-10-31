@@ -1,34 +1,18 @@
 ---
-id: 376
 title: 'Password generation in C#'
 date: '2013-04-25T08:54:17+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/?p=376'
 redirect_from:
     - /blog/2013/04/25/generate-a-password/
     - /2013/04/25/generate-a-password/
 permalink: /generate-a-password/
 snapFB:
     - 's:247:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"PostType";s:1:"A";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:51:"New post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snapEdIT:
-    - '1'
-snap_MYURL:
-    - ''
 snapLI:
     - 's:259:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:10:"AttachPost";s:1:"1";s:10:"SNAPformat";s:41:"New post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";b:0;}}";'
-snapTW:
-    - 's:142:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";b:0;}}";'
-rank_math_description:
-    - 'A couple methods for generating a password by either selecting options about what it can contain or by supplying a character set to be used.'
 rank_math_focus_keyword:
     - Password
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '125'
 categories:
     - All
     - Computer
@@ -39,7 +23,7 @@ tags:
     - Passwords
 ---
 
-This is an update for a post that I wrote back in 2010 on how to [generate a password using VB.NET](https://samjenkins.com/generate-password/ "Generate a password"). The overall design of the code has been kept the same although I have made a few adjustments according to things that I have learnt since I wrote the original code, like the use of a [StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx "StringBuilder Class") instead of just concatenating strings to build up the allowed character set.
+This is an update for a post that I wrote back in 2010 on how to [generate a password using VB.NET](https://samjenkins.com/generate-password/ "Generate a password"). The overall design of the code has been kept the same although I have made a few adjustments according to things that I have learnt since I wrote the original code, like the use of a [StringBuilder](https://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx "StringBuilder Class") instead of just concatenating strings to build up the allowed character set.
 
 ### Generate password from character set
 
@@ -136,7 +120,7 @@ public static string GeneratePassword(int passwordLength = 16,
 }
 ```
 
-Again at the beginning of the method I ensure that the requested password length is greater than zero to avoid pointless runs. Where as in the original version of this code I used string concatenation to build up the character set to be used for the password I decided to use a [StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx "StringBuilder Class") which would decrease the amount of time taken by the method. Admittedly this time saving would be minimal but every little helps.
+Again at the beginning of the method I ensure that the requested password length is greater than zero to avoid pointless runs. Where as in the original version of this code I used string concatenation to build up the character set to be used for the password I decided to use a [StringBuilder](https://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx "StringBuilder Class") which would decrease the amount of time taken by the method. Admittedly this time saving would be minimal but every little helps.
 
 ### RFC (Request For Comment)
 

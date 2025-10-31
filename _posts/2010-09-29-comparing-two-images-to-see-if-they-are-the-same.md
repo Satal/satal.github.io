@@ -1,24 +1,12 @@
 ---
-id: 102
 title: 'Comparing two images to see if they are the same'
 date: '2010-09-29T02:00:10+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/comparing-two-images-to-see-if-they-are-the-same/'
 redirect_from:
     - /blog/2010/09/29/comparing-two-images-to-see-if-they-are-the-same/
     - /2010/09/29/comparing-two-images-to-see-if-they-are-the-same/
 permalink: /comparing-two-images-to-see-if-they-are-the-same/
-rank_math_description:
-    - 'A C# function for comparing two images to identify whether they are the same'
-rank_math_facebook_description:
-    - 'A C# function for comparing two images to identify whether they are the same'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '141'
 categories:
     - All
     - Computer

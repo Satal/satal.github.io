@@ -1,20 +1,12 @@
 ---
-id: 90
 title: 'Check whether the application is currently being debugged'
 date: '2010-08-17T10:48:14+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/check-whether-the-application-is-currently-being-debugged/'
 redirect_from:
     - /blog/2010/08/17/check-whether-the-application-is-currently-being-debugged/
     - /2010/08/17/check-whether-the-application-is-currently-being-debugged/
 permalink: /check-whether-the-application-is-currently-being-debugged/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '152'
 categories:
     - All
     - Computer

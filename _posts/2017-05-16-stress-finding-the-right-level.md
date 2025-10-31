@@ -1,34 +1,16 @@
 ---
-id: 835
 title: 'Stress &#8211; What is the right level of stress?'
 date: '2017-05-16T19:48:43+00:00'
 author: Satal
 
-guid: 'https://satalketo.com/?p=835'
 redirect_from:
     - /blog/2017/05/16/stress-finding-the-right-level/
     - /2017/05/16/stress-finding-the-right-level/
 permalink: /stress-finding-the-right-level/
 snap_isAutoPosted:
     - '1'
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:408:"a:1:{i:0;a:11:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"864568395605397504";s:7:"postURL";s:55:"https://twitter.com/SatalKeto/status/864568395605397504";s:5:"pDate";s:19:"2017-05-16 19:49:03";}}";'
-rank_math_primary_category:
-    - '76'
-rank_math_description:
-    - 'Stress is an important part of our lives. While generally viewed as a negative, as long as we are able to find the right level it can be a positive.'
 rank_math_focus_keyword:
     - stress
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '103'
 image: /wp-content/uploads/2017/03/Stress-photo-1.jpeg
 categories:
     - 'Soft Skills'
@@ -78,7 +60,7 @@ We then move into the relaxed and comfortable region, this is where you may have
 
 The Stretch area is where you will really come into your own. Tasks are difficult enough that you feel challenged but not so difficult that you feel that you’re unable to achieve it. It is important to note that while you’re able to work in this region for a while, continually being in this region for a long while will move you towards strain. It is, therefore, important that you have breaks to relax spread out over the year.
 
-We then move into the Strain and Overwhelmed side of things. These are when you are moving from eustress into distress. When you are in this region you are likely to start suffering from impaired judgement and decision making. This is on top of the likelihood of suffering from exhaustion and if you remain overwhelmed for an extended period of time potential physiological issues. (<http://www.apa.org/helpcenter/understanding-chronic-stress.aspx>)
+We then move into the Strain and Overwhelmed side of things. These are when you are moving from eustress into distress. When you are in this region you are likely to start suffering from impaired judgement and decision making. This is on top of the likelihood of suffering from exhaustion and if you remain overwhelmed for an extended period of time potential physiological issues. (<https://www.apa.org/helpcenter/understanding-chronic-stress.aspx>)
 
 ## Dealing with Stress
 

@@ -1,24 +1,12 @@
 ---
-id: 94
 title: 'How to copy and paste from the Windows clipboard'
 date: '2010-09-06T10:00:37+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/how-to-copy-and-paste-from-the-windows-clipboard/'
 redirect_from:
     - /blog/2010/09/06/how-to-copy-and-paste-from-the-windows-clipboard/
     - /2010/09/06/how-to-copy-and-paste-from-the-windows-clipboard/
 permalink: /how-to-copy-and-paste-from-the-windows-clipboard/
-rank_math_description:
-    - 'VB.NET methods for copying and pasting text to the Windows clipboard'
-rank_math_facebook_description:
-    - 'VB.NET methods for copying and pasting text to the Windows clipboard'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '148'
 categories:
     - All
     - Computer

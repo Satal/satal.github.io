@@ -1,28 +1,12 @@
 ---
-id: 100
 title: 'Tell if Microsoft Office Save As PDF add in is installed'
 date: '2010-09-10T11:25:27+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/'
 redirect_from:
     - /blog/2010/09/10/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
     - /2010/09/10/tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
 permalink: /tell-if-microsoft-office-save-as-pdf-add-in-is-installed/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - ''
-rank_math_description:
-    - 'A VB.NET function to identify whether the ''Save As PDF'' add-in for Microsoft Office 2007 has been installed'
-rank_math_facebook_description:
-    - 'A VB.NET function to identify whether the ''Save As PDF'' add-in for Microsoft Office 2007 has been installed'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '142'
 categories:
     - All
     - Computer

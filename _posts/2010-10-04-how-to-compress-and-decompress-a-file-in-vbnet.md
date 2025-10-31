@@ -1,24 +1,12 @@
 ---
-id: 103
 title: 'How to compress and decompress a file in VB.Net'
 date: '2010-10-04T10:27:11+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/10/how-to-compress-and-decompress-a-file-in-vbnet/'
 redirect_from:
     - /blog/2010/10/04/how-to-compress-and-decompress-a-file-in-vbnet/
     - /2010/10/04/how-to-compress-and-decompress-a-file-in-vbnet/
 permalink: /how-to-compress-and-decompress-a-file-in-vbnet/
-rank_math_description:
-    - 'A couple of VB.NET methods for compressing and decompressing a file'
-rank_math_facebook_description:
-    - 'A couple of VB.NET methods for compressing and decompressing a file'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '140'
 categories:
     - All
     - Computer

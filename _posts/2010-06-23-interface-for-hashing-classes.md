@@ -1,30 +1,12 @@
 ---
-id: 59
 title: 'Interface for Hashing classes'
 date: '2010-06-23T21:50:43+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/interface-for-hashing-classes/'
 redirect_from:
     - /blog/2010/06/23/interface-for-hashing-classes/
     - /2010/06/23/interface-for-hashing-classes/
 permalink: /interface-for-hashing-classes/
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:231:"a:1:{i:0;a:7:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '170'
 categories:
     - All
     - Computer

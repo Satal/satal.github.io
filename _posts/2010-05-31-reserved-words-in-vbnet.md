@@ -1,24 +1,12 @@
 ---
-id: 36
 title: 'Reserved words in VB.Net'
 date: '2010-05-31T09:52:37+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/reserved-words-in-vbnet/'
 redirect_from:
     - /blog/2010/05/31/reserved-words-in-vbnet/
     - /2010/05/31/reserved-words-in-vbnet/
 permalink: /reserved-words-in-vbnet/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '184'
 categories:
     - All
     - Computer

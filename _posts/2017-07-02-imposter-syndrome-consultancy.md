@@ -1,34 +1,14 @@
 ---
-id: 918
 title: 'Imposter Syndrome in Consultancy'
 date: '2017-07-02T19:22:54+00:00'
 author: Satal
 
-guid: 'https://satalketo.com/?p=918'
 redirect_from:
     - /blog/2017/07/02/imposter-syndrome-consultancy/
     - /2017/07/02/imposter-syndrome-consultancy/
 permalink: /imposter-syndrome-consultancy/
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:231:"a:1:{i:0;a:7:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '22'
-rank_math_description:
-    - 'Imposter Syndrome is the feeling of being a fraud in your work and is more common than you''d think. In this post, we look at its impact in consultancy.'
 rank_math_focus_keyword:
     - 'imposter syndrome'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '102'
 image: /wp-content/uploads/2017/04/imposter-syndrome-comic.png
 categories:
     - 'Soft Skills'
@@ -86,7 +66,7 @@ Another area that can cause stress for a consultant is the feeling that you need
 
 One of the key drivers behind Imposter Syndrome is the feeling that you do not know enough. Along with recognising that there will always be things that you don’t know, viewing yourself as a life-long learner can be helpful. If you’re still learning then you can be a little more forgiving of yourself.
 
-Taking opportunities to learn new things and expanding your knowledge will mean you have knowledge in areas others don’t. Don’t be afraid to fail, failing is actually a good thing! As long as you take the time to learn from your experience you can potentially learn more from it than if you had been successful. A great book on the subject of failure is [Black Box Thinking by Matthew Syed](http://amzn.to/2sBKWeb), which I recommend reading for anyone looking to improve themselves.
+Taking opportunities to learn new things and expanding your knowledge will mean you have knowledge in areas others don’t. Don’t be afraid to fail, failing is actually a good thing! As long as you take the time to learn from your experience you can potentially learn more from it than if you had been successful. A great book on the subject of failure is [Black Box Thinking by Matthew Syed](https://amzn.to/2sBKWeb), which I recommend reading for anyone looking to improve themselves.
 
 Remember, the ‘you’ of today is the most knowledgeable you’ve ever been.
 
@@ -106,7 +86,7 @@ The key message is, you can almost guarantee that everyone around you has experi
 
 ![Being Okay with Imposter Syndrome](/assets/images/2017/07/Being-okay-with-imposter.png)
 
-Source: http://errantscience.com/imposter-syndrome/
+Source: https://errantscience.com/imposter-syndrome/
 
 Do you occasionally feel that you’re an imposter? If so, feel free to share a time when you’ve felt like an imposter.
 

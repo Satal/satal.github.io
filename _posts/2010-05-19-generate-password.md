@@ -1,33 +1,11 @@
 ---
-id: 24
 title: 'Generate a password'
 date: '2010-05-19T15:28:34+00:00'
 author: Satal
-guid: 'http://satalketo.com/2010/05/generate-password/'
 redirect_from:
     - /blog/2010/05/19/generate-password/
     - /2010/05/19/generate-password/
 permalink: /generate-password/
-snap_MYURL:
-    - ''
-snapEdIT:
-    - '1'
-snapTW:
-    - 's:231:"a:1:{i:0;a:7:{s:2:"do";s:1:"1";s:9:"msgFormat";s:59:"New post (%TITLE%) has been published on %SITENAME% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";'
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_description:
-    - 'A VB.NET method to generate a random string that could be used as a password'
-rank_math_facebook_description:
-    - 'A VB.NET method to generate a random string that could be used as a password'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '194'
 categories:
     - All
     - Computer

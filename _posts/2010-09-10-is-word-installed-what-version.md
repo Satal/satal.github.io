@@ -1,24 +1,12 @@
 ---
-id: 99
 title: 'Is Word installed and what version?'
 date: '2010-09-10T08:48:32+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/09/figure-out-if-word-is-installed-and-what-version-it-is/'
 redirect_from:
     - /blog/2010/09/10/is-word-installed-what-version/
     - /2010/09/10/is-word-installed-what-version/
 permalink: /is-word-installed-what-version/
-rank_math_description:
-    - 'VB.NET functions to identify if Microsoft Word is installed and what version of Word it is'
-rank_math_facebook_description:
-    - 'VB.NET functions to identify if Microsoft Word is installed and what version of Word it is'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '144'
 categories:
     - All
     - Computer

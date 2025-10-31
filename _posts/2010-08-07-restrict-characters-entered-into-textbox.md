@@ -1,20 +1,12 @@
 ---
-id: 80
 title: 'Restrict characters entered into textbox'
 date: '2010-08-07T09:40:32+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/restrict-characters-entered-into-textbox/'
 redirect_from:
     - /blog/2010/08/07/restrict-characters-entered-into-textbox/
     - /2010/08/07/restrict-characters-entered-into-textbox/
 permalink: /restrict-characters-entered-into-textbox/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '156'
 categories:
     - All
     - Computer

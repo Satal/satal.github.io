@@ -1,20 +1,12 @@
 ---
-id: 89
 title: 'Check whether the current user is an administrator'
 date: '2010-08-17T10:45:17+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/08/check-whether-the-current-user-is-an-administrator/'
 redirect_from:
     - /blog/2010/08/17/check-whether-the-current-user-is-an-administrator/
     - /2010/08/17/check-whether-the-current-user-is-an-administrator/
 permalink: /check-whether-the-current-user-is-an-administrator/
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '153'
 categories:
     - All
     - Computer

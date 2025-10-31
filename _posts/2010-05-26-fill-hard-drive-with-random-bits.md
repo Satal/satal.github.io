@@ -1,24 +1,12 @@
 ---
-id: 34
 title: 'How to fill your hard drive up with random bits on Linux'
 date: '2010-05-26T22:39:44+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/05/how-to-fill-your-hard-drive-up-with-random-bits/'
 permalink: /fill-hard-drive-with-random-bits/
 redirect_from:
     - /blog/2010/05/26/fill-hard-drive-with-random-bits/
     - /2010/05/26/fill-hard-drive-with-random-bits/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '186'
 categories:
     - All
     - Computer
@@ -32,7 +20,7 @@ You may have come from my tutorial on “[How to zero the free space on your har
 Please realise that there are professional programs out there which will do a combination of writing all ones, writing all zeros and writing random bits many times (the highest I’ve seen is 48 times, which is a ridiculous amount of times and if it’s possible to get information back after that I would be amazed, but this does take a VERY long time)
 
 Tools Required:  
-Linux (if you really want you can run this all from a LiveCD like [BackTrack](http://www.backtrack-linux.org/) or the [Ubuntu](http://www.ubuntu.com/) install CD in try mode)
+Linux (if you really want you can run this all from a LiveCD like [BackTrack](https://www.backtrack-linux.org/) or the [Ubuntu](https://www.ubuntu.com/) install CD in try mode)
 
 For this tutorial you have two options  
 1\) If you want to fill up your entire hard drive or partition up with random bits  

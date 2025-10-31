@@ -1,24 +1,12 @@
 ---
-id: 40
 title: 'Get the ID for the last inserted record'
 date: '2010-06-03T16:12:58+00:00'
 author: Satal
 
-guid: 'http://satalketo.com/2010/06/get-the-id-for-the-last-inserted-record/'
 redirect_from:
     - /blog/2010/06/03/id-for-last-inserted-record/
     - /2010/06/03/id-for-last-inserted-record/
 permalink: /id-for-last-inserted-record/
-spacious_page_layout:
-    - default_layout
-rank_math_primary_category:
-    - '8'
-rank_math_robots:
-    - 'a:1:{i:0;s:5:"index";}'
-rank_math_internal_links_processed:
-    - '1'
-rank_math_analytic_object_id:
-    - '180'
 categories:
     - All
     - Computer
