@@ -6,7 +6,7 @@
     @include link-colors($header-text-color, $main-color-1);
   }
   .main {
-    @include flexbox();
+    @include flexbox;
     @include media-breakpoint-down(md) {
       @include flex-direction(column);
     }
@@ -55,13 +55,13 @@
     display: none;
     margin-left: map-get($spacers, 2);
     @include media-breakpoint-down(md) {
-      @include flexbox();
+      @include flexbox;
     }
   }
 }
 
 .header__brand {
-  @include flexbox();
+  @include flexbox;
   @include align-items(center);
   & > svg {
     width: map-get($base, font-size-h4) * 1.6;
@@ -90,7 +90,7 @@
     margin: 0;
     @include media-breakpoint-down(md) {
       padding-bottom: 4px;
-      margin: -4px 0 0 0;
+      margin: -4px 0 0;
     }
     @include menu(3, 2, nowrap);
     @include align-items(center);

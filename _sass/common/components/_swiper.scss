@@ -9,7 +9,7 @@
 }
 
 .swiper__wrapper {
-  @include flexbox();
+  @include flexbox;
 }
 
 .swiper__wrapper--animation {

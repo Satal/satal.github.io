@@ -1,0 +1,62 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "at-rule-empty-line-before": null,
+    "at-rule-no-vendor-prefix": true,
+    "block-no-empty": null,
+    "color-function-notation": "legacy",
+    "color-hex-length": "short",
+    "color-named": "never",
+    "declaration-empty-line-before": null,
+    "declaration-block-no-duplicate-properties": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "declaration-block-single-line-max-declarations": null,
+    "declaration-no-important": null,
+    "font-family-name-quotes": "always-where-recommended",
+    "font-weight-notation": null,
+    "function-url-no-scheme-relative": true,
+    "function-url-quotes": "always",
+    "length-zero-no-unit": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "media-feature-name-no-unknown": [
+      true,
+      {
+        "ignoreMediaFeatureNames": ["prefers-reduced-motion"]
+      }
+    ],
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "no-empty-source": null,
+    "number-max-precision": 8,
+    "order/properties-order": null,
+    "property-no-deprecated": null,
+    "property-no-vendor-prefix": true,
+    "rule-empty-line-before": null,
+    "selector-attribute-quotes": "always",
+    "selector-class-pattern": null,
+    "selector-max-attribute": 2,
+    "selector-max-class": 4,
+    "selector-max-combinators": null,
+    "selector-max-compound-selectors": null,
+    "selector-max-id": 0,
+    "selector-max-specificity": null,
+    "selector-max-type": null,
+    "selector-max-universal": 1,
+    "selector-no-qualifying-type": null,
+    "selector-no-vendor-prefix": true,
+    "value-keyword-case": "lower",
+    "value-no-vendor-prefix": true,
+    "scss/at-extend-no-missing-placeholder": null,
+    "scss/at-if-no-null": null,
+    "scss/at-mixin-pattern": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/comment-no-empty": null,
+    "scss/dollar-variable-pattern": null,
+    "scss/no-global-function-names": null
+  }
+}

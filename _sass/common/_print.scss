@@ -1,12 +1,12 @@
 @media print {
   a {
-    @include plain() {
+    @include plain {
       text-decoration: underline;
     }
-    @include hover() {
+    @include hover {
       text-decoration: underline;
     }
-    @include active() {
+    @include active {
       text-decoration: underline;
     }
   }
@@ -15,6 +15,6 @@
   tr,
   pre,
   blockquote {
-    page-break-inside: avoid;
+    break-inside: avoid;
   }
 }

@@ -29,10 +29,10 @@
 }
 
 .modal {
-  @include modal();
+  @include modal;
 }
 .modal--show {
-  @include modal--show();
+  @include modal--show;
 }
 .modal--overflow {
   @include overflow(auto);

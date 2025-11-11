@@ -30,8 +30,8 @@
 }
 
 .search-bar {
-  @include flexbox();
-  margin: map-get($spacers, 3) 0 map-get($spacers, 4) 0;
+  @include flexbox;
+  margin: map-get($spacers, 3) 0 map-get($spacers, 4);
 }
 
 .search-box {
@@ -53,7 +53,7 @@
     background-color: transparent;
     border: 2px solid $border-color;
     border-radius: map-get($button, pill-radius);
-    -webkit-appearance: none; /* fix iOS don't display box-shadow properly */
+    appearance: none; /* fix iOS don't display box-shadow properly */
     @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
     @include focus {
       box-shadow: 0 0 0 2px rgba($border-color, .4);
@@ -129,7 +129,7 @@
 }
 
 .search-result__header {
-  margin: map-get($spacers, 3) 0 map-get($spacers, 2) 0;
+  margin: map-get($spacers, 3) 0 map-get($spacers, 2);
   font-size: map-get($base, font-size-lg);
   font-weight: map-get($base, font-weight-bold);
   color: $text-color-l;
@@ -157,7 +157,7 @@
   }
   &.active {
     a {
-      @include plain() {
+      @include plain {
         color: $text-color-3;
         background-color: $main-color-3;
         .search--light & {
@@ -169,7 +169,7 @@
           background-color: $main-color-theme-dark;
         }
       }
-      @include active() {
+      @include active {
         @include transition(map-get($clickable, transition));
       }
     }

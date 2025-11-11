@@ -31,7 +31,7 @@ $grid-columns: 12;
 }
 
 .grid {
-  @include flexbox();
+  @include flexbox;
   @include flex-wrap(wrap);
   & > {
     @each $breakpoint in map-keys($responsive) {
@@ -77,4 +77,4 @@ $grid-columns: 12;
   }
 }
 
-@include make-grid();
+@include make-grid;

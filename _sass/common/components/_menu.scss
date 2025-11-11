@@ -19,7 +19,7 @@
   @if $wrap == default {
     $wrap: wrap;
   }
-  @include flexbox();
+  @include flexbox;
   @include flex-wrap($wrap);
   margin-top: 0;
   margin-bottom: 0;
@@ -37,8 +37,8 @@
 }
 
 .menu {
-  @include menu();
-  @include menu-direction();
+  @include menu;
+  @include menu-direction;
   @include align-items(center);
 }
 
@@ -51,7 +51,7 @@
 }
 
 .menu--inline {
-  @include inline-flex();
+  @include inline-flex;
 }
 
 .menu--center {

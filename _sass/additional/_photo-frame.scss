@@ -1,6 +1,6 @@
 .article__content {
   img.shadow, .shadow > img {
-    @include box-shadow();
+    @include box-shadow;
   }
 
   img.border, .border > img {

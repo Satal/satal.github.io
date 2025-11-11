@@ -36,8 +36,8 @@
     "demo-prod": "cross-env JEKYLL_ENV=production bundle exec jekyll serve -H 0.0.0.0 -t --config ./docs/_config.yml",
     "eslint": "eslint \"_includes/**/*.js\"",
     "eslint-fix": "eslint \"_includes/**/*.js\" --fix",
-    "stylelint": "stylelint --syntax scss \"_sass/**/*.scss\"",
-    "stylelint-fix": "stylelint --syntax scss \"_sass/**/*.scss\" --fix",
+    "stylelint": "stylelint \"_sass/**/*.scss\"",
+    "stylelint-fix": "stylelint \"_sass/**/*.scss\" --fix",
     "gem-build": "rm -fv jekyll-text-theme-*.gem && gem build jekyll-text-theme.gemspec",
     "gem-push": "gem push jekyll-text-theme-*.gem"
   },
@@ -50,6 +50,7 @@
     "stylelint": "^16.25.0",
     "stylelint-config-recommended-scss": "^16.0.2",
     "stylelint-config-standard": "^39.0.1",
+    "stylelint-config-standard-scss": "^16.0.0",
     "stylelint-order": "^7.0.0",
     "stylelint-scss": "^6.12.1"
   },

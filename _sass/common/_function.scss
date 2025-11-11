@@ -10,6 +10,7 @@
   @if $breakpoints == default {
     $breakpoints: $responsive;
   }
+
   $min: map-get($breakpoints, $name);
   @return if($min != 0, "#{$name}-", "");
 }

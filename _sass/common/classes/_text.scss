@@ -30,8 +30,8 @@
 }
 
 .text--light {
-  @include text-light();
+  @include text-light;
 }
 .text--dark {
-  @include text-dark();
+  @include text-dark;
 }
